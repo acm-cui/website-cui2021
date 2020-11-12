@@ -52,8 +52,9 @@ order: 2
 
 		<h3>Featured talks chairs</h3>
 		<p>
+			Leigh Clark (Swansea University)<br>
 			Martin Porcheron (Swansea University)<br>
-			Leigh Clark (Swansea University)
+			Stuart Reeves (University of Nottingham)<br>
 		</p>
 		
 		<h3>Social media/web chairs</h3>
