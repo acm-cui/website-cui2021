@@ -1,0 +1,151 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+name: CUI 2021
+author: Martin Porcheron
+title: CUI 2021
+email: conversationaluserinterfaces@gmail.com
+lang: en-GB
+description: >-
+  Conversational User Interfaces conference 2021
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /blog/:year/:month/:day/:title/
+
+# Social settings
+social:
+    browser:
+        theme_colour: 3A3C45
+    twitter:
+        username: MPorcheron
+        card: /assets/img/twittercard.png
+        card_alt: A photo of Martin Porcheron
+    github:
+        username: MPorcheron
+    scholar:
+        user_id: xqQs-LEAAAAJ
+
+# Build settings
+plugins_dir: ./_plugins
+plugins:
+  - jekyll-feed
+#  - jekyll-datapage-generator
+  - jekyll-last-modified-at
+  - jekyll-minifier
+  - jekyll-optional-front-matter
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-titles-from-headings
+
+#  - jekyll-github-metadata
+
+# Liquid config
+liquid:
+  error_mode: strict
+  strict_variables: false
+  strict_filters: true
+
+# SASS generation
+sass:
+    style: compressed
+
+# Title generation from headings
+titles_from_headings:
+    enabled: true
+    strip_title: true
+    collections: true
+
+# Page generation from data
+# page_gen-dirs: true # uncomment, if you prefer to generate named folders
+# page_gen:
+#   - data: pubs
+#     template: pub_redirect
+#     name: title
+#     dir: pubs
+#     index_files: false
+#   - data: pubs
+#     template: pub_bibtex
+#     name: title
+#     dir: '/pubs/bibtex'
+#     index_files: false
+
+# Pagination
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title (page :num/:max)'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+
+# Exclude from minificartion
+jekyll-minifier:
+  compress_css: false
+  exclude: 'feed.xml'
+  exclude: 'sitemap.xml'
+
+# Sitemap configutation
+defaults:
+  - scope:
+      path:            ""
+    values:
+      layout:          "page"
+  - scope:
+      path:            ""
+      type:            "posts" 
+    values:
+      layout:          "post"
+  - scope:
+      path:            "pubs/bibtex/*"
+    values:
+      sitemap:         false
+  - scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
+
+# Excerpt separator
+excerpt_separator: <!--more-->
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

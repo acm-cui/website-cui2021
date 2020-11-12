@@ -1,0 +1,8 @@
+
+{%- if page contains 'seo_description' %}
+	<meta name="twitter:description" content="{{ page.seo_description }}">
+	<meta name="description" content="{{ page.seo_description }}">
+{%- endif -%}
+
+
+{% feed_meta %}

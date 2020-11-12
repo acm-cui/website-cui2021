@@ -1,0 +1,23 @@
+{%- assign cache = site.time | date: '%s%N' -%}
+<html lang="{{ site.lang }}" class="h-100">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		{%- include header_css.html -%}
+		{%- include header_javascript.html -%}
+		<title>{{ page.title }} - {{ site.title }}</title>
+		{%- include header_social.html -%}
+    </head>
+    <body class="my-0 mx-auto p-0">
+        <header class="w-100">
+			{%- include navbar_menu.html -%}
+		</header>
+		<section class="container pb-0 pt-3">
+				{{- content -}}
+		</section>
+		<footer class="container pb-3 small text-muted">
+			{%- include footer.html -%}
+		</footer>
+	</body>
+</html>
