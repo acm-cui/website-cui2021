@@ -7,7 +7,7 @@ order: 0
 
 # Welcome to CUI
 
-Following the successful ACM in-cooperation conferences in 2019 and 2020, CUI 2021 will be a **hybrid conference with sessions online and in Bilbao, Spain**. The conference will run from **27th to 29th July 2021**.
+Following the successful ACM in-cooperation conferences in 2019 and 2020, CUI 2021 will be a **hybrid conference with sessions online and in-person in Bilbao, Spain**. The conference will run from **27th to 29th July 2021**.
 
 We plan to use the conference as a platform to further develop a collaborative community around human-computer interaction issues in speech and language technology, with a specific interest in theory-based and applied scientific issues in the field of speech and text-based conversational user interfaces. We are looking to bring together relevant communities (e.g. ISCA, ACM SIGCHI, CogSci) to publish, disseminate and showcase high-quality cutting-edge research related to the field, promote insight and debate in this interesting and important discipline within language interfaces. Topics relevant to the conference include, but are not limited to:
 * voice user experience
