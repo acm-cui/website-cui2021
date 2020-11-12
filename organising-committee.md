@@ -7,7 +7,7 @@ order: 2
 # Organising committee
 
 <div class="row">
-	<div class="col-6">
+	<div class="col-md-6 col-12">
 		<h3>General chairs</h3>
 		<p>
 			Stephan Schlögl (MCI Management Center Innsbruck)<br>
@@ -35,7 +35,7 @@ order: 2
 		</p>
 	</div>
 
-	<div class="col-6">
+	<div class="col-md-6 col-12">
 		<h3>Demo papers chairs</h3>
 		<p>
 			Heloisa Candello (IBM Research Brasil)<br>
