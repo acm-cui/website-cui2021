@@ -24,7 +24,7 @@ title: CUI 2021
 email: conversationaluserinterfaces@gmail.com
 lang: en-GB
 description: >-
-  Conversational User Interfaces conference 2021
+  Conversational User Interfaces 2021
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
@@ -33,15 +33,13 @@ permalink: /blog/:year/:month/:day/:title/
 # Social settings
 social:
     browser:
-        theme_colour: 3A3C45
+        theme_colour: A92B7A
     twitter:
-        username: MPorcheron
+        username: CUI_Conference
         card: /assets/img/twittercard.png
-        card_alt: A photo of Martin Porcheron
+        card_alt: CUI 2021 will be in Bilbao
     github:
-        username: MPorcheron
-    scholar:
-        user_id: xqQs-LEAAAAJ
+        username: cui-series
 
 # Build settings
 plugins_dir: ./_plugins
