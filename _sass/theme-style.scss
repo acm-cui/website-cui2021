@@ -31,21 +31,23 @@ nav {
   }
 }
 
+h3 {
+  font-size: $h3-font-size;
+  padding: $h3-p;
+}
+
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     header {
       background-image: map-get($header-bg-imgs, $breakpoint);
+      min-height: map-get($header-logo-hs, $breakpoint);
       
       .logo {
-        height: map-get($header-logo-hs, $breakpoint);
+        height: map-get($header-logo-hs, $breakpoint) - $nav-height;
         width: map-get($header-logo-ws, $breakpoint);
       }
     }
   }
 }
 
-h3 {
-  font-size: $h3-font-size;
-  padding: $h3-p;
-}
 
