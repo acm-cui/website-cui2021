@@ -4,6 +4,9 @@ body {
 
 header {
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  z-index: 100;
 }
 
 nav {
@@ -27,6 +30,10 @@ nav {
   }
 }
 
+section {
+  z-index: 1;
+}
+
 h2 {
   font-size: $h2-font-size;
 }
@@ -41,11 +48,25 @@ h3 {
     header {
       background-image: map-get($header-bg-imgs, $breakpoint);
       min-height: map-get($header-logo-hs, $breakpoint);
+      transition-timing-function: ease;
+      transition-duration: .5s;
+      transition-property: min-height;
       
       .logo {
         height: map-get($header-logo-hs, $breakpoint) - $nav-height;
         width: map-get($header-logo-ws, $breakpoint);
+        @include transition(width)
+        transition-timing-function: ease;
+        transition-duration: .5s;
+        transition-property: width, height;
       }
+    }
+
+    section {
+      margin-top: map-get($header-logo-hs, $breakpoint)/2;
+      transition-timing-function: ease;
+      transition-duration: .5s;
+      transition-property: margin-top;
     }
   }
 }
