@@ -63,10 +63,7 @@ h3 {
     }
 
     section {
-      margin-top: map-get($header-logo-hs, $breakpoint)/2;
-      transition-timing-function: ease;
-      transition-duration: .5s;
-      transition-property: margin-top;
+      margin-top: map-get($header-logo-hs, $breakpoint)/2;;
     }
   }
 }
