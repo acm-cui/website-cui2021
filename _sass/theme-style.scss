@@ -35,7 +35,11 @@ nav {
   @include media-breakpoint-up($breakpoint) {
     header {
       background-image: map-get($header-bg-imgs, $breakpoint);
-      padding-top: map-get($header-pts, $breakpoint);
+      
+      .logo {
+        height: map-get($header-logo-hs, $breakpoint);
+        width: map-get($header-logo-ws, $breakpoint);
+      }
     }
   }
 }
