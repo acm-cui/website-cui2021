@@ -24,7 +24,7 @@ We plan to use the conference as a platform to further develop a collaborative c
 * methods for conversational user interface development and evaluation
 * multimodal interaction involving speech, text or other language based interfaces
 
-The CUI community has been growing at a rapid pace these past few years and we are continuing to develop the conference series. This year we have expanded the conference to include four submission tracks and have expanded the conference to three days, details of which can be found on the various call for papers in the <em>Authors</em> menu.
+The CUI community has been growing at a rapid pace these past few years and we are continuing to develop the conference series. This year we have grown the conference to include four submission tracks and have expanded the conference to three days, details of which can be found on the various call for papers in the <em>Authors</em> menu.
 
 We hope you can join us,<br>
 CUI 2021 organising committee
