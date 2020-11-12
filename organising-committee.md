@@ -36,7 +36,7 @@ order: 2
 	</div>
 
 	<div class="col-md-6 col-12">
-		<h3>Demo papers chairs</h3>
+		<h3>Demos chairs</h3>
 		<p>
 			Heloisa Candello (IBM Research Brasil)<br>
 			Christine Murad (University of Toronto)<br>
@@ -52,8 +52,8 @@ order: 2
 
 		<h3>Featured talks chairs</h3>
 		<p>
-			Leigh Clark (Swansea University)<br>
 			Martin Porcheron (Swansea University)<br>
+			Selina Sutton (Northumbria University)<br>
 			Stuart Reeves (University of Nottingham)<br>
 		</p>
 		

@@ -20,15 +20,15 @@ nav {
     
     text-align: center;    
   }
-
-  .dropdown-menu {
-    text-align: center;
-  }
   
   .navbar-toggler {
     font-weight: bold;
     color: $black !important;
   }
+}
+
+h2 {
+  font-size: $h2-font-size;
 }
 
 h3 {
