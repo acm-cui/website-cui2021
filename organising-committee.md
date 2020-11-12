@@ -10,33 +10,21 @@ order: 2
 
 <div class="row">
 	<div class="col-6">
-		<h3>General Chairs</h3>
+		<h3>General chairs</h3>
 		<p>
 			Stephan Schlögl (MCI Management Center Innsbruck)<br>
 			María Inés Torres (UPV/EHU Universidad del País Vasco)
 		</p>
 
-		<h3>Programme Chairs</h3>
+		<h3>Programme chairs</h3>
 		<p>
 			Martin Porcheron (Swansea University)<br>
 			Leigh Clark (Swansea University)
 		</p>
-
-		<h3>Local & Accessibility Chairs</h3>
-		<p>
-			Raquel Justo (UPV/EHU Universidad del País Vasco)<br>
-			Javier Mikel Olaso (UPV/EHU Universidad del País Vasco)
-		</p>
 	</div>
 
 	<div class="col-6">
-		<h3>SV & Diversity Chairs</h3>
-		<p>
-			Asier Lopez-Zorilla (UPV/EHU Universidad del País Vasco)<br>
-			Jaisie Sin (University of Toronto)
-		</p>
-
-		<h3>Social Media Chairs</h3>
+		<h3>Social media/web chairs</h3>
 		<p>
 			Leigh Clark (Swansea University)<br>
 			Martin Porcheron (Swansea University)
