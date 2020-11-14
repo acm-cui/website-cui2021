@@ -1,7 +1,10 @@
 ---
 label: Provocation Papers
 description: Provocation Papers at CUI 2021 are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
-order: 2
+submission:
+  text: Submissions not open yet
+#  title: Go to EasyChair to submit your paper
+#  link: https://easychair.org/conferences/?conf=cui2021
 ---
 
 # Provocation Papers
@@ -10,15 +13,15 @@ Provocation Papers are short papers that explore controversial, risk taking or n
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
-		<h2>Submission</h2>
+		<h2>Track information</h2>
 		<p>
 			Submissions must be anonymized (<strong>approx. 2,000 words excluding references</strong>) using the <a href="https://www.acm.org/publications/taps/word-template-workflow#h-2.-the-workflow-and-templates" title="ACM template information">ACM author templates</a> (Word users should use <em>Submission Template</em>, LaTeX users should use the "manuscript" document class in the <em>Master Article Template</em>).
 		</p>
 		<p>
-			Each paper will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Accepted full papers will be archived in the ACM Digital Library and authors will be given an oral presentation slot at the conference. At least one author of each accepted paper must register for the conference.
+			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. We will provide additional guidance for authors to assist them in preparing their papers for submission soon.
 		</p>
 		<p>
-			The submission system will open soon.
+			Authors of accepted Provocation Papers will be given an oral presentation slot at the conference. At least one author of each accepted paper must register for the conference.
 		</p>
 		<h2>Any questions?</h2>
 		<p>
