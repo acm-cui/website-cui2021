@@ -43,6 +43,11 @@ h3 {
   padding: $h3-p;
 }
 
+.email-icon {
+  margin-top: $icon-email-mt;
+  width: $icon-email-w;
+}
+
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     header {

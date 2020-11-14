@@ -1,12 +1,12 @@
 ---
-label: Provocation papers
-description: The provocation papers track at CUI 2021
+label: Provocation Papers
+description: The Provocation Papers track at CUI 2021
 order: 2
 ---
 
-# Provocation papers
+# Provocation Papers
 
-CUI 2021 provocation papers are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
+Provocation Papers are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -19,6 +19,10 @@ CUI 2021 provocation papers are short papers that explore controversial, risk ta
 		</p>
 		<p>
 			The submission system will open soon.
+		</p>
+		<h2>Any questions?</h2>
+		<p>
+			Please contact the <a href="https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/" title="Retrieve the email address for the Provocation Papers chairs">Provocation Papers chairs</a> if you have any questions.
 		</p>
 	</div>
 

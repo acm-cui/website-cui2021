@@ -1,12 +1,12 @@
 ---
-label: Full papers
-description: The full papers track at CUI 2021
+label: Full Papers
+description: The Full Papers track at CUI 2021
 order: 2
 ---
 
-# Full papers
+# Full Papers
 
-Full papers are original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines. 
+Full Papers are original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines. 
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -19,6 +19,10 @@ Full papers are original contributions from a broad range of disciplines includi
 		</p>
 		<p>
 			The submission system will open soon.
+		</p>
+		<h2>Any questions?</h2>
+		<p>
+			Please contact the <a href="https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/" title="Retrieve the email address for the Full Papers chairs">Full Papers chairs</a> if you have any questions.
 		</p>
 	</div>
 
