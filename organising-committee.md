@@ -4,7 +4,7 @@ description: The organising committee for the 2021 Conversational User Interface
 order: 2
 ---
 
-# Organising committee
+# Organising Committee
 
 <div class="row">
 	<div class="col-md-6 col-12">

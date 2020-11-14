@@ -1,0 +1,21 @@
+---
+label: Programme Committee
+description: The programme committee for the 2021 Conversational User Interfaces conference.
+order: 2
+---
+
+# Programme Committee
+
+The following people are members of the CUI 2021 Promgramme Committee:
+
+<div class="row">
+	<div class="col-lg-6 col-12">
+		<ul>
+		</ul>
+	</div>
+
+	<div class="col-lg-6 col-12">
+		<ul>
+		</ul>
+	</div>
+</div>
