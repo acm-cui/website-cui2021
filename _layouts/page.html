@@ -2,8 +2,8 @@
 layout: default
 ---
 <section class="main-body main-singleton">
+	{% if page.submission.text %}
 	<div class="main-title row pt-4 pb-4">
-		{% if page.submission.text %}
 		<div class="col-md-6 col-12 text-md-left text-center">
 			<h1 class="m-0 p-0">{{ page.title | escape }}</h1>
 		</div>
@@ -15,9 +15,12 @@ layout: default
 			<a class="btn btn-lg btn-outline-primary disabled">{{ page.submission.text }}</a>
 		{% endif %}
 		</div>
-		{% else %}
+	</div>
+	{% else %}
+	<div class="main-title pt-4 pb-4 text-md-left text-center">
 		<h1 class="m-0 p-0">{{ page.title | escape }}</h1>
-		{% endif %}
+	</div>
+	{% endif %}
 	</div>
     <div class="main-content">
 		<article>
