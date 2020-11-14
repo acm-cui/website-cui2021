@@ -34,7 +34,7 @@ Full Papers are original contributions from a broad range of disciplines includi
 		<p>
 			Submissions due: <strong>12th February 2021</strong><br>
 			Notification: <strong>26th March 2021</strong><br>
-			Rebuttal deadline: <strong>9th April 2021</strong><br>
+			Rebuttals due: <strong>9th April 2021</strong><br>
 			Final notification: <strong>16th April 2021</strong><br>
 			Camera ready due: <strong>28th May 2021</strong><br>
 		</p>
