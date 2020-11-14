@@ -1,9 +1,9 @@
 ---
-label: Featured talks
-description: The featured talks track at CUI 2021
+label: Featured Talks
+description: The Featured Talks track at CUI 2021
 order: 2
 ---
 
-# Featured taks
+# Featured Talks
 
-Information on the featured talks track is coming soon.
+Information on the Featured Talks track is coming soon.

@@ -1,6 +1,6 @@
 ---
 label: Contact
-description: Contacting the General Chairs
+description: Contact details for the CUI 2021 General Chairs.
 order: 7
 ---
 

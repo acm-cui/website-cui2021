@@ -1,7 +1,7 @@
 ---
 permalink: /
 label: Welcome!
-description: Welcome to CUI 2021
+description: CUI 2021 is a hybrid conference with sessions online and in person in Bilbao, Spain, running from 27th to 29th July 2021.
 order: 0
 ---
 

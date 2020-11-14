@@ -1,9 +1,9 @@
 ---
 label: Posters
-description: The posters track at CUI 2021
+description: The Posters track at CUI 2021
 order: 2
 ---
 
 # Posters
 
-Information on the posters track is coming soon.
+Information on the Posters track is coming soon.

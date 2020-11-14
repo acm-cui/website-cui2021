@@ -1,6 +1,6 @@
 ---
 label: Organising committee
-description: The organising committee for the 2021 Conversational User Interfaces conference.
+description: The Organising Committee for the 2021 Conversational User Interfaces conference.
 order: 2
 ---
 

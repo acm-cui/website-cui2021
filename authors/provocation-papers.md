@@ -1,9 +1,9 @@
 ---
-label: Provocation papers
-description: The provocation papers track at CUI 2021
+label: Provocation Papers
+description: The Provocation Papers track at CUI 2021
 order: 2
 ---
 
-# Provocation papers
+# Provocation Papers
 
-Information on the provocation papers track is coming soon.
+Information on the Provocation Papers track is coming soon.

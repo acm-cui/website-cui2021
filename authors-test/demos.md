@@ -1,12 +1,12 @@
 ---
 label: Demos
-description: The Demos track at CUI 2021
+description: The Demos track at CUI 2021 allows authors to present interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
 order: 2
 ---
 
 # Demos
 
-Demos are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. Authors should submit an paper describing their demo.
+Demos are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -19,10 +19,6 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 		</p>
 		<p>
 			The submission system will open soon.
-		</p>
-		<h2>Any questions?</h2>
-		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/" title="Retrieve the email address for the Demos chairs">Demos chairs</a> if you have any questions.
 		</p>
 	</div>
 

@@ -1,6 +1,6 @@
 ---
 label: Featured Talks
-description: The Featured Talks track at CUI 2021
+description: The Featured Talks track at CUI 2021 looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces.
 order: 2
 ---
 

@@ -1,6 +1,7 @@
 ---
 label: Posters
-description: The Posters track at CUI 2021
+description: The Posters track at CUI 2021 allows for the presentation, discussion and information exchange of early stage research in the field of Conversational User Interfaces.
+
 order: 2
 ---
 

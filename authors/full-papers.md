@@ -1,9 +1,9 @@
 ---
-label: Full papers
-description: The full papers track at CUI 2021
+label: Full Papers
+description: The Full Papers track at CUI 2021
 order: 2
 ---
 
-# Full papers
+# Full Papers
 
-Information on the full papers track is coming soon.
+Information on the Full Papers track is coming soon.

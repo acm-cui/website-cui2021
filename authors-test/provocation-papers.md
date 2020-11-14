@@ -1,6 +1,6 @@
 ---
 label: Provocation Papers
-description: The Provocation Papers track at CUI 2021
+description: Provocation Papers at CUI 2021 are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
 order: 2
 ---
 

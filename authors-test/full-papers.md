@@ -1,6 +1,6 @@
 ---
 label: Full Papers
-description: The Full Papers track at CUI 2021
+description: The Full Papers track at CUI 2021 is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines. 
 order: 2
 ---
 
