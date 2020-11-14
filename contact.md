@@ -1,9 +1,9 @@
 ---
 label: Contact
-description: Contacting the organising committee
+description: Contacting the General Chairs
 order: 7
 ---
 
 # Contact us
 
-Please send an email to 2021 conference General Chair, <a href="https://spamty.eu/show/v6/436/8854e4d0906287a045c63f85/" title="Retrieve the email address for Stephan Schlögl">Stephan Schlögl</a>.
+Please send an email to <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for 2021 General Chairs">2021 General Chairs</a>, Stephan Schlögl and María Inés Torres.
