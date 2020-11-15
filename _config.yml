@@ -73,18 +73,18 @@ titles_from_headings:
     collections: true
 
 # Page generation from data
-# page_gen-dirs: true # uncomment, if you prefer to generate named folders
-# page_gen:
-#   - data: pubs
-#     template: pub_redirect
-#     name: title
-#     dir: pubs
-#     index_files: false
-#   - data: pubs
-#     template: pub_bibtex
-#     name: title
-#     dir: '/pubs/bibtex'
-#     index_files: false
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  # - data: pubs
+  #   template: pub_redirect
+  #   name: title
+  #   dir: pubs
+  #   index_files: false
+  # - data: days
+  #   template: day
+  #   name: title
+  #   dir: '/programme/sessions/:num'
+  #   index_files: false
 
 # Pagination
 pagination:
