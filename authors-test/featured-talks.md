@@ -16,7 +16,7 @@ The Featured Talks track looks to showcase work from 2011--2020 related to all a
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
 		<h2>Track information</h2>
 		<p>
-			You should submit a copy of the paper you wish to present at CUI 2021 as a PDF, along with a link to the paper in the publisher's repository. The track is <strong>curated</strong> and all submissions will be assessed by the track chairs. Accepted featured talks submissions will be given an oral presentation slot at the conference.
+			You should submit a copy of the paper you wish to present at CUI 2021 as a PDF, along with a link to the paper in the publisher's repository.
 		</p>
 		<p>
 			 The track is <strong>curated</strong> and all submissions will be assessed by the track chairs. Accepted submissions will be given an oral presentation slot at the conference.

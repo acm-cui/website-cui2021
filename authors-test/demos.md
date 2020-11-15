@@ -18,7 +18,7 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 			Submissions must be anonymized (<strong>approx. 3,000 words excluding references</strong>) using the <a href="https://www.acm.org/publications/taps/word-template-workflow#h-2.-the-workflow-and-templates" title="ACM template information">ACM author templates</a> (Word users should use the <em>Submission Template</em>, LaTeX users should use the "manuscript" document class in the <em>Master Article Template</em>).
 		</p>
 		<p>
-			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system.We will provide additional guidance for authors to assist them in preparing their papers for submission soon.
+			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. We will provide additional guidance for authors to assist them in preparing their papers for submission soon.
 		</p>
 		<p>
 			Authors of accepted Demo Papers will be given the opportunity to present their demo during a dedicated demo session. At least one author of each accepted paper must register for the conference.
