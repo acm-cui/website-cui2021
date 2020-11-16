@@ -81,9 +81,9 @@ page_gen:
   #   dir: pubs
   #   index_files: false
   # - data: days
-  #   template: day
-  #   name: title
-  #   dir: '/programme/sessions/:num'
+  #   template: programme_day
+  #   name: id
+  #   dir: '/programme'
   #   index_files: false
 
 # Pagination

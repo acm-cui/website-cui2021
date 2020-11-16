@@ -1,87 +1,91 @@
-day_1:
+wednesday:
   - type: plenary
     title: CUI 2020 Welcome from the General Chairs
-    link: https://www.youtube.com/watch?v=Fo2wdY3qskU
+    youtube: https://www.youtube.com/watch?v=Fo2wdY3qskU
     presenters: CUI 2020 General Chairs<br>Stephan Schlögl and María Inés Torres
-    start_time: 1595429100
-    length: 15
+    start_time: 1595421900
+    length: 900
   
   - id: tools_and_frameworks
     type: session
     title: Tools and frameworks
-    link: https://www.youtube.com/watch?v=Fo2wdY3qskU
+    youtube: https://www.youtube.com/watch?v=Fo2wdY3qskU
     chairs: Martin Porcheron
-    start_time: 1595430000
-    length: 50
+    start_time: 1595422800
+    length: 3000
 
   - type: break
-    start_time: 1595436600
-    length: 10
+    start_time: 1595425200
+    description: We will have a short break before the keynote commences.
+    length: 600
   
   - id: keynote
     type: keynote
     title: "Designing the therapist in your pocket: scientific approaches to designing applications that help you manage your emotions"
-    link: https://www.youtube.com/watch?v=0wafpwGsxHU
+    youtube: https://www.youtube.com/watch?v=0wafpwGsxHU
     chairs: Cosmin Munteanu
     presenters: Steve Whittaker
-    start_time: 1595437200
-    length: 50
+    start_time: 1595426400
+    length: 3000
   
-day_2:
+thursday:
   - id: multiparty_and_communities
     type: session
     title: Multi-party and user communities
-    link: https://www.youtube.com/watch?v=GBZxtk91njo
+    youtube: https://www.youtube.com/watch?v=GBZxtk91njo
     chairs: Heloisa Candello
-    start_time: 1595512800
-    length: 50
+    start_time: 1595505600
+    length: 3000
   
   - type: break
-    start_time: 1595515800
-    length: 10
+    description: We will have a short break between the sessions.
+    start_time: 1595508600
+    length: 600
   
   - id: speech_syntheis_and_language_generation
     type: session
     title: Speech synthesis and language generation
-    link: https://www.youtube.com/watch?v=GBZxtk91njo
+    youtube: https://www.youtube.com/watch?v=GBZxtk91njo
     chairs: Donald McMillan
-    start_time: 1595516400
-    length: 50
+    start_time: 1595509200
+    length: 3000
 
   - type: break
-    start_time: 1595519400
-    length: 10
+    description: We will have a short break before The Great CUI 2020 Quiz.
+    start_time: 1595512200
+    length: 600
 
   - type: social
     title: The Great CUI 2020 Quiz
     chairs: Benjamin Cowan, Justin Edwards and Martin Porcheron
-    start_time: 1595520000
-    length: 60
+    start_time: 1595512800
+    length: 3600
 
-day_3:
+friday:
   - id: usability_and_design
     type: session
     title: Usability and design
-    link: https://www.youtube.com/watch?v=8iNPvU21T8Y
+    youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y
     chairs: Minha Lee
-    start_time: 1595599200
-    length: 50
+    start_time: 1595592000
+    length: 3000
 
   - type: break
-    start_time: 1595602200
-    length: 10
+    description: We will have a short break between the sessions.
+    start_time: 1595595000
+    length: 600
   
   - id: conversational_principles
     type: session
     title: Conversational principles
-    link: https://www.youtube.com/watch?v=8iNPvU21T8Y
+    youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y
     chairs: Benjamin Cowan
-    start_time: 1595602800
-    length: 50
+    start_time: 1595595600
+    length: 3000
 
   - type: plenary
     title: Closing remarks and CUI 2021 information
-    link: https://www.youtube.com/watch?v=8iNPvU21T8Y&t=2857s
+    youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y&t=2857s
     presenters: CUI 2021 General Chairs<br>Stephan Schlögl and María Inés Torres
-    start_time: 1595605800
-    length: 10
+    start_time: 1595598600
+    length: 600

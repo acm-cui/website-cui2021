@@ -1,9 +1,9 @@
-day_1: 
-  num: 1
-  title: Day 1
-day_2:
-  num: 2
-  title: Day 2
-day_3: 
-  num: 3
-  title: Day 3
+- num: 1
+  id: wednesday
+  title: Day 1 (Wednesday 22nd July)
+- num: 2
+  id: thursday
+  title: Day 2 (Thursday 23rd July)
+- num: 3
+  id: friday
+  title: Day 3 (Friday 24th July)
