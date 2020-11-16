@@ -15,7 +15,7 @@ layout: default
 	</div>
     <div class="main-content">
 		<article>
-            <p class="text-md-right text-center small text-muted"><em>All times shown below are <span class="timezone"></span><noscript>in UTC</noscript>.</em></p>
+            <p class="text-md-right text-center small text-muted"><em>All times shown below <span class="timezone"></span><noscript>are in UTC</noscript>.</em></p>
             <ul class="list-unstyled prg">
             {%- for session in site.data.sessions[session_day] %}
                 {% if session.type == "break" %}
