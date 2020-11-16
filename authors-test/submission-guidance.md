@@ -38,4 +38,4 @@ By submitting to the conference, you are agreeing to the following:
 * Authors and reviewers will be asked to indicate their understanding and acceptance of the [ACM Policy on Conflict of Interest in Publication](https://www.acm.org/publications/policies/conflict-of-interest "Read the Conflict of Interest Policy for ACM Publications")  when items are submitted and reviewed
 * Papers submitted to the conference cannot be under consideration for any other conference or publication (no simultaneous submissions) and cannot be previously published without undergoing substantial revision ([Prior Publication and Simultaneous Submissions policy](https://www.acm.org/publications/policies/simultaneous-submissions "Read the ACM policy on Prior Publication and Simultaneous"))  
 
-Any authors found to be in vilation of any of these policies may have any/all submissions desk-rejected.
+Any authors found to be in vilation of any of these policies may have any/all submissions desk rejected.

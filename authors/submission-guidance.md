@@ -35,4 +35,4 @@ By submitting to the conference, you are agreeing to the following:
 * You must anonymise your submission (The [CHI Anonymization Policy Submissions](https://chi2021.acm.org/for-authors/presenting/papers/chi-anonymization-policy "Read the CHI conference policy on Anonymisation") is helpful in making sure you make an anonymous submission)
 * You must use ACM’s in-text citation style and reference formats (see the [Citation Style and Reference Formats policy](https://www.acm.org/publications/authors/reference-formatting "Read the ACM policy on Citation Style and Reference Formats"))  
 
-Any authors found to be in vilation of any of these policies may have any/all submissions desk-rejected.
+Any authors found to be in vilation of any of these policies may have any/all submissions desk rejected.
