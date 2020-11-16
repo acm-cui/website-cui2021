@@ -18,7 +18,7 @@ Provocation Papers are short papers that explore controversial, risk taking or n
 			Submissions must be anonymized (<strong>approx. 2,000 words excluding references</strong>) using the <a href="https://www.acm.org/publications/taps/word-template-workflow#h-2.-the-workflow-and-templates" title="ACM template information">ACM author templates</a> (Word users should use the <em>Submission Template</em>, LaTeX users should use the "manuscript" document class in the <em>Master Article Template</em>).
 		</p>
 		<p>
-			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for CUI 2021">submission guidance page</a> for information on changes to made for CUI 2021 in comparison to previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
+			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for CUI 2021">submission guidance page</a> for information on changes to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
 		</p>
 		<p>
 			Authors of accepted Provocation Papers will be given an oral presentation slot at the conference. At least one author of each accepted paper must register for the conference.
