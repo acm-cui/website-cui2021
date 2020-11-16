@@ -6,7 +6,7 @@ order: 7
 
 # Submission guidance
 
-This page should explain the entire submission process through to publication to authors.  Please contact the <a href="https://spamty.eu/show/v6/444/19e2d9aa7d1beb95695d606c/" title="Retrieve the email address for the Programme chairs">Programme chairs</a> if you have questions not answered here.
+This page should explain the entire submission process through to publication. Please contact the <a href="https://spamty.eu/show/v6/444/19e2d9aa7d1beb95695d606c/" title="Retrieve the email address for the Programme chairs">Programme chairs</a> if you have questions not answered here.
 
 ## Word limits
 
