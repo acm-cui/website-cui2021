@@ -5,21 +5,15 @@ layout: default
 {% assign session_day = session_day | replace: "-", "_" %}
 <section class="main-body main-singleton">
 	<div class="main-title pt-4 pb-4 text-md-left text-center">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{{ "/programme/" | relative_url }}" title="Go to the overview of the entire programme">Programme</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title | escape }}</li>
-          </ol>
-        </nav>
-	</div>
+		<h1 class="m-0 p-0"><a href="{{ "/programme/" | relative_url }}" title="Go to the overview of the entire programme">Programme</a> &raquo; {{ page.title | escape }}</h1>
 	</div>
     <div class="main-content">
 		<article>
-            <p class="text-md-right text-center small text-muted"><em>All times shown below <span class="timezone"></span><noscript>are in UTC</noscript>.</em></p>
+            <p>The below events are scheduled to take place on <span class="text-lowercase">{{ page.title }}</span> ({{ page.day }}) of the conference. The times shown below <span class="timezone"></span><noscript>are in UTC</noscript>.</p>
             <ul class="list-unstyled prg">
             {%- for session in site.data.sessions[session_day] %}
-                {% if session.type == "break" %}
-                <li class="media mb-1 p-3">
+                {% if session.type == "Break" %}
+                <li class="media mb-1 p-3" id="session-{{ forloop.index0 }}">
                     <div class="media-body text-center text-muted">
                         {% if session.description %}
                         {{ session.description }}
@@ -27,7 +21,7 @@ layout: default
                     </div>
                 </li>
                 {% else %}
-                <li class="media prg-row mb-1 p-3 border rounded bg-light">
+                <li class="media prg-row mb-1 p-3 border rounded bg-light" id="session-{{ session.id }}">
                     <div class="mr-3">
                         <div class="badge badge-primary text-capitalize mb-2 mr-3">{{ session.type }}</div>
                         <div class="mb-1 small">

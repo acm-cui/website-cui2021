@@ -12,5 +12,5 @@ $(function() {
       }
     }
   });
-  $('.timezone').text('have been converted to your timezone (' + Intl.DateTimeFormat().resolvedOptions().timeZone + ')');
+  $('.timezone').text('have been converted to your operating system\'s timezone (' + Intl.DateTimeFormat().resolvedOptions().timeZone + '). As a result of this conversation, some events may be on either the preceding or following date in your timezone');
 });
