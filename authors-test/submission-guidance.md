@@ -10,7 +10,7 @@ This page should explain the entire submission process through to publication to
 
 ## Word limits
 
-CUI 2021 has switched from page limits to <em>approximate</em> word limits. Please note that word limits are somewhat relaxed but not that papers which substantially exceed these limits may be desk rejected. Papers substantially under the word limit may not present a sufficient contribution for inclusion in the CUI proceedings. In sumamary, **we ask authors to stick to the spirit of word limits.**
+CUI 2021 has switched from page limits to <em>approximate</em> word limits. Please note that word limits are somewhat relaxed but note that papers which substantially exceed these limits may be desk rejected. Papers substantially under the word limit may not present a sufficient contribution for inclusion in the CUI proceedings. In sumamary, **we ask authors to stick to the spirit of word limits.**
 
 
 ## Submission process
