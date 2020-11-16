@@ -3,11 +3,11 @@ require 'posix/spawn'
 module Jekyll
   # from https://github.com/gjtorikian/jekyll-last-modified-at/blob/master/lib/jekyll-last-modified-at/
   
-  class PubsLastModifiedAtTag < Liquid::Tag
+  class ProgrammeSessionsLastModifiedAtTag < Liquid::Tag
     def initialize(tag_name, format, tokens)
       super
-      @data_path   = '_data/pubs.yml'
-      @format      = format.empty? ? '%d %B %Y' : format.strip
+      @data_path          = '_data/sessions.yml'
+      @format             = format.empty? ? '%d %B %Y' : format.strip
     end
     
     def render(context)
@@ -126,4 +126,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('pubs_last_modified_at', Jekyll::PubsLastModifiedAtTag)
+Liquid::Template.register_tag('programme_sessions_last_modified_at', Jekyll::ProgrammeSessionsLastModifiedAtTag)

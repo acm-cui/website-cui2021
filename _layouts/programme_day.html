@@ -31,11 +31,10 @@ layout: default
                     <div class="mr-3">
                         <div class="badge badge-primary text-capitalize mb-2 mr-3">{{ session.type }}</div>
                         <div class="mb-1 small">
-                            <img src="{{ "/assets/img/clock.svg" | relative_url }}" alt="A clock" class="prg-icon-timing">&nbsp; Starts at <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%H:%M:%S.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span><noscript>{{ session.start_time | date: "%H:%M" }}</noscript>
+                            <img src="{{ "/assets/img/clock.svg" | relative_url }}" alt="A clock" class="prg-icon-timing">&nbsp; Starts at <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span><noscript>{{ session.start_time | date: "%H:%M" }}</noscript>
                         </div>
-                        {% assign end_time = session.start_time | plus: session.length %}
                         <div class="mt-1 small">
-                            <img src="{{ "/assets/img/stopwatch.svg" | relative_url }}" alt="A stopwatch" class="prg-icon-timing">&nbsp; Ends at <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%H:%M:%S.000Z" }}"><span></span><noscript>{{ end_time | date: "%H:%M" }}</noscript>
+                            <img src="{{ "/assets/img/stopwatch.svg" | relative_url }}" alt="A stopwatch" class="prg-icon-timing">&nbsp; Ends at <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span><noscript>{{ session.end_time | date: "%H:%M" }}</noscript>
                         </div>
                         <div class="mt-3 small different-day d-none" id="different-day-{{ forloop.index0 }}">
                             <img src="{{ "/assets/img/exclamation-triangle.svg" | relative_url }}" alt="An exclamation mark in a triangle" class="prg-icon-timing">&nbsp; This event starts on<br><strong class="ml-4"></strong>

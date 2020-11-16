@@ -5,8 +5,28 @@
 		{%- assign last_modified_intro = 'The newest post on this page was added on ' -%}
 		{%- assign last_modified = paginator.posts[0].date | date_to_long_string: "ordinal" -%}
 	{%- endif -%}
-{%- elsif page.path == 'pubs.html' -%}
-	{%- capture date %}{% pubs_last_modified_at %e %}{% endcapture -%}
+{%- elsif page.path contains 'programme' -%}
+	{%- capture days_timestamp %}{% programme_days_last_modified_at %}{% endcapture -%}
+	{%- capture sessions_timestamp %}{% programme_sessions_last_modified_at %}{% endcapture -%}
+	{%- capture presentations_timestamp %}{% programme_presentations_last_modified_at %}{% endcapture -%}
+
+    {% capture days_timestamp_unix %}{{ days_timestamp | date: '%s' }}{% endcapture %}
+    {% capture sessions_timestamp_unix %}{{ sessions_timestamp | date: '%s' }}{% endcapture %}
+    {% capture presentations_timestamp_unix %}{{ presentations_timestamp | date: '%s' }}{% endcapture %}
+
+    {% capture last_modified_timestamp %}{{ presentations_timestamp }}{% endcapture %}
+    {% if days_timestamp_unix > sessions_timestamp_unix %}
+        {% if days_timestamp_unix > presentations_timestamp_unix %}
+            {% capture last_modified_timestamp %}{{ days_timestamp }}{% endcapture %}
+        {% endif %}
+    {% else %}
+        {% if sessions_timestamp_unix > presentations_timestamp_unix %}
+            {% capture last_modified_timestamp %}{{ sessions_timestamp }}{% endcapture %}
+        {% endif %}
+    {% endif %}
+
+	{%- capture date %}{{ last_modified_timestamp | date: "%e" }}{% endcapture -%}
+
 	{%- if date == "1" or date == "21" or date == "31" -%}
 		{%- assign suffix = "st" -%}
 	{%- elsif date == "2" or date == "22" -%}
@@ -17,7 +37,7 @@
 		{%- assign suffix = "th" -%}
 	{%- endif -%}
 	{%- assign last_modified_intro = 'Last modified: ' -%}
-	{%- capture last_modified %}{% pubs_last_modified_at %d %}{{ suffix }} {% pubs_last_modified_at %B %Y %}{% endcapture -%}
+	{%- capture last_modified %}{{ last_modified_timestamp | date: "%d" }}{{ suffix }} {{ last_modified_timestamp | date: "%B %Y" }}{% endcapture -%}
 {%- else -%}
 	{%- capture last_modified_intro %}Last modified: {% endcapture -%}
 	{%- capture last_modified %}{{ page.last_modified_at | date_to_long_string: "ordinal" }}{% endcapture -%}
