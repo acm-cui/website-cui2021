@@ -2,7 +2,9 @@
 $primary:                             #A92B7A;
 $body-max-width:                      2000px;
 
-$nav-bg:                              rgba($white, 0.22);
+$nav-bg:                              rgba($white, 0.2);
+$nav-bg-sm:                           rgba($white, 0.5);
+$nav-bg-fx:                           rgba($white, 0.95);
 $nav-bg-filter:                       saturate(180%) blur(20px);
 $nav-height:                          56px;
 

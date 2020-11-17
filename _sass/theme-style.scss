@@ -78,16 +78,29 @@ nav {
   header {
     box-shadow: none !important;
   }
-  
+
   nav {
+    background-color: $nav-bg-sm;
+
     .navbar-toggler {
       margin-bottom: 0rem;
       margin-top: 0rem;
+      padding: $spacer*.75 0;
     }
     
     &.navbar {
       box-shadow: $box-shadow !important;
       position: relative;
+    }
+  }
+}
+
+@-moz-document url-prefix() {
+  nav {
+    background: $nav-bg-fx;
+    
+    .dropdown-menu {
+      background: $nav-bg-fx;
     }
   }
 }
