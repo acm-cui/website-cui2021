@@ -40,14 +40,18 @@ nav {
   }
   
   .navbar-toggler {
-    @include caret('down');
+    @include caret('up');
     font-weight: bold;
     color: $black !important;
     padding: $spacer*1.5 0;
     width: 100%;
   }
   
-  .navbar-toggler[aria-expanded="true"], .dropdown-toggle[aria-expanded="true"] {
+  .navbar-toggler[aria-expanded="true"] {
+    @include caret('down');
+  }
+  
+  .dropdown-toggle[aria-expanded="true"] {
     @include caret('up');
   }
   
@@ -148,6 +152,15 @@ footer {
       margin-top: 0rem;
       padding: $spacer*.75 0;
     }
+  
+    .navbar-toggler {
+      @include caret('down');
+
+      &[aria-expanded="true"] {
+        @include caret('up');
+      }
+    }
+  
     
     &.navbar {
       box-shadow: $box-shadow !important;
