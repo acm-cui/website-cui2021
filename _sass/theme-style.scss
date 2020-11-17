@@ -70,59 +70,6 @@ nav {
   }
 }
 
-@supports (-webkit-touch-callout: none) {
-  nav {
-    .navbar-toggler {
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-    }
-  }
-}
-
-@include media-breakpoint-up(sm) {
-  header {
-    box-shadow: none !important;
-  }
-
-  nav {
-    background-color: $nav-bg-sm;
-
-    .navbar-toggler {
-      margin-bottom: 0rem;
-      margin-top: 0rem;
-      padding: $spacer*.75 0;
-    }
-    
-    &.navbar {
-      box-shadow: $box-shadow !important;
-      position: relative;
-    }
-  }
-}
-
-@-moz-document url-prefix() {
-  nav {
-    background: $nav-bg-fx;
-    
-    .dropdown-menu {
-      background: $nav-bg-fx;
-    }
-  }
-}
-
-@include media-breakpoint-up(md) {
-  nav {
-    &.navbar {
-      padding: $spacer/2 $spacer;
-    }
-
-    .dropdown-menu {
-      border: $dropdown-border-width solid $dropdown-border-color;
-      @include border-radius($dropdown-border-radius);
-    }
-  }
-}
-
 section {
   z-index: 1;
 }
@@ -171,6 +118,61 @@ h3 {
   }
 }
 
+footer {
+  padding-bottom: 5rem;
+}
+
+@supports (-webkit-touch-callout: none) {
+  nav {
+    .navbar-toggler {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+  }
+  
+  footer {
+    padding-bottom: 7rem;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  header {
+    box-shadow: none !important;
+  }
+
+  nav {
+    background-color: $nav-bg-sm;
+
+    .navbar-toggler {
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+      padding: $spacer*.75 0;
+    }
+    
+    &.navbar {
+      box-shadow: $box-shadow !important;
+      position: relative;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  nav {
+    &.navbar {
+      padding: $spacer/2 $spacer;
+    }
+
+    .dropdown-menu {
+      border: $dropdown-border-width solid $dropdown-border-color;
+      @include border-radius($dropdown-border-radius);
+    }
+  }
+
+  footer {
+    padding-bottom: 3rem;
+  }
+}
+
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     header {
@@ -196,4 +198,13 @@ h3 {
   }
 }
 
+@-moz-document url-prefix() {
+  nav {
+    background: $nav-bg-fx;
+    
+    .dropdown-menu {
+      background: $nav-bg-fx;
+    }
+  }
+}
 
