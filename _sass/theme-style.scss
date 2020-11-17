@@ -65,6 +65,15 @@ nav {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  nav {
+  
+    &.navbar {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
 @include media-breakpoint-up(sm) {
   header {
     box-shadow: none !important;
