@@ -23,7 +23,10 @@ nav {
     bottom: 0;
     padding: 0;
     padding-bottom: env(safe-area-inset-bottom);
-    z-index: 1030;  
+    transition-timing-function: ease;
+    transition-duration: .5s;
+    transition-property: padding, box-shadow;
+    z-index: 1030;
   }
   
   .nav-link {
