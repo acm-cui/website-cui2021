@@ -4,6 +4,7 @@ body {
 
 header {
   background-repeat: no-repeat;
+  box-shadow: $box-shadow !important;
   position: absolute;
   top: 0;
   z-index: 100;
@@ -13,6 +14,15 @@ nav {
   background-color: $nav-bg;
   -webkit-backdrop-filter: $nav-bg-filter;
   backdrop-filter: $nav-bg-filter;
+  
+  &.navbar {
+    box-shadow: 0 -.5rem 1rem rgba($black, .15) !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+  }
   
   .nav-link {
     color: $navbar-color;
@@ -27,6 +37,17 @@ nav {
   .navbar-toggler {
     font-weight: bold;
     color: $black !important;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  header {
+    box-shadow: none !important;
+  }
+  
+  nav.navbar {
+    box-shadow: $box-shadow !important;
+    position: relative;
   }
 }
 
