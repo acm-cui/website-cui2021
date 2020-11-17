@@ -2,9 +2,9 @@
 label: Demos
 description: The Demos track at CUI 2021 allows authors to present interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
 submission:
-  text: Submissions not open yet
-#  title: Go to EasyChair to submit your paper
-#  link: https://easychair.org/conferences/?conf=cui2021
+  text: Submit your demo
+  title: Go to EasyChair to submit your demo
+  link: /2021/authors/submission/
 ---
 
 # Demos

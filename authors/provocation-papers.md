@@ -2,9 +2,9 @@
 label: Provocation Papers
 description: Provocation Papers at CUI 2021 are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
 submission:
-  text: Submissions not open yet
-#  title: Go to EasyChair to submit your paper
-#  link: https://easychair.org/conferences/?conf=cui2021
+  text: Submit your paper
+  title: Go to EasyChair to submit your paper
+  link: /2021/authors/submission/
 ---
 
 # Provocation Papers
