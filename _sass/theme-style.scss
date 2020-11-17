@@ -67,9 +67,8 @@ nav {
 
 @supports (-webkit-touch-callout: none) {
   nav {
-  
-    &.navbar {
-      padding-bottom: 2rem;
+    .navbar-toggler {
+      margin-bottom: 1rem;
     }
   }
 }
@@ -80,6 +79,10 @@ nav {
   }
   
   nav {
+    .navbar-toggler {
+      margin-bottom: 0rem;
+    }
+    
     &.navbar {
       box-shadow: $box-shadow !important;
       position: relative;
