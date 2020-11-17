@@ -75,11 +75,11 @@ titles_from_headings:
 # Page generation from data
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
-  # - data: days
-  #   template: programme_day
-  #   name: id
-  #   dir: '/programme'
-  #   index_files: false
+  - data: days
+    template: programme_day
+    name: id
+    dir: '/programme'
+    index_files: false
 
 # Pagination
 pagination:
