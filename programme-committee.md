@@ -10,7 +10,7 @@ The following people are members of the CUI 2021 Promgramme Committee:
 
 {% assign num_pc_members = site.data.pc | size %}
 {% assign half_num_pc_members = num_pc_members | divided_by: 2 %}
-{% assign half_num_pc_members = half_num_pc_members | plus: 1 %}
+{% assign half_num_pc_members = half_num_pc_members %}
 
 <div class="row">
 	<div class="col-lg-6 col-12">
