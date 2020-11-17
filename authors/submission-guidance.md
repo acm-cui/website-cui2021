@@ -33,5 +33,8 @@ We ask all authors to prepare **an accessible submission** by marking up your do
 By submitting to the conference, you are agreeing to the following:
 * You must anonymise your submission (The [CHI Anonymization Policy Submissions](https://chi2021.acm.org/for-authors/presenting/papers/chi-anonymization-policy "Read the CHI conference policy on Anonymisation") is helpful in making sure you make an anonymous submission)
 * You must use ACM’s in-text citation style and reference formats (see the [Citation Style and Reference Formats policy](https://www.acm.org/publications/authors/reference-formatting "Read the ACM policy on Citation Style and Reference Formats"))  
+* Submissions found to not adhere to [ACM’s policies on plagiarism, misrepresentation, and falsification](https://www.acm.org/publications/policies/plagiarism-overview "Read the ACM policy on Plagiarism, Misrepresentation, and Falsification") will be rejected   
+* Authors and reviewers will be asked to indicate their understanding and acceptance of the [ACM Policy on Conflict of Interest in Publication](https://www.acm.org/publications/policies/conflict-of-interest "Read the Conflict of Interest Policy for ACM Publications")  when items are submitted and reviewed
+* Papers submitted to the conference cannot be under consideration for any other conference or publication (no simultaneous submissions) and cannot be previously published without undergoing substantial revision ([Prior Publication and Simultaneous Submissions policy](https://www.acm.org/publications/policies/simultaneous-submissions "Read the ACM policy on Prior Publication and Simultaneous"))  
 
 Any authors found to be in vilation of any of these policies may have any/all submissions desk rejected.
