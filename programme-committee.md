@@ -11,7 +11,7 @@ The following people are members of the CUI 2021 Promgramme Committee:
 <div class="row">
 	<div class="col-lg-6 col-12">
 		<ul class="list-unstyled">
-            <li>Justin Edwards<br><em class="text-muted small">UCD Dublin, Ireland</em></li>
+            <li>Justin Edwards<br><em class="text-muted small">University College Dublin, Ireland</em></li>
 		</ul>
 	</div>
 
