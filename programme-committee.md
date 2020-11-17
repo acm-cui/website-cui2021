@@ -14,7 +14,7 @@ The following people are members of the CUI 2021 Promgramme Committee:
 
 <div class="row">
 	<div class="col-lg-6 col-12">
-		<ul class="list-unstyled">
+		<ul class="list-unstyled mb-0">
             {% for pc_member in site.data.pc offset:0 limit:half_num_pc_members %}
                 <li class="pb-1">{{ pc_member.name }}<br><em class="text-muted small">{{ pc_member.institution }}, {{ pc_member.country }}</em></li>
             {% endfor %}
@@ -22,7 +22,7 @@ The following people are members of the CUI 2021 Promgramme Committee:
 	</div>
 
 	<div class="col-lg-6 col-12">
-		<ul class="list-unstyled">
+		<ul class="list-unstyled mb-0">
             {% for pc_member in site.data.pc offset:half_num_pc_members %}
                 <li class="pb-1">{{ pc_member.name }}<br><em class="text-muted small">{{ pc_member.institution }}, {{ pc_member.country }}</em></li>
             {% endfor %}
