@@ -48,7 +48,7 @@ Welcome to the CUI 2021 web programme. There are {{ num_sessions }} sessions tak
 <div class="d-flex flex-lg-row flex-column bg-light border rounded">
 {% assign is_first = true %}
 {% for day in site.data.days %}
-    <div class="flex-grow-1 mt-1 mb-2 mr-2 ml-lg-0 ml-2 {% if is_first %}ml-lg-2 mt-2{% endif %}" style="flex-basis: 0">
+    <div class="flex-grow-1 mt-1 mb-2 mr-2 ml-lg-0 ml-2 {% if is_first %}ml-lg-2 mt-lg-1 mt-2{% endif %}" style="flex-basis: 0">
         <div class="d-flex flex-column">
         <h3 class="text-center mt-lg-1">{{ day.title }} {{ foreach.index0  }}</h3>
         <div class="list-group bg-white rounded">
