@@ -12,6 +12,7 @@ The following people are members of the CUI 2021 Promgramme Committee:
 	<div class="col-lg-6 col-12">
 		<ul class="list-unstyled">
             <li>Justin Edwards<br><em class="text-muted small">University College Dublin, Ireland</em></li>
+            <li>Asbjørn Følstad<br><em class="text-muted small">SINTEF, Norway</em></li>
 		</ul>
 	</div>
 
