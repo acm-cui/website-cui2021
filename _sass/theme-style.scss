@@ -40,10 +40,15 @@ nav {
   }
   
   .navbar-toggler {
+    @include caret('down');
     font-weight: bold;
     color: $black !important;
     padding: $spacer*1.5 0;
     width: 100%;
+  }
+  
+  .navbar-toggler[aria-expanded="true"], .dropdown-toggle[aria-expanded="true"] {
+    @include caret('up');
   }
   
   .dropdown-menu {
