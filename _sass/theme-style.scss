@@ -41,6 +41,24 @@ nav {
     padding: $spacer;
     width: 100%;
   }
+  
+  .dropdown-menu {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+
+    a:first-child {
+      margin-top: 2*$spacer/3;
+    }
+
+    a:last-child {
+      margin-bottom: 2*$spacer/3;
+    }
+
+    &.collapsing {
+        display:block;
+    }
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -48,10 +66,24 @@ nav {
     box-shadow: none !important;
   }
   
-  nav.navbar {
-    box-shadow: $box-shadow !important;
-    padding: $spacer/2 $spacer;
-    position: relative;
+  nav {
+    &.navbar {
+      box-shadow: $box-shadow !important;
+      position: relative;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  nav {
+    &.navbar {
+      padding: $spacer/2 $spacer;
+    }
+
+    .dropdown-menu {
+      border: $dropdown-border-width solid $dropdown-border-color;
+      @include border-radius($dropdown-border-radius);
+    }
   }
 }
 
