@@ -6,7 +6,7 @@ order: 2
 
 # Programme Committee
 
-The following people are members of the CUI 2021 Promgramme Committee:
+The following people are members of the CUI 2021 Programme Committee:
 
 {% assign num_pc_members = site.data.pc | size %}
 {% assign half_num_pc_members = num_pc_members | divided_by: 2 %}
