@@ -1,7 +1,6 @@
 ---
 label: Programme Committee
 description: The Programme Committee for the 2021 Conversational User Interfaces conference.
-order: 2
 ---
 
 # Programme Committee
