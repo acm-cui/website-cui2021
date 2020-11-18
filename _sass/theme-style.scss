@@ -16,13 +16,13 @@ nav {
   backdrop-filter: $nav-bg-filter;
   
   &.navbar {
-    box-shadow: 0 -.5rem 1rem rgba($black, .15) !important;
+    border-top: 1px solid rgba($white,0.45);
+    border-bottom: 1px solid rgba($white,0.45);
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 0;
     padding: 0;
-    padding-bottom: env(safe-area-inset-bottom);
     transition-timing-function: ease;
     transition-duration: .5s;
     transition-property: padding, box-shadow;
@@ -30,6 +30,7 @@ nav {
   }
   
   .nav-link {
+    border-top: 1px solid rgba($black,0.05);
     color: $navbar-color;
     
     @include hover-focus() {
@@ -40,25 +41,23 @@ nav {
   }
   
   .navbar-toggler {
-    @include caret('up');
+    @include caret('down');
     font-weight: bold;
     color: $black !important;
-    padding: $spacer*1.5 0;
+    padding: $spacer*.75 0;
     width: 100%;
   }
   
-  .navbar-toggler[aria-expanded="true"] {
-    @include caret('down');
-  }
-  
-  .dropdown-toggle[aria-expanded="true"] {
+  .navbar-toggler[aria-expanded="true"], .dropdown-toggle[aria-expanded="true"] {
     @include caret('up');
   }
   
   .dropdown-menu {
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
+    border-color: $white;
+    margin: 0 1rem;
+    transition-timing-function: ease;
+    transition-duration: .5s;
+    transition-property: height, margin;
 
     a:first-child {
       margin-top: 2*$spacer/3;
@@ -70,6 +69,10 @@ nav {
 
     &.collapsing {
         display:block;
+    }
+    
+    &.collapsing, &.show {
+      margin-bottom: 1rem !important;
     }
   }
 }
@@ -153,14 +156,6 @@ footer {
       padding: $spacer*.75 0;
     }
   
-    .navbar-toggler {
-      @include caret('down');
-
-      &[aria-expanded="true"] {
-        @include caret('up');
-      }
-    }
-  
     
     &.navbar {
       box-shadow: $box-shadow !important;
@@ -175,9 +170,12 @@ footer {
       padding: $spacer/2 $spacer;
     }
 
+    .nav-link {
+      border-top: 0;
+    }
+    
     .dropdown-menu {
-      border: $dropdown-border-width solid $dropdown-border-color;
-      @include border-radius($dropdown-border-radius);
+      margin: 0;
     }
   }
 
@@ -211,13 +209,4 @@ footer {
   }
 }
 
-@-moz-document url-prefix() {
-  nav {
-    background: $nav-bg-fx;
-    
-    .dropdown-menu {
-      background: $nav-bg-fx;
-    }
-  }
-}
 
