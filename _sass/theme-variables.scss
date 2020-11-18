@@ -2,11 +2,16 @@
 $primary:                             #A92B7A;
 $body-max-width:                      2000px;
 
+$transition-timing-function:          ease-in-out;
+$transition-duration:                 .5s;
+
 $nav-bg:                              rgba($white, 0.2);
 $nav-bg-sm:                           rgba($white, 0.5);
 $nav-bg-fx:                           rgba($white, 0.95);
 $nav-bg-filter:                       saturate(180%) blur(20px);
 $nav-height:                          56px;
+
+$nav-item-border:                     1px solid rgba($white,0.45);
 
 $header-bg-imgs: (
   xs: url(../img/masthead-xs.png),
