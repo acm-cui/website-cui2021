@@ -9,9 +9,12 @@ $nav-bg:                              rgba($white, 0.2);
 $nav-bg-sm:                           rgba($white, 0.5);
 $nav-bg-fx:                           rgba($white, 0.95);
 $nav-bg-filter:                       saturate(180%) blur(20px);
+$nav-border:                          1px solid rgba($white,0.45);
 $nav-height:                          56px;
 
-$nav-item-border:                     1px solid rgba($white,0.45);
+$nav-item-border:                     1px solid rgba($black,0.05);
+$navbar-toggler-p:                    $spacer*.75 0;;
+$navbar-toggler-color:                $black;
 
 $header-bg-imgs: (
   xs: url(../img/masthead-xs.png),

@@ -6,6 +6,7 @@ header {
   background-repeat: no-repeat;
   box-shadow: $box-shadow !important;
   position: absolute;
+  max-width: $body-max-width;
   top: 0;
   z-index: 100;
 }
@@ -16,20 +17,19 @@ nav {
   backdrop-filter: $nav-bg-filter;
   
   &.navbar {
-    border-bottom: 1px solid rgba($white,0.45);
+    border-bottom: $nav-border;
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    padding: 0;
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
-    transition-property: padding, box-shadow;
+    transition-property: box-shadow;
     z-index: 1030;
   }
   
   .nav-item {
-    border-top: 1px solid rgba($black,0.05);
+    border-top: $nav-item-border;
     
     &:first-child {
       border-top: 0;
@@ -38,7 +38,6 @@ nav {
   
   .nav-link {
     color: $navbar-color;
-    text-align: center; 
     
     @include hover-focus() {
       color: $navbar-hover-color;
@@ -47,9 +46,8 @@ nav {
   
   .navbar-toggler {
     @include caret('down');
-    font-weight: bold;
-    color: $black !important;
-    padding: $spacer*.75 0;
+    color: $navbar-toggler-color;
+    padding: $navbar-toggler-p;
     width: 100%;
   }
   
@@ -73,7 +71,7 @@ nav {
     }
 
     &.collapsing {
-        display:block;
+        display: block;
     }
     
     &.collapsing, &.show {
@@ -154,9 +152,8 @@ footer {
       padding: $spacer*.75 0;
     }
   
-    
     &.navbar {
-      border-top: $nav-item-border;
+      border-top: $nav-border;
       position: relative;
     }
   }
@@ -173,6 +170,8 @@ footer {
     }
     
     .dropdown-menu {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
       margin: 0;
     }
   }
@@ -183,17 +182,10 @@ footer {
     header {
       background-image: map-get($header-bg-imgs, $breakpoint);
       min-height: map-get($header-logo-hs, $breakpoint);
-      transition-timing-function: $transition-timing-function;
-      transition-duration: $transition-duration;
-      transition-property: min-height;
       
       .logo {
         height: map-get($header-logo-hs, $breakpoint) - $nav-height;
         width: map-get($header-logo-ws, $breakpoint);
-        @include transition(width)
-        transition-timing-function: $transition-timing-function;
-        transition-duration: $transition-duration;
-        transition-property: width, height;
       }
     }
 
