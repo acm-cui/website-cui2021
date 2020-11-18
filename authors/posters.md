@@ -25,7 +25,7 @@ Posters allow for the presentation, discussion and information exchange of early
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/441/18e22f25057ccf7fc13fb77c/" title="Retrieve the email address for the Posters chairs">Posters chairs</a> if you have any questions.
+			Please contact the <a href="https://spamty.eu/show/v6/441/18e22f25057ccf7fc13fb77c/" title="Retrieve the email address for the Posters Chairs">Posters Chairs</a> if you have any questions.
 		</p>
 	</div>
 

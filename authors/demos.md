@@ -25,7 +25,7 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/" title="Retrieve the email address for the Demos chairs">Demos chairs</a> if you have any questions.
+			Please contact the <a href="https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/" title="Retrieve the email address for the Demos Chairs">Demos Chairs</a> if you have any questions.
 		</p>
 	</div>
 

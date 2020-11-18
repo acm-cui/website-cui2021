@@ -25,7 +25,7 @@ Provocation Papers are short papers that explore controversial, risk taking or n
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/" title="Retrieve the email address for the Provocation Papers chairs">Provocation Papers chairs</a> if you have any questions.
+			Please contact the <a href="https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/" title="Retrieve the email address for the Provocation Papers Chairs">Provocation Papers Chairs</a> if you have any questions.
 		</p>
 	</div>
 

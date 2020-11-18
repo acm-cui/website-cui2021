@@ -4,7 +4,7 @@ description: The Featured Talks track at CUI 2021 looks to showcase work from 20
 
 submission:
   text: Submit by email
-  title: Send an email to the Featured Talks chairs
+  title: Send an email to the Featured Talks Chairs
   link: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
 ---
 
@@ -23,7 +23,7 @@ The Featured Talks track looks to showcase work from 2011--2020 related to all a
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/" title="Retrieve the email address for the Featured Talks chairs">Featured Talks chairs</a> if you have any questions.
+			Please contact the <a href="https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/" title="Retrieve the email address for the Featured Talks Chairs">Featured Talks Chairs</a> if you have any questions.
 		</p>
 	</div>
 

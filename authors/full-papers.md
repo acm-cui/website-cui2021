@@ -25,7 +25,7 @@ Full Papers are original contributions from a broad range of disciplines includi
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/" title="Retrieve the email address for the Full Papers chairs">Full Papers chairs</a> if you have any questions.
+			Please contact the <a href="https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/" title="Retrieve the email address for the Full Papers Chairs">Full Papers Chairs</a> if you have any questions.
 		</p>
 	</div>
 
