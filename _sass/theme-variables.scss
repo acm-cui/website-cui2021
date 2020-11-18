@@ -31,9 +31,16 @@ $header-logo-hs: (
   xl: 480px
 );
 
-
 $navbar-color:                        $black;
 $navbar-hover-color:                  $black;
+
+$main-mt: (
+  xs: 142px,
+  sm: 130px,
+  md: 168px,
+  lg: 203px,
+  xl: 233px
+);
 
 $h2-font-size:                        1.6rem;
 

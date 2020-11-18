@@ -197,7 +197,7 @@ footer {
     }
 
     section {
-      margin-top: map-get($header-logo-hs, $breakpoint)/2;;
+      margin-top: map-get($main-mt, $breakpoint);
     }
   }
 }
