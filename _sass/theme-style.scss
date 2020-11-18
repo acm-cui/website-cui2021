@@ -130,15 +130,8 @@ footer {
 }
 
 @supports (-webkit-touch-callout: none) {
-  nav {
-    .navbar-toggler {
-      margin-bottom: 1rem;
-      margin-top: 1rem;
-    }
-  }
-  
   footer {
-    padding-bottom: 8rem;
+    padding-bottom: env(safe-area-inset-bottom);
   }
 }
 
