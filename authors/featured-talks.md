@@ -3,7 +3,7 @@ label: Featured Talks
 description: The Featured Talks track at CUI 2021 looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces.
 
 submission:
-  text: Submit by email
+  text: Apply to give a talk
   title: Send an email to the Featured Talks Chairs
   link: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
 ---
