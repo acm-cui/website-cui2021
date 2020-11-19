@@ -7,6 +7,8 @@ order: 2
 # Organising Committee
 
 
+The following people have volunteered their time to assist in the organisation of CUI 2021.
+
 <h2>Conference chairs</h2>
 
 <div class="row">
