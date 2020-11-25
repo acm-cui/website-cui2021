@@ -12,7 +12,7 @@ order: 0
 </div>
 
 <p>
-Following the successful ACM In-Cooperation CUI conferences in 2019 and 2020, CUI 2021 will be a <strong>hybrid conference with sessions online and in person in Bilbao, Spain</strong>. The conference will run from **27th to 29th July 2021**.
+Following the successful ACM In-Cooperation CUI conferences in 2019 and 2020, CUI 2021 will be a <strong>hybrid conference with sessions online and in person in Bilbao, Spain</strong>. The conference will run from <strong>27th to 29th July 2021</strong>.
 </p>
 
 <p>
