@@ -8,7 +8,7 @@ order: 0
 # Welcome to CUI
 
 <div class="ml-md-3 mb-4 float-md-right text-center">
-	<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="CUI is an ACM In-Cooperation conference" style="width: 300px">
+	<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="CUI is an ACM In-Cooperation conference" class="homepage-banner">
 </div>
 
 <p>
