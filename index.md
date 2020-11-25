@@ -17,19 +17,20 @@ Following the successful ACM In-Cooperation CUI conferences in 2019 and 2020, CU
 
 <p>
 We plan to use the conference as a platform to further develop a collaborative community around human-computer interaction issues in speech and language technology, with a specific interest in theory-based and applied scientific issues in the field of speech and text-based conversational user interfaces. We are looking to bring together relevant communities (e.g. ISCA, ACM SIGCHI, CogSci) to publish, disseminate and showcase high-quality cutting-edge research related to the field, promote insight and debate in this interesting and important discipline within language interfaces. Topics relevant to the conference include, but are not limited to:
-<ul><li> voice user experience</li>
-<li>speech interfaces/li>
-<li>speech interface theory development/li>
-<li>conversational interaction through technology/li>
-<li>text-based conversational interfaces/li>
-<li>chatbots/li>
-<li>speech synthesis/li>
-<li>speech recognition/li>
-<li>dialogue management/li>
-<li>conversational interface design insights</li>
-<li>conversational search</li>
-<li>methods for conversational user interface development and evaluation</li>
-<li>multimodal interaction involving speech, text or other language based interfaces</li>
+<ul>
+	<li>voice user experience</li>
+	<li>speech interfaces</li>
+	<li>speech interface theory development</li>
+	<li>conversational interaction through technology</li>
+	<li>text-based conversational interfaces</li>
+	<li>chatbots</li>
+	<li>speech synthesis</li>
+	<li>speech recognition</li>
+	<li>dialogue management</li>
+	<li>conversational interface design insights</li>
+	<li>conversational search</li>
+	<li>methods for conversational user interface development and evaluation</li>
+	<li>multimodal interaction involving speech, text or other language based interfaces</li>
 </ul>
 </p>
 
