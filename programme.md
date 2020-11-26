@@ -1,6 +1,6 @@
 ---
 label: Programme
-description: The CUI 2021 web programme.
+description: The online programme for the 2021 Conversational User Interfaces conference.
 ---
 
 # Programme
@@ -43,7 +43,7 @@ description: The CUI 2021 web programme.
      {% endfor %}
 {% endfor %}
 
-Welcome to the CUI 2021 web programme. There are {{ num_sessions }} sessions taking place over the {{ site.data.days | size }} days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}{{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}{{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.
+Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the {{ site.data.days | size }} days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}{{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}{{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.
 
 <div class="d-flex flex-lg-row flex-column bg-light border rounded">
 {% assign is_first = true %}

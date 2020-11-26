@@ -7,7 +7,7 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mx-auto pb-sm-0 pb-4">
 			<li class="nav-item py-md-2 py-1">
-				<a class="nav-link text-center" href="{{ "/" | relative_url }}">Home</a>
+				<a class="nav-link text-center" href="{{ "/" | relative_url }}" title="The homepage for the {{ site.conference.year }} {{ site.conference.full_name }} conference">Home</a>
 			</li>
 
 			<li class="nav-item dropdown py-md-2 py-1">
@@ -15,14 +15,14 @@
 					Authors
 				</a>
 				<div class="dropdown-menu collapse shadow text-md-left text-center p-0" aria-labelledby="menuAuthorsLink" id="menuAuthors">
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/full-papers/" | relative_url }}">Full Papers</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/provocation-papers/" | relative_url }}">Provocation Papers</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/posters/" | relative_url }}">Posters</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/demos/" | relative_url }}">Demos</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/featured-talks/" | relative_url }}">Featured Talks</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/full-papers/" | relative_url }}" title="Information about submitting to the Full Papers track at {{ site.conference.short_name }} {{ site.conference.year }}">Full Papers</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/provocation-papers/" | relative_url }}" title="Information about submitting to the Provocation Papers track at {{ site.conference.short_name }} {{ site.conference.year }}">Provocation Papers</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/posters/" | relative_url }}" title="Information about submitting to the Posters track at {{ site.conference.short_name }} {{ site.conference.year }}">Posters</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/demos/" | relative_url }}" title="Information about submitting to the Demos track at {{ site.conference.short_name }} {{ site.conference.year }}">Demos</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/featured-talks/" | relative_url }}" title="Information about submitting to the Featured Talks track at {{ site.conference.short_name }} {{ site.conference.year }}">Featured Talks</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/submission/" | relative_url }}">EasyChair login</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/submission-guidance/" | relative_url }}">Submission guidance</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/submission/" | relative_url }}" title="Go to the submission system for {{ site.conference.short_name }} {{ site.conference.year }}">EasyChair login</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional guidance for authors submitting to {{ site.conference.short_name }} {{ site.conference.year }}">Submission guidance</a>
 				</div>
 			</li>
 
@@ -31,17 +31,18 @@
 					Committees
 				</a>
 				<div class="dropdown-menu collapse shadow text-md-left text-center p-0" aria-labelledby="menuCommitteesLink" id="menuCommittees">
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/organising-committee/" | relative_url }}">Organising Commmitee</a>
-					<a class="dropdown-item py-md-1 py-2" href="{{ "/programme-committee/" | relative_url }}">Programme Commmitee</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/programme-committee/" | relative_url }}" title="The members of the {{ site.conference.short_name }} {{ site.conference.year }} Programme Committee">Programme Commmitee</a>
+					<a class="dropdown-item py-md-1 py-2" href="{{ "/organising-committee/" | relative_url }}" title="The members of the {{ site.conference.short_name }} {{ site.conference.year }} Organising Committee">Organising Commmitee</a>
+					<a class="dropdown-item py-md-1 py-2" href="https://www.conversationaluserinterfaces.org" title="Visit the website for the {{ site.conference.short_name }} series Steering cCmmittee">Steering Commmitee</a>
 				</div>
 			</li>
 			
 			<li class="nav-item py-md-2 py-1">
-				<a class="nav-link text-center" href="{{ "/partners/" | relative_url }}">Partners</a>
+				<a class="nav-link text-center" href="{{ "/partners/" | relative_url }}" title="Details of the partners and sponsors supporting {{ site.conference.short_name }} {{ site.conference.year }}">Partners</a>
 			</li>
 			
 			<li class="nav-item py-md-2 py-1">
-				<a class="nav-link text-center" href="{{ "/contact/" | relative_url }}">Contact</a>
+				<a class="nav-link text-center" href="{{ "/contact/" | relative_url }}" title="Contact the organisers of {{ site.conference.short_name }} {{ site.conference.year }}">Contact</a>
 			</li>
 		</ul>
 	</div>

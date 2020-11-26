@@ -1,25 +1,23 @@
 ---
 label: Organising committee
-description: The Organising Committee for the 2021 Conversational User Interfaces conference.
-order: 2
+description: The Organising Committee for the {{ site.conference.year }} Conversational User Interfaces conference.
 ---
 
 # Organising Committee
 
-
-The following people have volunteered their time to assist in the organisation of CUI 2021.
+The following people have volunteered their time to assist in the organisation of {{ site.conference.short_name }} {{ site.conference.year }}.
 
 <h2>Conference chairs</h2>
 
 <div class="row">
 	<div class="col-md-6 col-12">
-		<h3>General Chairs <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for 2021 General Chairs"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+		<h3>General Chairs <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for {{ site.conference.year }} General Chairs"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">
             <li class="pb-1">Stephan Schlögl<br><em class="text-muted small">MCI Management Center Innsbruck, Austria</em></li>
             <li class="pb-1">María Inés Torres<br><em class="text-muted small">UPV/EHU Universidad del País Vasco, Spain</em></li>
 		</ul>
 
-		<h3>Assistants to the General Chairs <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for 2021 General Chairs"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+		<h3>Assistants to the General Chairs <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for {{ site.conference.year }} General Chairs"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">
             <li class="pb-1">Alexander Monz<br><em class="text-muted small">MCI Management Center Innsbruck, Austria</em></li>
             <li class="pb-1">Raquel Justo Blanco<br><em class="text-muted small">UPV/EHU Universidad del País Vasco, Spain</em></li>

@@ -26,6 +26,13 @@ lang: en-GB
 description: >-
   Conversational User Interfaces 2021
 
+conference:
+  full_name: Conversational User Interfaces
+  short_name: CUI
+  year: 2021
+  location: Bilbao, Spain
+  dates: 27–29 July 2021
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:year/:month/:day/:title/
