@@ -6,7 +6,7 @@ Every time a new push/pull request is merged into the main branch of this reposi
 
 Please do not push to the main repository for the website as changes may be automatically overridden when the website is next rebuilt.
 
-## Building the website locally
+## Building the website manually
 
 If you have Jekyll installed locally, when in the directory, install the various ruby gems with the command `bundle install`. Once you have done this, you'll be able to run a local version of the website with the command `bundle exec jekyll serve` (the website will be accessible at http://localhost:4000/).
 
