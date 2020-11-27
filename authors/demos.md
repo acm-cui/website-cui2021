@@ -1,6 +1,6 @@
 ---
 label: Demos
-description: The Demos track at CUI 2021 allows authors to present interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
+description: The Demos track at !!conference.short_name!! !!conference.year!! allows authors to present interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
 submission:
   text: Submissions not open yet
 #  title: Go to EasyChair to submit your demo

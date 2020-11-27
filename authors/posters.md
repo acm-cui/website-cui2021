@@ -1,6 +1,6 @@
 ---
 label: Posters
-description: The Posters track at CUI 2021 allows for the presentation, discussion and information exchange of early stage research in the field of Conversational User Interfaces.
+description: The Posters track at !!conference.short_name!! !!conference.year!! allows for the presentation, discussion and information exchange of early stage research in the field of Conversational User Interfaces.
 submission:
   text: Submissions not open yet
 #  title: Go to EasyChair to submit your poster
@@ -18,7 +18,7 @@ Posters allow for the presentation, discussion and information exchange of early
 			Submissions must be anonymised (<strong>approx. 3,000 words excluding references</strong>) using the <a href="https://www.acm.org/publications/taps/word-template-workflow#h-2.-the-workflow-and-templates" title="ACM template information">ACM author templates</a> (Word users should use the <em>Submission Template</em>, LaTeX users should use the "manuscript" document class in the <em>Master Article Template</em>).
 		</p>
 		<p>
-			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for CUI 2021">submission guidance page</a> for information on the changes made to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
+			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for {{ site.conference.short_name }} {{ site.conference.year }}">submission guidance page</a> for information on the changes made to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
 		</p>
 		<p>
 			Authors of accepted Posters will be given the opportunity to present their poster during a dedicated demo session. At least one author of each accepted paper must register for the conference.

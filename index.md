@@ -1,9 +1,9 @@
 ---
 permalink: /
-description: CUI 2021 is a hybrid conference with sessions online and in person in Bilbao, Spain, running from 27th to 29th July 2021.
+description: !!conference.short_name!! !!conference.year!! is a hybrid conference with sessions online and in person in !!conference.location!!, running from !!conference.dates!!.
 ---
 
-# Welcome to CUI
+# Welcome to !!conference.short_name!!
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">

@@ -5,7 +5,7 @@ layout: default
 	{% if page.submission.text %}
 	<div class="main-title row py-4">
 		<div class="col-md-6 col-12 text-md-left text-center">
-			<h1 class="m-0 p-0">{{ page.title | escape }}</h1>
+			<h1 class="m-0 p-0">{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}</h1>
 		</div>
 		<div class="col-md-6 col-12 pt-md-0 pt-3 text-md-right text-center">
 		{% if page.submission.link and page.submission.title %}
@@ -17,7 +17,7 @@ layout: default
 	</div>
 	{% else %}
 	<div class="main-title py-4 text-md-left text-center">
-		<h1 class="m-0 p-0">{{ page.title | escape }}</h1>
+		<h1 class="m-0 p-0">{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}</h1>
 	</div>
 	{% endif %}
     <div class="main-content">

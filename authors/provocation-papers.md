@@ -1,6 +1,6 @@
 ---
 label: Provocation Papers
-description: Provocation Papers at CUI 2021 are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
+description: Provocation Papers at !!conference.short_name!! !!conference.year!! are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
 submission:
   text: Submissions not open yet
 #  text: Submit your paper

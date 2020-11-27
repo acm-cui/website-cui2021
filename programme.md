@@ -1,6 +1,6 @@
 ---
 label: Programme
-description: The online programme for the 2021 Conversational User Interfaces conference.
+description: The online programme for the !!conference.year!! !!conference.full_name!! conference.
 ---
 
 # Programme

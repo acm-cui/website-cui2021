@@ -1,6 +1,6 @@
 ---
 label: Submission guidance
-description: Additional submission guidance for authors intending to submit papers to the 2021 Conversational User Interfaces conference.
+description: Additional submission guidance for authors intending to submit papers to the !!conference.year!! !!conference.full_name!! conference.
 ---
 
 # Submission guidance

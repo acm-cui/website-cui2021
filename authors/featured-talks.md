@@ -1,6 +1,6 @@
 ---
 label: Featured Talks
-description: The Featured Talks track at CUI 2021 looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces.
+description: The Featured Talks track at !!conference.short_name!! !!conference.year!! looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces.
 
 submission:
   text: Apply to give a talk
