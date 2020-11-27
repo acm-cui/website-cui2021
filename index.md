@@ -1,6 +1,7 @@
 ---
 permalink: /
-description: !!conference.short_name!! !!conference.year!! is a hybrid conference with sessions online and in person in !!conference.location!!, running from !!conference.dates!!.
+description: > 
+  !!conference.short_name!! !!conference.year!! is a hybrid conference with sessions online and in person in !!conference.location!!, running from !!conference.dates!!.
 ---
 
 # Welcome to !!conference.short_name!!
