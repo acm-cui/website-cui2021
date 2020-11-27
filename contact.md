@@ -1,8 +1,17 @@
 ---
 label: Contact
-description: Contact details for the !!conference.short_name!! !!conference.year!! General Chairs.
+description: Contact details for !!conference.short_name!! !!conference.year!!.
 ---
 
 # Contact us
 
-Please send an email to <a href="https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/" title="Retrieve the email address for 2021 General Chairs">2021 General Chairs</a>, Stephan Schlögl and María Inés Torres.
+{% for group in site.data.oc %}
+	{% for role in group['roles'] %}
+		{% if role['contact'] %}
+<p>Please send an email to <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role.label }}">{{ site.conference.year }} {{ role.label }}</a>, 
+		{% assign use_and = role['people'] | size | plus: -1 %}
+		{% for person in role['people'] %}{{ person.name }}{% if forloop.index == use_and %} and {% else %}{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}.</p>
+		{% break %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}

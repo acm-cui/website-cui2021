@@ -2,6 +2,7 @@
   roles:
     - label: General Chairs
       email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
+      contact: true
       people:
         - name: Stephan Schlögl
           institution: MCI Management Center Innsbruck
