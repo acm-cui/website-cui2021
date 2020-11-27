@@ -39,12 +39,12 @@ description: CUI 2021 is a hybrid conference with sessions online and in person 
 		</p>
 	</div>
 
-	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex flex-column align-items-start align-items-center mt-md-0 mt-5">
+	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex flex-column align-items-start align-items-center my-md-0 my-5">
 		<a href="https://acm.org/" title="Association of Computing Machinery">
 			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="homepage-banner">
 		</a>
 		<a href="https://sigchi.org/" title="ACM Special Interest Group on Computer-Human Interaction">
-			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">
+			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 homepage-banner">
 		</a>
 		<!--<h3 class="w-100 mt-5 text-light bg-dark rounded shadow text-center">Sponsors</h3>
 		<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">-->

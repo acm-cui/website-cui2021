@@ -8,14 +8,14 @@ description: The Organising Committee for the 2021 Conversational User Interface
 The following people have volunteered their time to assist in the organisation of {{ site.conference.short_name }} {{ site.conference.year }}.
 
 {% for group in site.data.oc %}
-<h2>{{ group.label }}</h2>
+<h2 class="mt-3">{{ group.label }}</h2>
 
 {% assign num_roles_chairs = group['roles'] | size %}
 {% assign half_num_roles_chairs = num_roles_chairs | divided_by: 2 %}
 {% assign half_num_roles_chairs = half_num_roles_chairs | plus: 1 %}
 
 <div class="row">
-	<div class="col-md-6 col-12">
+	<div class="col-md-6 col-12 mblast-0">
         {% for role in group['roles'] offset:0 limit:half_num_roles_chairs %}
 		<h3>{{ role.label }} <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role.label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">
@@ -25,7 +25,7 @@ The following people have volunteered their time to assist in the organisation o
 		</ul>
         {% endfor %}
 	</div>
-	<div class="col-md-6 col-12">
+	<div class="col-md-6 col-12 mblast-0">
         {% for role in group['roles'] offset:half_num_roles_chairs %}
 		<h3>{{ role.label }} <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role.label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">

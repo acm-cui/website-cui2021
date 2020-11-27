@@ -102,6 +102,12 @@ h3 {
   width: $icon-email-w;
 }
 
+.mblast-0 {
+  ul:last-child, div:last-child, p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .prg {
   .prg-row {
     opacity: $prg-row-o;
