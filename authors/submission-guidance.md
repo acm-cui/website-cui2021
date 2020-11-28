@@ -38,3 +38,10 @@ By submitting to the conference, you are agreeing to the following:
 * Papers submitted to the conference cannot be under consideration for any other conference or publication (no simultaneous submissions) and cannot be previously published without undergoing substantial revision ([Prior Publication and Simultaneous Submissions policy](https://www.acm.org/publications/policies/simultaneous-submissions "Read the ACM policy on Prior Publication and Simultaneous"))  
 
 Any authors found to be in vilation of any of these policies may have any/all submissions desk rejected.
+
+## Publication
+
+Articles will be published in the {{ site.conference.short_name }} {{ site.conference.year }} proceedings, through [ACM ICPS](https://www.acm.org/publications/icps-series "Details about the ACM International Conference Proceedings Series"). At least one author of each paper must register for the conference by the camera ready deadline to ensure publication. There are **no publication fees for {{ site.conference.short_name }} {{ site.conference.year }}** as income from registrations is used to cover these costs. Therefore, the Programme Chairs will withhold publication for papers where an author has not paid a registration fee.
+
+All ACM publications follow the [Green Open Access route by default](https://www.acm.org/publications/openaccess#green "Details on ACM's Green Open Access policies"), although authors have the opportunity to independantly pay a fee for [Gold Open Access](https://www.acm.org/publications/openaccess#oapricing "Details on Gold Open Access pricing for ACM publications"). The total fee payable depends on the author(s) ACM membership status.
+
