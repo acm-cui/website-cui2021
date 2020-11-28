@@ -32,7 +32,7 @@ description: >
 		</p>
 
 		<p>
-			The {{ site.conference.short_name }} community has been growing at a rapid pace these past few years and we are continuing to develop the conference series. This year we have expanded the event to cover three days, allowing for the conference to remain single-track. We have five separate submission tracks, details of which can be found on the various call for papers in the <em>Authors</em> menu.
+			The {{ site.conference.short_name }} community has been growing at a rapid pace these past few years and we are continuing to develop the conference series. This year we have expanded the event to cover three days, allowing for the conference to remain single-track. We have five separate submission tracks, with all papers, posters, and demos published in the [ACM Digital Library](https://dl.acm.org/ "Visit the ACM DL"). Details of the various call for papers can be found in the <em>Authors</em> menu.
 		</p>
 
 		<p>
