@@ -9,7 +9,7 @@ submission:
 
 # Demos
 
-Demos are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
+Demos are interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. Authors should submit a Demo Paper detailing their demo.
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
@@ -21,7 +21,7 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for {{ site.conference.short_name }} {{ site.conference.year }}">submission guidance page</a> for information on the changes made to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
 		</p>
 		<p>
-			Authors of accepted Demo Papers will be given the opportunity to present their demo during a dedicated demo session. At least one author of each accepted paper must register for the conference.
+			Accepted Demo Papers will be archived in the <a href="http://dl.acm.org/" title="The ACM Digital Library">ACM Digital Library</a> and authors be given the opportunity to present their demo during a dedicated demo session. At least one author of each accepted demo must register for the conference.
 		</p>
 		<h2>Any questions?</h2>
 		<p>
