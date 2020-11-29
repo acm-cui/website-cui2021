@@ -21,7 +21,7 @@ Full Papers are original contributions from a broad range of disciplines includi
 			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for {{ site.conference.short_name }} {{ site.conference.year }}">submission guidance page</a> for information on the changes made to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
 		</p>
 		<p>
-			Accepted Full Papers will be archived in the [ACM Digital Library](http://dl.acm.org "The ACM Digital Library") and authors be given an oral presentation slot at the conference. At least one author of each accepted paper must register for the conference.
+			Accepted Full Papers will be archived in the <a href="http://dl.acm.org/" title="The ACM Digital Library">ACM Digital Library</a> and authors be given an oral presentation slot at the conference. At least one author of each accepted paper must register for the conference.
 		</p>
 		<h2>Any questions?</h2>
 		<p>
