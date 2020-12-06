@@ -22,7 +22,7 @@ $(window).on('load', function() {
     $dropdown.hover(
         function() {
             if (window.innerWidth >= 768) {
-                const $this = $(this);
+                var $this = $(this);
                 $this.addClass(showClassName);
                 $this.find($dropdownToggle).attr("aria-expanded", "true");
                 $this.find($dropdownMenuVisible).collapse('hide');
@@ -31,7 +31,7 @@ $(window).on('load', function() {
         },
         function() {
             if (window.innerWidth >= 768) {
-                const $this = $(this);
+                var $this = $(this);
                 $this.removeClass(showClassName);
                 $this.find($dropdownToggle).attr("aria-expanded", "false");
                 $this.find($dropdownMenu).collapse('hide');
