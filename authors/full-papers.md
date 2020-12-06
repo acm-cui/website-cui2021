@@ -1,10 +1,15 @@
 ---
 label: Full Papers
 description: "The Full Papers track at !!conference.short_name!! !!conference.year!! is for original contributions from a broad range of disciplines including: human-computer interaction, computer science, engineering, speech technology, linguistics, psychology, cognitive sciences, sociology and other cognate disciplines."
+
 submission:
   text: Submit your paper
   title: Go to EasyChair to submit your paper
   link: /2021/authors/submission/
+  
+track:
+  chairs: full_papers
+  dates: full_papers
 ---
 
 # Full Papers
@@ -25,18 +30,16 @@ Full Papers are original contributions from a broad range of disciplines includi
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/" title="Retrieve the email address for the Full Papers Chairs">Full Papers Chairs</a> if you have any questions.
+			Please contact the <a href="{{ site.data.oc['tracks']['roles'][page.track.chairs]['email'] }}" title="Contact the {{ site.conference.short_name }} {{ site.conference.year }} {{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }} if you have any questions">{{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }}</a> if you have any questions.
 		</p>
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12">
 		<h2>Important dates</h2>
 		<p>
-			Submissions due: <strong>12th February 2021</strong><br>
-			Notification: <strong>26th March 2021</strong><br>
-			Rebuttals due: <strong>9th April 2021</strong><br>
-			Final notification: <strong>16th April 2021</strong><br>
-			Camera ready due: <strong>28th May 2021</strong><br>
+			{% for date in site.data.track_dates[page.track.dates] %}
+			{{ date.label }}: {% if date.extended_date %}<strike>{{ date.date }}</strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br>
+			{% endfor %}
 		</p>
 		<p>
 			<em class="small">All deadlines are at 23:59 UTC+1</em>

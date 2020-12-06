@@ -1,10 +1,15 @@
 ---
 label: Posters
 description: The Posters track at !!conference.short_name!! !!conference.year!! allows for the presentation, discussion and information exchange of early stage research in the field of Conversational User Interfaces.
+
 submission:
   text: Submissions not open yet
 #  title: Go to EasyChair to submit your poster
 #  link: /2021/authors/submission/
+  
+track:
+  chairs: posters
+  dates: posters
 ---
 
 # Posters
@@ -25,16 +30,16 @@ Posters allow for the presentation, discussion and information exchange of early
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/441/18e22f25057ccf7fc13fb77c/" title="Retrieve the email address for the Posters Chairs">Posters Chairs</a> if you have any questions.
+			Please contact the <a href="{{ site.data.oc['tracks']['roles'][page.track.chairs]['email'] }}" title="Contact the {{ site.conference.short_name }} {{ site.conference.year }} {{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }} if you have any questions">{{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }}</a> if you have any questions.
 		</p>
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12">
 		<h2>Important dates</h2>
 		<p>
-			Submissions due: <strong>9th April 2021</strong><br>
-			Notification: <strong>7th May 2021</strong><br>
-			Camera ready due: <strong>28th May 2021</strong><br>
+			{% for date in site.data.track_dates[page.track.dates] %}
+			{{ date.label }}: {% if date.extended_date %}<strike>{{ date.date }}</strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br>
+			{% endfor %}
 		</p>
 		<p>
 			<em class="small">All deadlines are at 23:59 UTC+1</em>

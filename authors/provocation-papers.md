@@ -1,11 +1,16 @@
 ---
 label: Provocation Papers
 description: Provocation Papers at !!conference.short_name!! !!conference.year!! are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
+
 submission:
   text: Submissions not open yet
 #  text: Submit your paper
 #  title: Go to EasyChair to submit your paper
 #  link: /2021/authors/submission/
+  
+track:
+  chairs: provocation_papers
+  dates: provocation_papers
 ---
 
 # Provocation Papers
@@ -26,16 +31,16 @@ Provocation Papers are short papers that explore controversial, risk taking or n
 		</p>
 		<h2>Any questions?</h2>
 		<p>
-			Please contact the <a href="https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/" title="Retrieve the email address for the Provocation Papers Chairs">Provocation Papers Chairs</a> if you have any questions.
+			Please contact the <a href="{{ site.data.oc['tracks']['roles'][page.track.chairs]['email'] }}" title="Contact the {{ site.conference.short_name }} {{ site.conference.year }} {{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }} if you have any questions">{{ site.data.oc['tracks']['roles'][page.track.chairs]['label'] }}</a> if you have any questions.
 		</p>
 	</div>
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12">
 		<h2>Important dates</h2>
 		<p>
-			Submissions due: <strong>9th April 2021</strong><br>
-			Notification: <strong>7th May 2021</strong><br>
-			Camera ready due: <strong>28th May 2021</strong><br>
+			{% for date in site.data.track_dates[page.track.dates] %}
+			{{ date.label }}: {% if date.extended_date %}<strike>{{ date.date }}</strike> <strong>{{ date.extended_date }}</strong>{% else %}<strong>{{ date.date }}</strong>{% endif %}<br>
+			{% endfor %}
 		</p>
 		<p>
 			<em class="small">All deadlines are at 23:59 UTC+1</em>

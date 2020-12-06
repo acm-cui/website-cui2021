@@ -60,7 +60,7 @@ conference:
 tracks:
     label: Track chairs
     roles:
-        full_paper:
+        full_papers:
             label: Full Papers Chairs
             email: https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/
             people:
