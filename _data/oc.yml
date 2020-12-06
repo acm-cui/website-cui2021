@@ -1,119 +1,131 @@
-- label: Conference chairs
-  roles:
-    - label: General Chairs
-      email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
-      contact: true
-      people:
-        - name: Stephan Schlögl
-          institution: MCI Management Center Innsbruck
-          country: Austria
-        - name: María Inés Torres
-          institution: UPV/EHU Universidad del País Vasco
-          country: Spain
+conference:
+    label: Conference chairs
+    roles:
+        general:
+            label: General Chairs
+            email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
+            contact: true
+            people:
+              - name: Stephan Schlögl
+                institution: MCI Management Center Innsbruck
+                country: Austria
+              - name: María Inés Torres
+                institution: UPV/EHU Universidad del País Vasco
+                country: Spain
 
-    - label: Assistants to the General Chairs
-      email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
-      people:
-        - name: Alexander Monz
-          institution: MCI Management Center Innsbruck
-          country: Austria
-        - name: Raquel Justo Blanco
-          institution: UPV/EHU Universidad del País Vasco
-          country: Spain
+        assnt_general:
+            label: Assistants to the General Chairs
+            email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
+            people:
+              - name: Alexander Monz
+                institution: MCI Management Center Innsbruck
+                country: Austria
+              - name: Raquel Justo Blanco
+                institution: UPV/EHU Universidad del País Vasco
+                country: Spain
 
-    - label: Programme Chairs
-      email: https://spamty.eu/show/v6/444/19e2d9aa7d1beb95695d606c/
-      people:
-        - name: Martin Porcheron
-          institution: Swansea University
-          country: UK
-        - name: Leigh Clark
-          institution: Swansea University
-          country: UK
+        programme:
+            label: Programme Chairs
+            email: https://spamty.eu/show/v6/444/19e2d9aa7d1beb95695d606c/
+            people:
+              - name: Martin Porcheron
+                institution: Swansea University
+                country: UK
+              - name: Leigh Clark
+                institution: Swansea University
+                country: UK
 
-    - label: Virtual Chairs
-      email: https://spamty.eu/show/v6/454/d6a386d1c54353b40cce3766/
-      people:
-        - name: Justin Edwards
-          institution: University College Dublin
-          country: Ireland
-        - name: Rebecca Weichelt
-          institution: MCI Management Center Innsbruck
-          country: Austria
+        virtual:
+            label: Virtual Chairs
+            email: https://spamty.eu/show/v6/454/d6a386d1c54353b40cce3766/
+            people:
+              - name: Justin Edwards
+                institution: University College Dublin
+                country: Ireland
+              - name: Rebecca Weichelt
+                institution: MCI Management Center Innsbruck
+                country: Austria
 
-    - label: Social Media/Web Chairs
-      email: https://spamty.eu/show/v6/445/489e4bef817ded48a5a92590/
-      people:
-        - name: Leigh Clark
-          institution: Swansea University
-          country: UK
-        - name: Martin Porcheron
-          institution: Swansea University
-          country: UK
-          
-- label: Track chairs
-  roles:
-    - label: Full Papers Chairs
-      email: https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/
-      people:
-        - name: Benjamin Cowan
-          institution: University College Dublin
-          country: Ireland
-        - name: Minha Lee
-          institution: Eindhoven University of Technology
-          country: Netherlands
-        - name: Bob Moore
-          institution: IBM Research
-          country: USA
+        social_media:
+            label: Social Media/Web Chairs
+            email: https://spamty.eu/show/v6/445/489e4bef817ded48a5a92590/
+            people:
+              - name: Leigh Clark
+                institution: Swansea University
+                country: UK
+              - name: Martin Porcheron
+                institution: Swansea University
+                country: UK
 
-    - label: Provocation Papers Chairs
-      email: https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/
-      people:
-        - name: Jennifer Pearson
-          institution: Swansea University
-          country: UK
-        - name: Donald McMillan
-          institution: Stockholm University
-          country: Sweden
-        - name: Ilaria Torre
-          institution: KTH
-          country: Sweden
+tracks:
+    label: Track chairs
+    roles:
+        full_paper:
+            label: Full Papers Chairs
+            email: https://spamty.eu/show/v6/440/8f6666dedbeeee664c438571/
+            people:
+              - name: Benjamin Cowan
+                institution: University College Dublin
+                country: Ireland
+              - name: Minha Lee
+                institution: Eindhoven University of Technology
+                country: Netherlands
+              - name: Bob Moore
+                institution: IBM Research
+                country: USA
 
-    - label: Posters Chairs
-      email: https://spamty.eu/show/v6/475/4db6e6563d04cc6b8f12b7be/
-      people:
-        - name: Cosmin Munteanu
-          institution: University of Toronto
-          country: Canada
-        - name: Moira McGregor
-          institution: Brunel University London
-          country: UK
-        - name: Emer Gilmartin
-          institution: Trinity College Dublin
-          country: Ireland
+        provocation_papers:
+            label: Provocation Papers Chairs
+            email: https://spamty.eu/show/v6/442/61e433db8584ac32cf3be9c9/
+            people:
+              - name: Jennifer Pearson
+                institution: Swansea University
+                country: UK
+              - name: Donald McMillan
+                institution: Stockholm University
+                country: Sweden
+              - name: Ilaria Torre
+                institution: KTH
+                country: Sweden
 
-    - label: Demos Chairs
-      email: https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/
-      people:
-        - name: Heloisa Candello
-          institution: IBM Research
-          country: Brazil
-        - name: Christine Murad
-          institution: University of Toronto
-          country: Canada
-        - name: Philip Doyle
-          institution: University College Dublin
-          country: Ireland
+        posters:
+            label: Posters Chairs
+            email: https://spamty.eu/show/v6/475/4db6e6563d04cc6b8f12b7be/
+            people:
+              - name: Cosmin Munteanu
+                institution: University of Toronto
+                country: Canada
+              - name: Moira McGregor
+                institution: Brunel University London
+                country: UK
+              - name: Emer Gilmartin
+                institution: Trinity College Dublin
+                country: Ireland
 
-    - label: Featured Talks Chairs
-      email: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
-      people:
-        - name: Selina Sutton
-          institution: Northumbria University
-          country: UK
-        - name: Martin Porcheron
-          institution: Swansea University
-          country: UK
-        - name: Stuart Reeves
-          institution: University of Nottingham
-          country: UK
+        demos:
+            label: Demos Chairs
+            email: https://spamty.eu/show/v6/439/25bd933bfedaf450f74c416c/
+            people:
+              - name: Heloisa Candello
+                institution: IBM Research
+                country: Brazil
+              - name: Christine Murad
+                institution: University of Toronto
+                country: Canada
+              - name: Philip Doyle
+                institution: University College Dublin
+                country: Ireland
+
+        featured_talks:
+            label: Featured Talks Chairs
+            email: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
+            people:
+              - name: Selina Sutton
+                institution: Northumbria University
+                country: UK
+              - name: Martin Porcheron
+                institution: Swansea University
+                country: UK
+              - name: Stuart Reeves
+                institution: University of Nottingham
+                country: UK

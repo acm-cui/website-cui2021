@@ -8,28 +8,27 @@ description: The Organising Committee for the !!conference.year!! !!conference.f
 The following people have volunteered their time to assist in the organisation of {{ site.conference.short_name }} {{ site.conference.year }}.
 
 {% for group in site.data.oc %}
-<h2 class="mt-3">{{ group.label }}</h2>
+<h2 class="mt-3">{{ group[1].label }}</h2>
 
-{% assign num_roles_chairs = group['roles'] | size %}
-{% assign half_num_roles_chairs = num_roles_chairs | divided_by: 2 %}
-{% assign half_num_roles_chairs = half_num_roles_chairs | plus: 1 %}
+{% assign num_roles_chairs = group[1]['roles'] | size %}
+{% assign half_num_roles_chairs = num_roles_chairs | divided_by: 2 | plus: 1 %}
 
 <div class="row">
 	<div class="col-md-6 col-12 mblast-0">
-        {% for role in group['roles'] offset:0 limit:half_num_roles_chairs %}
-		<h3>{{ role.label }} <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role.label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+        {% for role in group[1]['roles'] offset:0 limit:half_num_roles_chairs %}
+		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">
-			{% for people in role['people'] %}
+			{% for people in role[1]['people'] %}
             <li class="pb-1">{{ people.name }}<br><em class="text-muted small">{{ people.institution }}, {{ people.country }}</em></li>
 			{% endfor %}
 		</ul>
         {% endfor %}
 	</div>
 	<div class="col-md-6 col-12 mblast-0">
-        {% for role in group['roles'] offset:half_num_roles_chairs %}
-		<h3>{{ role.label }} <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role.label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+        {% for role in group[1]['roles'] offset:half_num_roles_chairs %}
+		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
 		<ul class="list-unstyled">
-			{% for people in role['people'] %}
+			{% for people in role[1]['people'] %}
             <li class="pb-1">{{ people.name }}<br><em class="text-muted small">{{ people.institution }}, {{ people.country }}</em></li>
 			{% endfor %}
 		</ul>
