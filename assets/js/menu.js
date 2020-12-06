@@ -1,15 +1,15 @@
 
-const showClassName = 'show';
-const showClass = '.' + showClassName;
-const notShownClass = ':not(' + showClass +')';
-const dropdownClass = '.dropdown';
-const dropdownMenuClass = '.dropdown-menu';
-const dropdownMenuShownClass = dropdownMenuClass + showClass;
+var showClassName = 'show';
+var showClass = '.' + showClassName;
+var notShownClass = ':not(' + showClass +')';
+var dropdownClass = '.dropdown';
+var dropdownMenuClass = '.dropdown-menu';
+var dropdownMenuShownClass = dropdownMenuClass + showClass;
 
-const $dropdown = $(dropdownClass);
-const $dropdownToggle = $(".dropdown-toggle");
-const $dropdownMenu = $(dropdownMenuClass);
-const $dropdownMenuVisible = $(dropdownClass + showClass);
+var $dropdown = $(dropdownClass);
+var $dropdownToggle = $(".dropdown-toggle");
+var $dropdownMenu = $(dropdownMenuClass);
+var $dropdownMenuVisible = $(dropdownClass + showClass);
 
 $(window).on('load', function() {
     $('nav .dropdown-menu').on('shown.bs.collapse', function () {
