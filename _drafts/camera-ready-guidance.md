@@ -37,7 +37,7 @@ The generation of the {{ site.conference.short_name }} {{ site.conference.year }
 
 ## 5b. Apply the ACM Master Article template <span class="badge badge-secondary">Microsoft Word users only</span>
 
-The generation of the {{ site.conference.short_name }} {{ site.conference.year }} proceedings is automated (i.e., you supply the source Word file and the final outputs are automatically compiled from this document). Authors who prepared their paper in Microsoft Word must apply the ACM Master Article Template to their document. Information on how to do this is avaialble in [this PDF](https://www.acm.org/binaries/content/assets/publications/taps/acm_master_article_template_instructions.pdf "Instructions for Applying the Master Article Template to your Accepted ACM Submission Document").
+The generation of the {{ site.conference.short_name }} {{ site.conference.year }} proceedings is automated (i.e., you supply the source Word file and the final outputs are automatically compiled from this document). Authors who prepared their paper in Microsoft Word must apply the ACM Master Article Template to their document. Information on how to do this is available  in [this PDF](https://www.acm.org/binaries/content/assets/publications/taps/acm_master_article_template_instructions.pdf "Instructions for Applying the Master Article Template to your Accepted ACM Submission Document").
 
 ## 6. Upload the final document source code to TAPS
 
