@@ -13,7 +13,7 @@ full_papers:
   -  label: Final notifications
      date: 16th April 2021
 
-  -  label: Camera ready due
+  -  label: Camera-ready due
      date: 28th May 2021
 
 provocation_papers:
@@ -23,7 +23,7 @@ provocation_papers:
   -  label: Notifications
      date: 7th May 2021
 
-  -  label: Camera ready due
+  -  label: Camera-ready due
      date: 28th May 2021
 
 posters:
@@ -33,7 +33,7 @@ posters:
   -  label: Notifications
      date: 7th May 2021
 
-  -  label: Camera ready due
+  -  label: Camera-ready due
      date: 28th May 2021
 
 demos:
@@ -43,7 +43,7 @@ demos:
   -  label: Notifications
      date: 7th May 2021
 
-  -  label: Camera ready due
+  -  label: Camera-ready due
      date: 28th May 2021
 
 featured_talks:
