@@ -7,10 +7,11 @@ $transition-duration:                 .5s;
 
 $nav-bg:                              rgba($white, 0.2);
 $nav-bg-sm:                           rgba($white, 0.5);
-$nav-bg-fx:                           rgba($white, 0.95);
+$nav-bg-fx:                           rgba($white, 0.9);
 $nav-bg-filter:                       saturate(180%) blur(20px);
 $nav-border:                          1px solid rgba($white,0.45);
-$nav-height:                          56px;
+$nav-height:                          48px;
+$nav-md-height:                       56px;
 
 $nav-item-border:                     1px solid rgba($black,0.05);
 $navbar-toggler-p:                    $spacer*.75 0;;
@@ -19,23 +20,31 @@ $navbar-toggler-color:                $black;
 $homepage-banner-w:                   300px;
 
 $header-bg-imgs: (
-  xs: url(../img/masthead-xs.png),
-  sm: url(../img/masthead-sm.png),
-  md: url(../img/masthead-md.png),
-  lg: url(../img/masthead-lg.png),
-  xl: url(../img/masthead-xl.png)
+  xs: url(../img/masthead-bg-xs.png),
+  sm: url(../img/masthead-bg-sm.png),
+  md: url(../img/masthead-bg-md.png),
+  lg: url(../img/masthead-bg-lg.png),
+  xl: url(../img/masthead-bg-xl.png)
+);
+
+$header-fg-imgs: (
+  xs: url(../img/masthead-fg-xs.png),
+  sm: url(../img/masthead-fg-sm.png),
+  md: url(../img/masthead-fg-md.png),
+  lg: url(../img/masthead-fg-lg.png),
+  xl: url(../img/masthead-fg-xl.png)
 );
 
 $header-logo-ws: (
-  xs: 270px,
-  sm: 225px,
-  md: 300px,
-  lg: 380px,
-  xl: 590px
+  xs: 321px,
+  sm: 398px,
+  md: 490px,
+  lg: 587px,
+  xl: 671px
 );
 $header-logo-hs: (
-  xs: 300px,
-  sm: 285px,
+  xs: 230px,
+  sm: 277px,
   md: 350px,
   lg: 420px,
   xl: 480px
@@ -45,7 +54,7 @@ $navbar-color:                        $black;
 $navbar-hover-color:                  $black;
 
 $main-mt: (
-  xs: 142px,
+  xs: 107.5px,
   sm: 130px,
   md: 168px,
   lg: 203px,

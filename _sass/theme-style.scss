@@ -164,6 +164,7 @@ footer {
   
     &.navbar {
       border-top: $nav-border;
+      margin-top: -$nav-height;
       position: relative;
     }
   }
@@ -172,6 +173,7 @@ footer {
 @include media-breakpoint-up(md) {
   nav {
     &.navbar {
+      margin-top: -$nav-md-height;
       padding: $spacer/2 $spacer;
     }
 
@@ -194,7 +196,9 @@ footer {
       min-height: map-get($header-logo-hs, $breakpoint);
       
       .logo {
-        height: map-get($header-logo-hs, $breakpoint) - $nav-height;
+        background-image: map-get($header-fg-imgs, $breakpoint);
+        background-size: 100%;
+        height: map-get($header-logo-hs, $breakpoint);
         width: map-get($header-logo-ws, $breakpoint);
       }
     }
@@ -205,4 +209,10 @@ footer {
   }
 }
 
+@-moz-document url-prefix() {
+  nav.navbar {
+    background-color: $nav-bg-fx;
+    border: 0 !important;
+  }
+}
 
