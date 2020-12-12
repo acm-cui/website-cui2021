@@ -55,9 +55,21 @@
 @import "theme-variables";
 @import "theme-style";
 
+.d-lt-none {
+  display: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
 @import "theme-variables-dark";
 @import "theme-colors";
+
+.d-lt-none {
+  display: inherit !important;
+}
+
+.d-dk-none {
+  display: none !important;
+}
 }
 
 @import "print";

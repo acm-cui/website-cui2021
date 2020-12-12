@@ -42,10 +42,12 @@ description: >
 
 	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex flex-column align-items-start align-items-center my-md-0 my-5 px-md-0 px-5">
 		<a href="https://acm.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference">
-			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="homepage-banner">
+			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
+			<img src="{{ "/assets/img/banner-acmincoop-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
 		</a>
 		<a href="https://sigchi.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference">
-			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 homepage-banner">
+			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
+			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
 		<!--<a href="https://acm.org/" title="The {{ site.conference.short_name }} {{ site.conference.year }} will be published in the ACM International Conference Proceedings Series">
 			<img src="{{ "/assets/img/banner-acmicps.png" | relative_url }}" alt="ACM ICPS logo" title="The {{ site.conference.short_name }} {{ site.conference.year }} will be published in the ACM International Conference Proceedings Series" class="mt-md-3 mt-5 homepage-banner">
