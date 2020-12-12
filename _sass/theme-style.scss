@@ -14,10 +14,26 @@ header {
   z-index: 100;
 }
 
+.navpopup-toggler {
+  position: absolute;
+  top: $navpopup-toggler-t;
+  right: $navpopup-toggler-r;
+  height: $navpopup-toggler-h;
+  width: $navpopup-toggler-w;
+  
+  .open {
+    position: fixed;
+  }
+  .close {
+    position: absolute;
+  }
+}
+
 nav {
   max-height: 100%;
   overflow-y: scroll;
-
+  opacity: 0;
+  
   &.navbar {
     position: fixed;
     left: 0;
@@ -25,22 +41,21 @@ nav {
     top: 0;
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
-    transition-property: box-shadow;
+    transition-property: box-shadow, opacity;
     z-index: 1030;
+  }
+
+
+  &.nav-inisible {
+    display: none;
   }
   
   .nav-link {
     font-weight: normal;
   }
   
-  .navbar-toggler {
-    padding: $navbar-toggler-p;
-    width: 100%;
-  }
-  
-  .navbar-toggler, .dropdown-toggle {
+  .dropdown-toggle {
     @include caret('right');
-
     
     &::after {
       vertical-align: 0;
@@ -138,28 +153,20 @@ h3 {
   }
 }
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(md) {
   nav {
     max-height: unset;
     overflow: unset;
-
-    .navbar-toggler {
-      margin-bottom: 0rem;
-      margin-top: 0rem;
+    
+    &.nav-inisible {
+      display: flex;
+      opacity: 1 !important;
     }
   
     &.navbar {
-      margin-top: -$nav-height;
-      position: relative;
-    }
-  }
-}
-
-@include media-breakpoint-up(md) {
-  nav {
-    &.navbar {
       margin-top: -$nav-md-height;
       padding: $spacer/2 $spacer;
+      position: relative;
     }
 
     .nav-item {

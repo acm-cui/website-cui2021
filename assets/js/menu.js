@@ -12,6 +12,28 @@ var $dropdownMenu = $(dropdownMenuClass);
 var $dropdownMenuVisible = $(dropdownClass + showClass);
 
 $(window).on('load', function() {
+    $(document).keyup(function(e) {
+        if (e.key === "Escape" && !$navbar.hasClass('nav-inisible')) {
+            $('.navbar').css('opacity', 0);
+            $('body').css('overflow', 'auto');
+            setTimeout(function() {$('.navbar').addClass('nav-inisible')}, 500);
+        }
+    });
+    
+    $('.navpopup-toggler').on('click', function() {
+        $navbar = $('.navbar');
+        if ($navbar.hasClass('nav-inisible')) {
+            console.log('make visible');
+            $('.navbar').removeClass('nav-inisible');
+            setTimeout(function() {$('.navbar').css('opacity', 1);$('body').css('overflow', 'hidden');}, 50);      
+        } else {
+            console.log('make invisible');
+            $('.navbar').css('opacity', 0);
+            $('body').css('overflow', 'auto');
+            setTimeout(function() {$('.navbar').addClass('nav-inisible')}, 500);
+        }
+    });
+  
     $('nav .dropdown-menu').on('shown.bs.collapse', function () {
         if (window.innerWidth >= 768) {
             $(dropdownMenuShownClass).parent(notShownClass).find(dropdownMenuClass).each(function() {$(this).collapse('hide')});

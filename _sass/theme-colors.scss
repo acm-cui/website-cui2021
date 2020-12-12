@@ -19,6 +19,22 @@ header {
   }
 }
 
+
+.navpopup-toggler {
+  border: $navpopup-toggler-border !important;
+  color: $navbar-toggler-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  &.open {
+    background-image: escape-svg($navpopup-toggler-icon-bg) !important;
+  }
+  
+  &.close {
+    background-image: escape-svg($navpopup-toggler-close-icon-bg) !important;
+  }
+}
+
 nav {
   background-color: $nav-bg;
   -webkit-backdrop-filter: $nav-bg-filter;
@@ -42,10 +58,6 @@ nav {
     @include hover-focus() {
       color: $navbar-hover-color;
     }
-  }
-  
-  .navbar-toggler {
-    color: $navbar-toggler-color;
   }
   
   .dropdown-menu {
