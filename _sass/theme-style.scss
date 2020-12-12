@@ -34,18 +34,27 @@ nav {
   }
   
   .navbar-toggler {
-    @include caret('right');
     padding: $navbar-toggler-p;
     width: 100%;
+  }
+  
+  .navbar-toggler, .dropdown-toggle {
+    @include caret('right');
+
     
     &::after {
       vertical-align: 0;
     }
+
+    &[aria-expanded="true"] {
+      @include caret('down');
+    
+      &::after {
+        transform: translateY(50%);
+      }
+    }
   }
   
-  .navbar-toggler[aria-expanded="true"], .dropdown-toggle[aria-expanded="true"] {
-    @include caret('up');
-  }
   
   .dropdown-menu {
     a:first-child {
@@ -137,7 +146,6 @@ h3 {
     .navbar-toggler {
       margin-bottom: 0rem;
       margin-top: 0rem;
-      padding: $spacer*.75 0;
     }
   
     &.navbar {
@@ -156,6 +164,16 @@ h3 {
 
     .nav-item {
       border-top: 0;
+    }
+  
+    .dropdown-toggle {
+      @include caret('down');
+      
+      &::after {
+        transition-timing-function: $transition-timing-function;
+        transition-duration: $transition-duration/2;
+        transition-property: all;
+      }
     }
     
     .dropdown-menu {
