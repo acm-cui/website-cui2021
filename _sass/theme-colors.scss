@@ -1,0 +1,94 @@
+body {
+  background: $body-bg;
+  color: $body-fg;
+}
+
+a {
+  color: $link-color;
+
+  @include hover() {
+    color: $link-hover-color;
+  }
+}
+
+header {
+  box-shadow: $box-shadow !important;
+  
+  & .prefill {
+    background: $header-bg-prefill;
+  }
+}
+
+nav {
+  background-color: $nav-bg;
+  -webkit-backdrop-filter: $nav-bg-filter;
+  backdrop-filter: $nav-bg-filter;
+  
+  &.navbar {
+    border-bottom: $nav-border;
+  }
+  
+  .nav-item {
+    border-top: $nav-item-border;
+    
+    &:first-child {
+      border-top: 0;
+    }
+  }
+  
+  .nav-link {
+    color: $navbar-color;
+    
+    @include hover-focus() {
+      color: $navbar-hover-color;
+    }
+  }
+  
+  .navbar-toggler {
+    color: $navbar-toggler-color;
+  }
+  
+  .dropdown-menu {
+    background: $dropdown-bg;
+    border-color: $dropdown-border-color;
+  }
+  
+  .dropdown-item {
+    color: $dropdown-link-color;
+
+    @include hover-focus() {
+      color: $dropdown-link-hover-color;
+      @include gradient-bg($dropdown-link-hover-bg);
+    }
+  }
+  
+  .dropdown-divider {
+    @include nav-divider($dropdown-divider-bg, $dropdown-divider-margin-y, true);
+  }
+}
+
+.prg {
+  .prg-row {
+    opacity: $prg-row-o;
+  }
+}
+      
+.text-muted { color: $text-muted !important; }
+
+@include media-breakpoint-up(sm) {
+  header {
+    box-shadow: none !important;
+  }
+
+  nav {
+    background-color: $nav-bg-sm;
+  }
+}
+
+@-moz-document url-prefix() {
+  nav.navbar {
+    background-color: $nav-bg-fx;
+    border: 0 !important;
+  }
+}
+

@@ -2,9 +2,12 @@ body {
   max-width: $body-max-width;
 }
 
+a {
+  font-weight: bold;
+}
+
 header {
   background-repeat: no-repeat;
-  box-shadow: $box-shadow !important;
   position: absolute;
   max-width: $body-max-width;
   top: 0;
@@ -12,12 +15,10 @@ header {
 }
 
 nav {
-  background-color: $nav-bg;
-  -webkit-backdrop-filter: $nav-bg-filter;
-  backdrop-filter: $nav-bg-filter;
-  
+  max-height: 100%;
+  overflow-y: scroll;
+
   &.navbar {
-    border-bottom: $nav-border;
     position: fixed;
     left: 0;
     right: 0;
@@ -28,27 +29,18 @@ nav {
     z-index: 1030;
   }
   
-  .nav-item {
-    border-top: $nav-item-border;
-    
-    &:first-child {
-      border-top: 0;
-    }
-  }
-  
   .nav-link {
-    color: $navbar-color;
-    
-    @include hover-focus() {
-      color: $navbar-hover-color;
-    }
+    font-weight: normal;
   }
   
   .navbar-toggler {
-    @include caret('down');
-    color: $navbar-toggler-color;
+    @include caret('right');
     padding: $navbar-toggler-p;
     width: 100%;
+    
+    &::after {
+      vertical-align: 0;
+    }
   }
   
   .navbar-toggler[aria-expanded="true"], .dropdown-toggle[aria-expanded="true"] {
@@ -56,12 +48,6 @@ nav {
   }
   
   .dropdown-menu {
-    border-color: $white;
-    margin: 0 1rem;
-    transition-timing-function: $transition-timing-function;
-    transition-duration: $transition-duration;
-    transition-property: height, margin;
-
     a:first-child {
       margin-top: 2*$spacer/3;
     }
@@ -110,7 +96,6 @@ h3 {
 
 .prg {
   .prg-row {
-    opacity: $prg-row-o;
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
     transition-property: opacity;
@@ -138,10 +123,6 @@ h3 {
   }
 }
 
-footer {
-  padding-bottom: 5rem;
-}
-
 @supports (-webkit-touch-callout: none) {
   footer {
     padding-bottom: env(safe-area-inset-bottom);
@@ -149,12 +130,9 @@ footer {
 }
 
 @include media-breakpoint-up(sm) {
-  header {
-    box-shadow: none !important;
-  }
-
   nav {
-    background-color: $nav-bg-sm;
+    max-height: unset;
+    overflow: unset;
 
     .navbar-toggler {
       margin-bottom: 0rem;
@@ -163,7 +141,6 @@ footer {
     }
   
     &.navbar {
-      border-top: $nav-border;
       margin-top: -$nav-height;
       position: relative;
     }
@@ -182,6 +159,7 @@ footer {
     }
     
     .dropdown-menu {
+      border-top: 0 !important;
       border-top-left-radius: 0;
       border-top-right-radius: 0;
       margin: 0;
@@ -194,10 +172,16 @@ footer {
     header {
       background-image: map-get($header-bg-imgs, $breakpoint);
       min-height: map-get($header-logo-hs, $breakpoint);
+  
+      & .prefill {
+        background: $header-bg-prefill;
+        min-height: map-get($header-logo-hs, $breakpoint);
+      }
       
       .logo {
         background-image: map-get($header-fg-imgs, $breakpoint);
         background-size: 100%;
+        margin-top: - map-get($header-logo-hs, $breakpoint);
         height: map-get($header-logo-hs, $breakpoint);
         width: map-get($header-logo-ws, $breakpoint);
       }

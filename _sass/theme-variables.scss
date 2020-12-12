@@ -1,21 +1,13 @@
 
-$primary:                             #A92B7A;
 $body-max-width:                      2000px;
 
 $transition-timing-function:          ease-in-out;
 $transition-duration:                 .5s;
 
-$nav-bg:                              rgba($white, 0.2);
-$nav-bg-sm:                           rgba($white, 0.5);
-$nav-bg-fx:                           rgba($white, 0.9);
-$nav-bg-filter:                       saturate(180%) blur(20px);
-$nav-border:                          1px solid rgba($white,0.45);
 $nav-height:                          48px;
 $nav-md-height:                       56px;
 
-$nav-item-border:                     1px solid rgba($black,0.05);
-$navbar-toggler-p:                    $spacer*.75 0;;
-$navbar-toggler-color:                $black;
+$navbar-toggler-p:                    $spacer*.75 0;
 
 $homepage-banner-w:                   300px;
 
@@ -50,9 +42,6 @@ $header-logo-hs: (
   xl: 480px
 );
 
-$navbar-color:                        $black;
-$navbar-hover-color:                  $black;
-
 $main-mt: (
   xs: 107.5px,
   sm: 130px,
@@ -69,6 +58,5 @@ $h3-p:                                $spacer/2 0;
 $icon-email-w:                        1.5rem;
 $icon-email-mt:                       -2px;
 
-$prg-row-o:                           .75;
 $prg-icon-large-w:                    $icon-email-w;
 $prg-icon-timing-w:                   $icon-email-w/1.5;

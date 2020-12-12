@@ -1,0 +1,36 @@
+
+$body-bg:                             #191b22;
+$body-fg:                             #c9d1d9;
+
+$text-muted:                          #A2A8AE;
+
+$primary:                             #A92B7A;
+
+$link-color:                          #ffffff;
+$link-hover-color:                    #ffffff;
+
+$nav-bg:                              rgba(#0d1117, 0.2);
+$nav-bg-sm:                           rgba(#0d1117, 0.5);
+$nav-bg-fx:                           rgba(#0d1117, 0.9);
+$nav-bg-filter:                       saturate(180%) blur(20px);
+$nav-border:                          0;
+
+$nav-item-border:                     1px solid rgba(#000000, 0.05);
+$navbar-toggler-color:                #ffffff;
+
+$header-bg-prefill:                   rgba(0,0,0,.4);
+
+$homepage-banner-w:                   300px;
+
+$navbar-color:                        #ffffff;
+$navbar-hover-color:                  #ffffff;
+
+$dropdown-bg:                         #20252c;
+$dropdown-border-color:               #30363d;
+$dropdown-link-color:                 #ffffff;
+$dropdown-link-hover-color:           $dropdown-link-color;
+$dropdown-link-hover-bg:              lighten($dropdown-bg, 15%);
+$dropdown-divider-bg:                 $dropdown-border-color;
+
+$prg-row-o:                           .75;
+
