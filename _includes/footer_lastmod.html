@@ -10,7 +10,7 @@
     
 {% elsif page.path contains 'organising-committee' %}
 
-	{% capture timestamp_date %}{{ "oc.yml" | data_file_last_mod: "%d" }}{% endcapture %}
+	{% capture timestamp_date %}{{ "oc.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
 	{% capture timestamp_rest %}{{ "oc.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
     
 	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
@@ -27,7 +27,7 @@
 
 {% elsif page.path contains 'programme-committee' %}
 
-	{% capture timestamp_date %}{{ "pc.csv" | data_file_last_mod: "%d" }}{% endcapture %}
+	{% capture timestamp_date %}{{ "pc.csv" | data_file_last_mod: "%-d" }}{% endcapture %}
 	{% capture timestamp_rest %}{{ "pc.csv" | data_file_last_mod: "%B %Y" }}{% endcapture %}
     
 	{% if timestamp_date == "1" or timestamp_date == "21" or timestamp_date == "31" -%}
@@ -50,18 +50,18 @@
     
     {% if timestamp_days_unix > timestamp_sessions_unix %}
         {% if timestamp_days_unix > timestamp_presentations_unix %}
-            {% capture timestamp_date %}{{ "days.yml" | data_file_last_mod: "%d" }}{% endcapture %}
+            {% capture timestamp_date %}{{ "days.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
         	{% capture timestamp_rest %}{{ "days.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
         {% else %}
-            {% capture timestamp_date %}{{ "presentations.yml" | data_file_last_mod: "%d" }}{% endcapture %}
+            {% capture timestamp_date %}{{ "presentations.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
         	{% capture timestamp_rest %}{{ "presentations.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
         {% endif %}
     {% else %}
         {% if timestamp_sessions_unix > timestamp_presentations_unix %}
-            {% capture timestamp_date %}{{ "sessions.yml" | data_file_last_mod: "%d" }}{% endcapture %}
+            {% capture timestamp_date %}{{ "sessions.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
         	{% capture timestamp_rest %}{{ "sessions.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
         {% else %}
-            {% capture timestamp_date %}{{ "presentations.yml" | data_file_last_mod: "%d" }}{% endcapture %}
+            {% capture timestamp_date %}{{ "presentations.yml" | data_file_last_mod: "%-d" }}{% endcapture %}
         	{% capture timestamp_rest %}{{ "presentations.yml" | data_file_last_mod: "%B %Y" }}{% endcapture %}
         {% endif %}
     {% endif %}
