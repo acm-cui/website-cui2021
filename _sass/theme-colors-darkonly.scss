@@ -9,6 +9,8 @@ header {
 .bg-white { background-color: $bg-lighter !important; }
 .border { border: 1px solid $bg-even-lighter !important; }
 
+hr { border-color: $bg-lightest; }
+
 .list-group-item {
   color: $white !important;
   background-color: $bg-even-lighter !important;

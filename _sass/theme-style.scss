@@ -108,8 +108,16 @@ h3 {
 }
 
 .icon-email {
-  margin-top: $icon-email-mt;
+  height: $icon-email-h;
   width: $icon-email-w;
+  transition-timing-function: $transition-timing-function;
+  transition-duration: $transition-duration;
+  transition-property: opacity;
+  opacity: $icon-email-o;
+  
+  @include hover-focus() {
+    opacity: 1;
+  }
 }
 
 .mblast-0 {

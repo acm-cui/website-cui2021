@@ -16,7 +16,7 @@ The following people have volunteered their time to assist in the organisation o
 <div class="row">
 	<div class="col-md-6 col-12 mblast-0">
         {% for role in group[1]['roles'] offset:0 limit:half_num_roles_chairs %}
-		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><span alt="An envelope icon" class="d-inline-block icon-email ml-1"></span></a></h3>
 		<ul class="list-unstyled">
 			{% for people in role[1]['people'] %}
             <li class="pb-1">{{ people.name }}<br><em class="text-muted small">{{ people.institution }}, {{ people.country }}</em></li>
@@ -26,7 +26,7 @@ The following people have volunteered their time to assist in the organisation o
 	</div>
 	<div class="col-md-6 col-12 mblast-0">
         {% for role in group[1]['roles'] offset:half_num_roles_chairs %}
-		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><img src="{{ "assets/img/envelope.svg" | relative_url }}" alt="An envelope icon" class="icon-email ml-1"></a></h3>
+		<h3>{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><span alt="An envelope icon" class="d-inline-block icon-email ml-1"></span></a></h3>
 		<ul class="list-unstyled">
 			{% for people in role[1]['people'] %}
             <li class="pb-1">{{ people.name }}<br><em class="text-muted small">{{ people.institution }}, {{ people.country }}</em></li>

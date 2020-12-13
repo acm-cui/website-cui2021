@@ -75,6 +75,10 @@ nav {
   }
 }
 
+.icon-email {
+  background-image: escape-svg($icon-email-bg) !important;
+}
+
 .prg {
   .prg-row {
     opacity: $prg-row-o;
