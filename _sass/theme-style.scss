@@ -15,16 +15,19 @@ header {
 }
 
 .navpopup-toggler {
-  position: absolute;
   top: $navpopup-toggler-t;
   right: $navpopup-toggler-r;
   height: $navpopup-toggler-h;
   width: $navpopup-toggler-w;
+  transition-timing-function: $transition-timing-function;
+  transition-duration: $transition-duration;
+  transition-property: box-shadow, background;
   
-  .open {
+  &.open {
     position: fixed;
   }
-  .close {
+
+  &.close {
     position: absolute;
   }
 }
@@ -72,20 +75,19 @@ nav {
   
   
   .dropdown-menu {
+    &.collapsing, &.show {
+      display: block;
+      margin-bottom: 0;
+    }
+
     a:first-child {
-      margin-top: 2*$spacer/3;
+      border-top-left-radius: $border-radius;
+      border-top-right-radius: $border-radius;
     }
 
     a:last-child {
-      margin-bottom: 2*$spacer/3;
-    }
-
-    &.collapsing {
-        display: block;
-    }
-    
-    &.collapsing, &.show {
-      margin-bottom: 1rem !important;
+      border-bottom-left-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
     }
   }
 }
@@ -207,6 +209,18 @@ h3 {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
       margin: 0;
+
+      a {
+        border-radius: 0 !important;
+      }
+
+      a:first-child {
+        margin-top: 2*$spacer/3;
+      }
+
+      a:last-child {
+        margin-bottom: 2*$spacer/3;
+      }
     }
   }
 }

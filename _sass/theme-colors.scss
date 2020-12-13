@@ -23,11 +23,17 @@ header {
   background-position: center;
   
   &.open {
+    background-color: $navpopup-toggler-bg;
     background-image: escape-svg($navpopup-toggler-icon-bg) !important;
   }
   
   &.close {
     background-image: escape-svg($navpopup-toggler-close-icon-bg) !important;
+  }
+
+  @include hover-focus() {
+    background-color: $navpopup-toggler-hover-bg;
+    box-shadow: $box-shadow !important;
   }
 }
 
@@ -35,18 +41,6 @@ nav {
   background-color: $nav-bg;
   -webkit-backdrop-filter: $nav-bg-filter;
   backdrop-filter: $nav-bg-filter;
-  
-  &.navbar {
-    border-bottom: $nav-border;
-  }
-  
-  .nav-item {
-    border-top: $nav-item-border;
-    
-    &:first-child {
-      border-top: 0;
-    }
-  }
   
   .nav-link {
     color: $navbar-color;
@@ -58,7 +52,7 @@ nav {
   
   .dropdown-menu {
     background: $dropdown-bg;
-    border-color: $dropdown-border-color;
+    border-width: 0;
   }
   
   .dropdown-item {
@@ -112,6 +106,15 @@ nav {
 
   nav {
     background-color: $nav-bg-sm;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  nav {
+    .dropdown-menu {
+      border: $dropdown-border-width solid $dropdown-border-color;
+      box-shadow: $box-shadow !important;
+    }
   }
 }
 
