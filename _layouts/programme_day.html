@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign session_day = page.name | replace: ".html", "" %}
 {% assign session_day = session_day | replace: "-", "_" %}
+
 <section class="main-body main-singleton">
 	<div class="main-title py-4 text-md-left text-center">
 		<h1 class="m-0 p-0"><a href="{{ "/programme/" | relative_url }}" title="Go to the overview of the entire programme">Programme</a> &raquo; {{ page.title | escape }}</h1>
@@ -11,7 +12,7 @@ layout: default
 		<article>
             <p>The below events are scheduled to take place on <span class="text-lowercase">{{ page.title }}</span> ({{ page.day }}) of the conference. The times shown below <span class="timezone"></span><noscript>are in UTC</noscript>.</p>
             <ul class="list-unstyled prg">
-            {%- for session in site.data.sessions[session_day] %}
+            {%- for session in site.data.prg_sessions[session_day] %}
                 {% if session.type == "Break" %}
                 <li class="media mb-1 p-3" id="session-{{ forloop.index0 }}">
                     <div class="media-body text-center text-muted">
@@ -25,20 +26,20 @@ layout: default
                     <div class="mr-3">
                         <div class="badge badge-primary text-capitalize mb-2 mr-3">{{ session.type }}</div>
                         <div class="mb-1 small">
-                            <img src="{{ "/assets/img/clock.svg" | relative_url }}" alt="A clock" class="prg-icon-timing">&nbsp; Starts at <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span><noscript>{{ session.start_time | date: "%H:%M" }}</noscript>
+                            <span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts at <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span><noscript>{{ session.start_time | date: "%H:%M" }}</noscript></span>
                         </div>
                         <div class="mt-1 small">
-                            <img src="{{ "/assets/img/stopwatch.svg" | relative_url }}" alt="A stopwatch" class="prg-icon-timing">&nbsp; Ends at <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span><noscript>{{ session.end_time | date: "%H:%M" }}</noscript>
+                            <span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span><noscript>{{ session.end_time | date: "%H:%M" }}</noscript></span>
                         </div>
-                        <div class="mt-3 small different-day d-none" id="different-day-{{ forloop.index0 }}">
-                            <img src="{{ "/assets/img/exclamation-triangle.svg" | relative_url }}" alt="An exclamation mark in a triangle" class="prg-icon-timing">&nbsp; This event starts on<br><strong class="ml-4"></strong>
+                        <div class="mt-3 small different-day " id="different-day-{{ forloop.index0 }}">
+                            <span alt="An exclamation mark in a triangle" class="d-inline-block prg-icon-timing prg-icon-warning mr-2"></span><span class="d-inline-block prg-text-timing">This event starts on<br><strong></strong></span>
                         </div>
                     </div>
                     <div class="media-body">
                         {% if session.youtube %}
                         <div class="float-right">
-                            <a href="{{ session.youtube }}" title="Attend the session on YouTube" class="mr-4">
-                               <img src="{{ "/assets/img/youtube.svg" | relative_url }}" alt="YouTube logo" class="prg-icon-large">
+                            <a href="{{ session.youtube }}" title="Watch the session on YouTube" class="d-block prg-icon-yt mr-4">
+								<span class="sr-only">Watch on YouTube</span>
                             </a>
                         </div>
                         {% endif %}
@@ -50,15 +51,15 @@ layout: default
                         <em class="small">Chaired by {{ session.chairs }}</em>
                         {% endif %}
 
-                        {% assign presentations = site.data.presentations[session.id] %}
+                        {% assign presentations = site.data.prg_presentations[session.id] %}
                         {% if presentations.size > 0 %}
                         <ol class="list-group mt-2">
-                        {%- for presentation in site.data.presentations[session.id] %}
+                        {%- for presentation in site.data.prg_presentations[session.id] %}
                             <li class="list-group-item">
                                 {% if presentation.acmdl %}
                                 <div class="float-right">
-                                    <a href="{{ session.acmdl }}" title="See the paper in the ACM Digital Library" class="prg-inner-icon">
-                                       <img src="{{ "/assets/img/acmdl.svg" | relative_url }}" alt="ACM Digital Library logo" class="prg-icon-large">
+                                    <a href="{{ session.acmdl }}" title="See the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
+										<span class="sr-only">View paper on the ACM DL</span>
                                     </a>
                                 </div>
                                 {% endif %}

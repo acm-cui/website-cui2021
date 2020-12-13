@@ -62,6 +62,7 @@
 @media (prefers-color-scheme: dark) {
 @import "theme-variables-dark";
 @import "theme-colors";
+@import "theme-colors-darkonly";
 
 .d-lt-none {
   display: inherit !important;

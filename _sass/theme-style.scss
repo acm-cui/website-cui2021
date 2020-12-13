@@ -133,17 +133,28 @@ h3 {
     font-weight: bold;
   }
   
-  .prg-icon-timing {
-    margin-top: -.1rem;
+  .prg-inner-icon {
+    margin-right: .2rem;
+  }
+  
+  .prg-icon-start, .prg-icon-end, .prg-icon-warning {
+    height: $prg-icon-timing-h;
     width: $prg-icon-timing-w;
   }
   
-  .prg-icon-large {
-    width: $prg-icon-large-w;
+  .prg-text-timing {
+    line-height: $prg-icon-timing-h;
+    vertical-align: top;
   }
-  
-  .prg-inner-icon {
-    margin-right: .2rem;
+
+  .prg-icon-acmdl {
+    height: $prg-icon-acmdl-h;
+    width: $prg-icon-acmdl-w;
+  }
+
+  .prg-icon-yt {
+    height: $prg-icon-yt-h;
+    width: $prg-icon-yt-w;
   }
 }
 

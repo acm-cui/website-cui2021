@@ -13,10 +13,6 @@ a {
 
 header {
   box-shadow: $box-shadow !important;
-  
-  & .prefill {
-    background: $header-bg-prefill;
-  }
 }
 
 
@@ -83,9 +79,27 @@ nav {
   .prg-row {
     opacity: $prg-row-o;
   }
+  
+  .prg-icon-start {
+    background-image: escape-svg($prg-icon-start-bg) !important;
+  }
+  
+  .prg-icon-end {
+    background-image: escape-svg($prg-icon-end-bg) !important;
+  }
+  
+  .prg-icon-warning {
+    background-image: escape-svg($prg-icon-warning-bg) !important;
+  }
+  
+  .prg-icon-acmdl {
+    background-image: escape-svg($prg-icon-acmdl-bg) !important;
+  }
+
+  .prg-icon-yt {
+    background-image: escape-svg($prg-icon-yt-bg) !important;
+  }
 }
-      
-.text-muted { color: $text-muted !important; }
 
 @include media-breakpoint-up(sm) {
   header {
