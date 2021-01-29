@@ -1,17 +1,16 @@
 full_papers:
   -  label: Submissions due
-     date: 12th February 2021
-     # if extended, chop the month and year from the date above too
-     # extended_date: 19th February 2021
+     date: 12th
+     extended_date: 26th February 2021
 
   -  label: Notifications
-     date: 26th March 2021
+     date: 8th April 2021
 
   -  label: Rebuttals due
-     date: 9th April 2021
+     date: 15th April 2021
 
   -  label: Final notifications
-     date: 16th April 2021
+     date: 30th April 2021
 
   -  label: Camera-ready due
      date: 28th May 2021
