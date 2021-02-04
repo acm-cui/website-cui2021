@@ -3,3 +3,5 @@
 .bundle
 .jekyll-cache
 _site/
+vendor/
+Gemfile.lock
