@@ -3,10 +3,9 @@ label: Provocation Papers
 description: Provocation Papers at !!conference.short_name!! !!conference.year!! are short papers that explore controversial, risk taking or nascent ideas that have the potential to spark debate and discussion at the conference.
 
 submission:
-  text: Submissions not open yet
-#  text: Submit your paper
-#  title: Go to EasyChair to submit your paper
-#  link: /2021/authors/submission/
+  text: Submit your paper
+  title: Go to EasyChair to submit your paper
+  link: /2021/authors/submission/
   
 track:
   chairs: provocation_papers
