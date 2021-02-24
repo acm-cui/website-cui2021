@@ -3,9 +3,9 @@ label: Posters
 description: The Posters track at !!conference.short_name!! !!conference.year!! allows for the presentation, discussion and information exchange of early stage research in the field of Conversational User Interfaces.
 
 submission:
-  text: Submissions not open yet
-#  title: Go to EasyChair to submit your poster
-#  link: /2021/authors/submission/
+  text: Submit your poster paper
+  title: Go to EasyChair to submit your poster paper
+  link: /2021/authors/submission/
   
 track:
   chairs: posters
