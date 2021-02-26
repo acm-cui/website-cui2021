@@ -42,7 +42,7 @@ Provocation Papers are short papers that explore controversial, risk taking or n
 			{% endfor %}
 		</p>
 		<p>
-			<em class="small">All deadlines are at 23:59 UTC+1</em>
+			<em class="small">All deadlines are at 23:59 Anywhere on Earth</em>
 		</p>
 	</div>
 </div>

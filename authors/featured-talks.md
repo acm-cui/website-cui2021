@@ -39,7 +39,7 @@ The Featured Talks track looks to showcase work from 2011--2020 related to all a
 			{% endfor %}
 		</p>
 		<p>
-			<em class="small">All deadlines are at 23:59 UTC+1</em>
+			<em class="small">All deadlines are at 23:59 Anywhere on Earth</em>
 		</p>
 	</div>
 </div>

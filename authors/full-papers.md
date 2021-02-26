@@ -42,7 +42,7 @@ Full Papers are original contributions from a broad range of disciplines includi
 			{% endfor %}
 		</p>
 		<p>
-			<em class="small">All deadlines are at 23:59 UTC+1</em>
+			<em class="small">All deadlines are at 23:59 Anywhere on Earth</em>
 		</p>
 	</div>
 </div>
