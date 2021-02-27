@@ -14,7 +14,7 @@ track:
 
 # Featured Talks
 
-The Featured Talks track looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces. These will be work from leading journals and conferences published over the last 10 years. 
+The Featured Talks track looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces. These will be works from leading journals and conferences published over the last 10 years. 
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
