@@ -1,15 +1,22 @@
 ---
 permalink: /
 description: > 
-  !!conference.short_name!! !!conference.year!! is a hybrid conference with sessions online and in person in !!conference.location!!, running from !!conference.dates!!.
+  !!conference.short_name!! !!conference.year!! is an online virtual conference, running from !!conference.dates!!
 ---
 
 # Welcome to !!conference.short_name!!
+  
+<div class="mb-4 alert alert-secondary" role="alert">
+  <p>Dear community,</p>
+  <p>The {{ site.conference.short_name }} {{ site.conference.year }} Organising Committee has made the difficult decision to run {{ site.conference.short_name }} {{ site.conference.year }} as an online-only virtual conference. We had been hoping and planning to welcome as many of you as possible to Bilbao this year as part of a hybrid event, but the challenges of running a conference during the on-going pandemic, with slow vaccine rollouts across the globe and difficulties for international travellers, have precipitated a change in direction.</p> 
+  <p>This decision was not taken lightly but the committee felt it was necessary. Our focus will now shift to making sure {{ site.conference.short_name }} {{ site.conference.year }} is the most engaging and thoroughly enjoyable virtual conference.</p>
+  <p><em>{{ site.conference.short_name }} {{ site.conference.year }} Organising Committee<br>Thursday 4th March 2021</em></p>
+</div>
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
 		<p>
-		Following the successful ACM In-Cooperation {{ site.conference.short_name }} conferences in 2019 and 2020, {{ site.conference.short_name }} {{ site.conference.year }} will be a <strong>hybrid conference with sessions online and in person in {{ site.conference.location }}</strong>. The conference will run from <strong>{{ site.conference.dates }}</strong>.
+		Following the successful ACM In-Cooperation {{ site.conference.short_name }} conferences in 2019 and 2020, {{ site.conference.short_name }} {{ site.conference.year }} will be an <strong>{{ site.conference.location }}</strong>. The conference will run from <strong>{{ site.conference.dates }}</strong>.
 		</p>
 
 		<p>
