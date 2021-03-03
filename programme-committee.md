@@ -8,8 +8,8 @@ description: The Programme Committee for the !!conference.year!! !!conference.fu
 The following people are members of the {{ site.conference.short_name }} {{ site.conference.year }} Programme Committee:
 
 {% assign num_pc_members = site.data.pc | size %}
-{% assign half_num_pc_members = num_pc_members | divided_by: 2 %}
-{% assign half_num_pc_members = half_num_pc_members | plus: 1 %}
+{% assign half_num_pc_members = num_pc_members | plus: 1 %}
+{% assign half_num_pc_members = half_num_pc_members | divided_by: 2 %}
 
 <div class="row">
 	<div class="col-lg-6 col-12">
