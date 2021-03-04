@@ -30,7 +30,7 @@ conference:
   full_name: Conversational User Interfaces
   short_name: CUI
   year: 2021
-  location: Bilbao, Spain
+  location: online virtual conference
   dates: 27–29th July 2021
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -44,7 +44,7 @@ social:
     twitter:
         username: CUI_Conference
         card: /assets/img/twittercard.png
-        card_alt: CUI 2021 will be in Bilbao
+        card_alt: CUI 2021 will be an online virtual conference from 27th–29th July 2021
     github:
         username: cui-series
 
