@@ -26,7 +26,7 @@ Posters allow for the presentation, discussion and information exchange of early
 			Each submission will be peer reviewed by 3 expert reviewers. Submissions must be made through the conference submission system. Please see the <a href="{{ "/authors/submission-guidance/" | relative_url }}" title="Additional submission guidance for {{ site.conference.short_name }} {{ site.conference.year }}">submission guidance page</a> for information on the changes made to the conference from previous years, the submission process, making your submission accessible, and the various rules and policies that you must agree to when making your submission.
 		</p>
 		<p>
-			Accepted Poster Papers will be archived in the <a href="http://dl.acm.org/" title="The ACM Digital Library">ACM Digital Library</a> and authors will be given the opportunity to present their poster during a dedicated poster session. At least one author of each accepted poster must register for the conference.
+			Accepted Poster Papers will be archived in the <a href="http://dl.acm.org/" title="The ACM Digital Library">ACM Digital Library</a> and authors will be invited to create a (static) webpage for their poster as part of the presentation for their work. This webpage will be hosted and accessible from the {{ site.conference.short_name }} {{ site.conference.year }} website. We will explore ways to integrate posters into the wider {{ site.conference.short_name }} {{ site.conference.year }} programme too. At least one author of each accepted poster must register for the conference.
 		</p>
 		<h2>Any questions?</h2>
 		<p>
