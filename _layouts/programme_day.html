@@ -14,7 +14,7 @@ layout: default
             <ul class="list-unstyled prg">
             {%- for session in site.data.prg_sessions[session_day] %}
                 {% if session.type == "Break" %}
-                <li class="media mb-1 p-3" id="session-{{ forloop.index0 }}">
+                <li class="media mb-2 p-3" id="session-{{ forloop.index0 }}">
                     <div class="media-body text-center text-muted">
                         {% if session.description %}
                         {{ session.description }}
@@ -53,9 +53,9 @@ layout: default
 
                         {% assign presentations = site.data.prg_presentations[session.id] %}
                         {% if presentations.size > 0 %}
-                        <ol class="list-group mt-2">
+                        <ol class="list-group mt-4">
                         {%- for presentation in site.data.prg_presentations[session.id] %}
-                            <li class="list-group-item">
+                            <li class="list-group-item pb-3">
                                 {% if presentation.acmdl %}
                                 <div class="float-right">
                                     <a href="{{ session.acmdl }}" title="See the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
