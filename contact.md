@@ -15,3 +15,4 @@ description: Contact details for !!conference.short_name!! !!conference.year!!.
 		{% endif %}
 	{% endfor %}
 {% endfor %}
+
