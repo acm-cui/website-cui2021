@@ -42,12 +42,15 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 		Alongside the written submission, you must submit a video showreel for your demo and an accessibility and inclusivity statement:
 			<ul>
 				<li>
-					Video showreels must be no more than 2 minutes long and a maximum of 100mb in size. The video should showcase how the demonstration will be delivered for online delegates, and should highlight: the technology, its potential uses, how it will be demonstrated, and efforts made to increase engagement and interactivity.
+					Video showreels must be no more than 2 minutes long. The video should showcase how the demonstration will be delivered for online delegates, and should highlight: the technology, its potential uses, how it will be demonstrated, and efforts made to increase engagement and interactivity.
 				</li>
 				<li>
 					Accessibility and inclusivity statement describing how the presentation adheres to accessibility and inclusivity requirements stipulated on the submission guidance page.
 				</li>
 			</ul>
+		</p>
+		<p>
+			Your total submission must not exceed a maximum of 100mb in size.
 		</p>
 		<h2>Curated selection process</h2>
 		<p>
