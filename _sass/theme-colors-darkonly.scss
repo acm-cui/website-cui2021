@@ -18,3 +18,10 @@ hr { border-color: $bg-lightest; }
     background-color: $bg-lightest !important;
   }
 }
+
+.alert-secondary {
+  background: $bg-light;
+  color: $white !important;
+  border-color: $primary;
+  border-width: 2px;
+}
