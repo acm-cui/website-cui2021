@@ -44,7 +44,7 @@ Any authors found to be in violation of any of these policies may have any/all s
 
 Articles will be published in the {{ site.conference.short_name }} {{ site.conference.year }} proceedings, through [ACM ICPS](https://www.acm.org/publications/icps-series "Details about the ACM International Conference Proceedings Series"). At least one author of each paper must register for the conference by the camera-ready deadline to ensure publication. 
 
-Given the switch to an online conferene, we are currently reviewing how registration and feed will be handled in comparison to our prior plans.
+Given the switch to an online conferene, we are currently reviewing how registration and publication fees will be handled.
 
 All ACM publications follow the [Green Open Access route by default](https://www.acm.org/publications/openaccess#green "Details on ACM's Green Open Access policies"), although authors have the opportunity to independently pay a fee for [Gold Open Access](https://www.acm.org/publications/openaccess#oapricing "Details on Gold Open Access pricing for ACM publications"). The total fee payable depends on the author(s) ACM membership status.
 
