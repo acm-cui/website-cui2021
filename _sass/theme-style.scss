@@ -96,8 +96,12 @@ section {
   z-index: 1;
 }
 
-.homepage-banner {
+.homepage-banner, .homepage-sponsor {
   max-width: 100%;
+}
+
+.homepage-sponsor-link {
+  max-width: 50%;
 }
 
 h2 {
