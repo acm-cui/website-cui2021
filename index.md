@@ -60,7 +60,8 @@ description: >
 			<img src="{{ "/assets/img/sponsor-hciucd.png" | relative_url }}" alt="HCI@UCD logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="mt-md-3 mt-5 homepage-sponsor">
 		</a>
 		<a href="https://www.adaptcentre.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="homepage-sponsor-link pl-3">
-			<img src="{{ "/assets/img/sponsor-adapt-light.png" | relative_url }}" alt="ADAPT: Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 homepage-sponsor">
+			<img src="{{ "/assets/img/sponsor-adapt-light.png" | relative_url }}" alt="ADAPT: Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+			<img src="{{ "/assets/img/sponsor-adapt-dark.png" | relative_url }}" alt="ADAPT: Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 		</a>
 		<!--<h3 class="w-100 mt-5 text-light bg-dark rounded shadow text-center">Sponsors</h3>
 		<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">-->
