@@ -100,8 +100,8 @@ section {
   max-width: 100%;
 }
 
-.homepage-sponsor-link {
-  max-width: 50%;
+.flex-items-basis-0 > * {
+  flex-basis: 0;
 }
 
 h2 {

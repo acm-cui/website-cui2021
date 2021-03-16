@@ -47,7 +47,7 @@ description: >
 		</p>
 	</div>
 
-	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex align-content-start flex-wrap my-md-0 my-5 px-md-0 px-5">
+	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex align-content-start flex-wrap">
 		<a href="https://acm.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
 			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-acmincoop-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
@@ -56,13 +56,15 @@ description: >
 			<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-sigchi-dk.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-md-3 mt-5 d-lt-none homepage-banner">
 		</a>
-		<a href="https://www.hci.ucd.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="homepage-sponsor-link pr-3">
-			<img src="{{ "/assets/img/sponsor-hciucd.png" | relative_url }}" alt="HCI@UCD logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="mt-md-3 mt-5 homepage-sponsor">
-		</a>
-		<a href="https://www.adaptcentre.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="homepage-sponsor-link pl-3">
-			<img src="{{ "/assets/img/sponsor-adapt-light.png" | relative_url }}" alt="ADAPT: Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
-			<img src="{{ "/assets/img/sponsor-adapt-dark.png" | relative_url }}" alt="ADAPT: Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
-		</a>
+		<div class="d-flex flex-row flex-items-basis-0">
+			<a href="https://www.hci.ucd.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="flex-grow-1 flex-shrink-1 pr-3">
+				<img src="{{ "/assets/img/sponsor-hciucd.png" | relative_url }}" alt="HCI@UCD logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by HCI@UCD" class="mt-md-3 mt-5 homepage-sponsor">
+			</a>
+			<a href="https://www.adaptcentre.ie/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="flex-grow-1 align-self-center pl-3">
+				<img src="{{ "/assets/img/sponsor-adapt-light.png" | relative_url }}" alt="ADAPT - Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-adapt-dark.png" | relative_url }}" alt="ADAPT - Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			</a>
+		</div>
 		<!--<h3 class="w-100 mt-5 text-light bg-dark rounded shadow text-center">Sponsors</h3>
 		<img src="{{ "/assets/img/banner-sigchi.png" | relative_url }}" alt="ACM SIGCHI logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="mt-3 homepage-banner">-->
 	</div>
