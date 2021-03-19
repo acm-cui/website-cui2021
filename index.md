@@ -47,7 +47,7 @@ description: >
 		</p>
 	</div>
 
-	<div class="col-xl-4 col-lg-5 col-md-6 col-12 d-flex align-content-start flex-wrap">
+	<div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
 		<a href="https://acm.org/" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="flex-grow-1">
 			<img src="{{ "/assets/img/banner-acmincoop.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-dk-none homepage-banner">
 			<img src="{{ "/assets/img/banner-acmincoop-dk.png" | relative_url }}" alt="ACM In-Cooperation logo" title="{{ site.conference.short_name }} {{ site.conference.year }} is an ACM In-Cooperation conference" class="d-lt-none homepage-banner">
