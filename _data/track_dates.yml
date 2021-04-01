@@ -17,7 +17,8 @@ full_papers:
 
 provocation_papers:
   -  label: Submissions due
-     date: 9th April 2021
+     date: 9th
+     extended_date: 16th February 2021
 
   -  label: Notifications
      date: 7th May 2021
@@ -27,7 +28,8 @@ provocation_papers:
 
 posters:
   -  label: Submissions due
-     date: 9th April 2021
+     date: 9th
+     extended_date: 16th February 2021
 
   -  label: Notifications
      date: 7th May 2021
@@ -37,7 +39,8 @@ posters:
 
 demos:
   -  label: Submissions due
-     date: 9th April 2021
+     date: 9th
+     extended_date: 16th February 2021
 
   -  label: Notifications
      date: 7th May 2021
