@@ -11,7 +11,7 @@ The following people have volunteered their time to assist in the organisation o
 <h2 class="mt-3">{{ group[1].label }}</h2>
 
 {% assign num_roles_chairs = group[1]['roles'] | size %}
-{% assign half_num_roles_chairs = num_roles_chairs | divided_by: 2 | plus: 1 %}
+{% assign half_num_roles_chairs = num_roles_chairs | plus: 1  | divided_by: 2%}
 
 <div class="row">
 	<div class="col-md-6 col-12 mblast-0">
