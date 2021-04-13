@@ -36,7 +36,7 @@ Demos are interactive contributions aiming to tackle challenges and show progres
 			The written submission must adhere to the requirements outlined above and contain the following: 
 			<ul>
 				<li>
-					A description of the demonstration (approx. 3,000 words excluding references), including: a description of the tesystem; a description of the problem(s) it addresses;  discussion regarding its novelty and/or applied context; discussion regarding the technology’s relevance to the {{ site.conference.short_name }} community; a description of the planned presentation, with details about how online attendees will interact with the demonstration. NB: {{ site.conference.short_name }} {{ site.conference.year }} will provide a video streaming platform. Your description of the planned presentation should focus on how you will provide an engaging interactive experience for your audience.
+					A description of the demonstration (approx. 3,000 words excluding references), including: a description of the system; a description of the problem(s) it addresses;  discussion regarding its novelty and/or applied context; discussion regarding the technology’s relevance to the {{ site.conference.short_name }} community; a description of the planned presentation, with details about how online attendees will interact with the demonstration. NB: {{ site.conference.short_name }} {{ site.conference.year }} will provide a video streaming platform. Your description of the planned presentation should focus on how you will provide an engaging interactive experience for your audience.
 				</li>
 			</ul>
 		Alongside the written submission, you must submit a video showreel for your demo and an accessibility and inclusivity statement:
