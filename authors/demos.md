@@ -3,8 +3,8 @@ label: Demos
 description: The Demos track at !!conference.short_name!! !!conference.year!! allows authors to present interactive contributions aiming to tackle challenges and show progress in the field of Conversational User Interfaces. 
 
 submission:
-  text: Submit your demo
-  title: Go to EasyChair to submit your demo
+  text: Manage your submission
+  title: Go to EasyChair to manage your paper submission
   link: /2021/authors/submission/
   
 track:
