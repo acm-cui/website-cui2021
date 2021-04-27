@@ -179,6 +179,10 @@ h3 {
 }
 
 @include media-breakpoint-up(md) {
+  .w-md-50 {
+  	width: 50% !important;
+  }
+
   nav {
     max-height: unset;
     overflow: unset;

@@ -9,7 +9,7 @@ layout: default
 		</div>
 		<div class="col-md-6 col-12 pt-md-0 pt-3 text-md-right text-center">
 		{% if page.submission.link and page.submission.title %}
-			<a href="{{ page.submission.link }}" class="btn btn-lg btn-primary" title="{{ page.submission.title }}">{{ page.submission.text }}</a>
+			<a href="{{ page.submission.link }}" class="btn btn-lg btn-primary" title="{{ page.submission.title }}">{{ page.submission.text }} &rarr;</a>
 		{% else %}
 			<a class="btn btn-lg btn-outline-primary disabled">{{ page.submission.text }}</a>
 		{% endif %}
