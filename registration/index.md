@@ -37,13 +37,17 @@ There are three different rates for registration at {{ site.conference.short_nam
 
 The Reduced Rate is only open to individuals in Economically Developing Countries—[please check this list of countries]({{ "/registration/reduced-rates/" | relative_url }} "Registration Reduced Rate Eligibility") to determine if you are eligible. The Student Rate is restricted  to students, and you must upload valid student ID during registration to prove your student status.
 
-Registration for attendees closes on **12th July 2021**, but note that authors with accepted papers must register sooner (by 1st July 2021).
 
 ## ACM publication fee
 
 At least one author of each accepted paper must both pay a registration fee and the ACM publication fee for each accepted paper. We ask that authors ensure that the fee has been paid for each paper. A paper without a corresponding publication fee may be withheld from publication.
 
 The ACM publication fee is **20€**.
+
+
+## Key dates
+
+Registration for attendees closes on **12th July 2021**.
 
 Authors with papers accepted must register and pay the publication fee by **1st July 2021**.
 
