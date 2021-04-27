@@ -24,7 +24,7 @@ Authors of accepted papers are required to pay an additional *ACM publication fe
 </div>
 
 
-## Registration fees
+## Registration fee
 
 There are three different rates for registration at {{ site.conference.short_name }} {{ site.conference.year }}. Please ensure you register at the correct rate---if you do not, you will be liable to pay the difference in fees.
 
@@ -36,7 +36,7 @@ The Reduced Rate is only open to individuals in Economically Developing Countrie
 
 ## ACM publication fee
 
-At least one author of each accepted paper must both pay a registration fee and the ACM publication fee for each accepted paper. We ask that authors ensure that the fees have been paid for each paper. A paper without a corresponding publication fee may be withheld from publication.
+At least one author of each accepted paper must both pay a registration fee and the ACM publication fee for each accepted paper. We ask that authors ensure that the fee has been paid for each paper. A paper without a corresponding publication fee may be withheld from publication.
 
 The ACM publication fee is **20€**.
 
