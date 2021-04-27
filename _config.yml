@@ -58,9 +58,9 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-target-blank
   - jekyll-titles-from-headings
 
+#  - jekyll-target-blank
 #  - jekyll-github-metadata
 
 # Liquid config
