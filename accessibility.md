@@ -5,5 +5,4 @@ description: How we are working to ensure that !!conference.year!! !!conference.
 
 # Accessibility
 
-Use Markdown…
-
+Information coming soon.
