@@ -7,7 +7,7 @@ registration_open: true
 ---
 
 # Registration Reduced Rate Eligibility
-The Reduced Rate registration is open to all individuals who live in one of the following economically developing countries. We have followed the approach that the ACM has developed for reduced ACM membership rates.
+The Reduced Rate registration is open to all individuals who live in one of the following economically developing countries. We have followed the approach that the [ACM has developed for reduced ACM membership rates](https://www.acm.org/membership/special-member-rates-developing-countries "ACM reduced mebership rate countries").
 
 <div class="d-flex flex-row mb-3">
 	<div class="bg-primary text-white border-1 font-weight-bold text-large text-uppercase text-center py-3 d-inline-block rounded" style="width: 4rem">
