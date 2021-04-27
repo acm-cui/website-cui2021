@@ -18,7 +18,7 @@ We are committed to ensuring that is an accessible conference for all attendees.
 
 
 
-<div class="d-block py-5 mt-0 text-center">
+<div class="d-block py-5 mb-3 text-center">
 {% if page.registration_open %}
 	<a href="https://example.com/" class="btn btn-lg btn-primary" title="Register for {{ site.conference.short_name }} {{ site.conference.year }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
 {% else %}
