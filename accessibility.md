@@ -35,6 +35,10 @@ Yes, if you would like early access and an introductory tour of any of the confe
 
 If you would benefit from assistance in giving your presentation or handling questions, please reach out to the SV and Diversity Chairs to make arrangements.
 
+## Will presenters be visible?
+
+Presenters and speakers will be requested to use video when speaking to help lip-reading and non-native speakers. We recognize that this may not be possible for every speaker. Captions will be available throughout the conference as a fallback.
+
 ## I have another question
 
 If you have other questions about accessibility at CUI 2021, please contact the SV and Diversity Chairs at the following email address: <a href="{{ site.data.oc['conference']['roles']['sv_diversity']['email'] }}" title="Contact the {{ site.conference.short_name }} {{ site.conference.year }} {{ site.data.oc['conference']['roles']['sv_diversity']['label'] }} if you have any questions">{{ site.data.oc['conference']['roles']['sv_diversity']['label'] }}</a>
