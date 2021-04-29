@@ -13,8 +13,6 @@ Registration for {{ site.conference.short_name }} {{ site.conference.year }} is 
 
 We are committed to ensuring that is an accessible conference for all attendees. The {{ site.data.oc['conference']['roles']['sv_diversity']['label'] }} and {{ site.data.oc['conference']['roles']['virtual']['label'] }} are progressively assembling information regarding [accessibility on a separate page]({{ "/accessibility/" | relative_url }}). If you have questions or wish to raise a point regarding our efforts to ensure all attendees can participate, please contact the <a href="{{ site.data.oc['conference']['roles']['sv_diversity']['email'] }}" title="Contact the {{ site.conference.short_name }} {{ site.conference.year }} {{ site.data.oc['conference']['roles']['sv_diversity']['label'] }} if you have any questions">{{ site.data.oc['conference']['roles']['sv_diversity']['label'] }}</a> directly.
 
-
-
 <div class="d-block py-5 mb-2 text-center">
 {% if page.registration_open %}
 	<a href="https://sisweb.ucd.ie/usis/W_HU_MENU.P_PUBLISH?p_tag=CONFHCI" class="btn btn-lg btn-primary" title="Register for {{ site.conference.short_name }} {{ site.conference.year }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
@@ -22,7 +20,6 @@ We are committed to ensuring that is an accessible conference for all attendees.
 	<a class="btn btn-lg btn-outline-primary disabled">Registration is currently closed</a>
 {% endif %}
 </div>
-
 
 ## Registration fees
 
