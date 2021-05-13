@@ -43,8 +43,6 @@ description: The online programme for the !!conference.year!! !!conference.full_
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-{% if site.url contains "localhost" %}
-
 <section class="main-body main-singleton">
 	<div class="main-title py-4 text-md-left text-center">
 		<h1 class="m-0 p-0">Programme</h1>
@@ -152,5 +150,3 @@ description: The online programme for the !!conference.year!! !!conference.full_
 
 <div class="prg accordian" id="programme">
 </div>
-
-{% endif %}
