@@ -1,18 +1,18 @@
-const timestr = function(d) {
-    const hoursNum = d.getHours();
-    const minutesNum = d.getMinutes();
+var timestr = function(d) {
+    var hoursNum = d.getHours();
+    var minutesNum = d.getMinutes();
     if (hoursNum == 0) { hours = '00'; } else { hours = hoursNum.toString() }
     if (minutesNum == 0) { minutes = '00'; } else { minutes =minutesNum.toString() }
     return hours + ':' + minutes;
 }
-const datestr = function(d) {
-    const day = d.getDate();
-    const suffix = nth(day);
-    const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][d.getMonth()];
-    const year = d.getFullYear();
+var datestr = function(d) {
+    var day = d.getDate();
+    var suffix = nth(day);
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][d.getMonth()];
+    var year = d.getFullYear();
     return day + suffix + ' ' + month + ' ' + year;
 }
-const nth = function(d) {
+var nth = function(d) {
   if (d > 3 && d < 21) return 'th';
   switch (d % 10) {
     case 1:  return "st";
@@ -28,7 +28,7 @@ $(function() {
 
         $.each(data, function(i, session) {
             // based on https://stackoverflow.com/posts/15397495/revisions
-            const start_date = new Date(Date.parse(session.start_time));
+            var start_date = new Date(Date.parse(session.start_time));
             start_date_index = datestr(start_date);
             if (!(start_date_index in sessions_by_date)) {
                 sessions_by_date[start_date_index] = [];
@@ -41,8 +41,8 @@ $(function() {
         var index = 0;
         var expand_day = 0;
         $.each(sessions_by_date, function(date_string, session) {
-            const now = new Date();
-            const now_string = datestr(now);
+            var now = new Date();
+            var now_string = datestr(now);
             if (now_string == date_string) {
                 expand_day = index;
             }
