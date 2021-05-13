@@ -21,9 +21,12 @@ We are committed to ensuring that is an accessible conference for all attendees.
 {% endif %}
 </div>
 
+
+Authors with papers accepted must register by **1st July 2021**.
+
 ## Registration fees
 
-There are three different rates for registration at {{ site.conference.short_name }} {{ site.conference.year }}. Please ensure you register at the correct rate---if you do not, you will be liable to pay the difference in fees.
+There are three different rates for registration at {{ site.conference.short_name }} {{ site.conference.year }}. Please ensure you register at the correct rate---if you do not, you will be liable to pay the difference.
 
 * Standard Rate: **80€**
 * Reduced Rate: **50€**
@@ -31,9 +34,7 @@ There are three different rates for registration at {{ site.conference.short_nam
 
 The Reduced Rate is only open to individuals in economically developing countries—[please check this list of countries]({{ "/registration/reduced-rates/" | relative_url }} "Registration Reduced Rate Eligibility") to determine if you are eligible. The Student Rate is restricted  to students, and you must upload valid student ID during registration to prove your student status.
 
-At least one author of each accepted paper must register for the conference. A paper without a corresponding registration may be withheld from publication. Authors with papers accepted must register by **1st July 2021**.
-
-Registration for attendees closes on **12th July 2021**.
+At least one author of each accepted paper must register for the conference. A paper without a corresponding registration may be withheld from publication. 
 
 ## Need support or have questions?
 
