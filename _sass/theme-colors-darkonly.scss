@@ -25,3 +25,18 @@ hr { border-color: $bg-lightest; }
   border-color: $primary;
   border-width: 2px;
 }
+
+.prg {
+  h4 {
+    color: lighten(#A92B7A, 5%) !important;
+  }
+  .bg-dark, button {
+    background: $bg-lighter !important;
+  }
+  .card {
+    border-color: $prg-border-color !important;
+  }
+  li {
+    border-bottom: 1px solid $prg-border-color !important;
+  }
+}
