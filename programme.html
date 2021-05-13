@@ -43,14 +43,15 @@ description: The online programme for the !!conference.year!! !!conference.full_
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-<p><strong>Please note the information below is from CUI 2020, for testing purposes only</strong></p>
-
 <section class="main-body main-singleton">
 	<div class="main-title py-4 text-md-left text-center">
 		<h1 class="m-0 p-0">Programme</h1>
 	</div>
 	<div class="main-content">
 		<article>
+
+            <p><strong>Please note the information below is from CUI 2020, for testing purposes only</strong></p>
+            
 			<p>Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}{{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}{{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.</p>
 			<p>The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>.</p>
 
