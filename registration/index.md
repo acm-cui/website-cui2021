@@ -21,9 +21,12 @@ We are committed to ensuring that is an accessible conference for all attendees.
 {% endif %}
 </div>
 
+
+Authors with papers accepted must register by **1st July 2021**.
+
 ## Registration fees
 
-There are three different rates for registration at {{ site.conference.short_name }} {{ site.conference.year }}. Please ensure you register at the correct rate---if you do not, you will be liable to pay the difference in fees.
+There are three different rates for registration at {{ site.conference.short_name }} {{ site.conference.year }}. Please ensure you register at the correct rate---if you do not, you will be liable to pay the difference.
 
 * Standard Rate: **80€**
 * Reduced Rate: **50€**

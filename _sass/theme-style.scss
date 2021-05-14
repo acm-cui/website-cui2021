@@ -132,7 +132,30 @@ h3 {
   }
 }
 
+noscript {
+  .prg button {
+    cursor: default !important;
+  }
+}
+
 .prg {
+  .card-header {
+    *:hover,
+    *:focus,
+    *:active
+     {
+      outline: none;
+      box-shadow: none !important;
+      -webkit-appearance: none;
+    }
+  }
+}
+
+.prg-day {
+  & > li:last-child {
+    border-bottom: 0 !important;
+  }
+  
   .prg-row {
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
@@ -169,6 +192,16 @@ h3 {
   .prg-icon-yt {
     height: $prg-icon-yt-h;
     width: $prg-icon-yt-w;
+  }
+  
+  .prg-icon-yt, .prg-icon-acmdl  {
+    transition-timing-function: $transition-timing-function;
+    transition-duration: $transition-duration;
+    transition-property: opacity;
+
+    @include hover-focus() {
+      opacity: 1;
+    }
   }
 }
 
