@@ -2,7 +2,7 @@
 label: Registration
 description: Details about registration for !!conference.year!! !!conference.full_name!!.
 
-registration_open: false
+registration_open: true
 ---
 
 # Registration
@@ -33,7 +33,7 @@ The Reduced Rate is only open to individuals in economically developing countrie
 
 At least one author of each accepted paper must register for the conference. A paper without a corresponding registration may be withheld from publication. Authors with papers accepted must register by **1st July 2021**.
 
-Registration for attendees closes on **12th July 2021**.
+Registration for attendees closes on **26th July 2021**.
 
 ## Need support or have questions?
 
