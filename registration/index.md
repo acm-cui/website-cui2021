@@ -38,4 +38,13 @@ At least one author of each accepted paper must register for the conference. A p
 
 ## Need support or have questions?
 
-<p>If you need any support or have questions about the registration process, please contact <a href="https://spamty.eu/show/v6/908/23efe01f29d0aca74ed28cd5/" title="Retrieve the email address for help with {{ site.conference.short_name }} {{ site.conference.year }} registration">Benjamin Cowan and Stephan Schlögl</a>.</p>
+{% for group in site.data.oc %}
+	{% for role in group[1]['roles'] %}
+		{% if role[1]['registration'] %}
+<p>If you need any support or have questions about the registration process, please contact the <a href="{{ role[1].email }}" title="Retrieve the email address for the {{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}">{{ site.conference.short_name }} {{ site.conference.year }} {{ role[1].label }}</a>, 
+		{% assign use_and = role[1]['people'] | size | plus: -1 %}
+		{% for person in role[1]['people'] %}{{ person.name }}{% if forloop.index == use_and %} and {% else %}{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}.</p>
+		{% break %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}

@@ -11,7 +11,7 @@ conference:
                 country: Austria
 
         assnt_general:
-            label: Assistants to the General Chair
+            label: Assistant to the General Chair
             email: https://spamty.eu/show/v6/443/fc86ca6ffbcbdfb25e63f42f/
             people:
               - name: Alexander Monz
@@ -28,6 +28,15 @@ conference:
               - name: Leigh Clark
                 institution: Swansea University
                 country: UK
+
+        registration:
+            label: Registration Chair
+            email: https://spamty.eu/show/v6/908/23efe01f29d0aca74ed28cd5/
+            registration: true
+            people:
+              - name: Benjamin Cowan
+                institution: University College Dublin
+                country: Ireland
 
         virtual:
             label: Virtual Chairs
