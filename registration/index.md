@@ -1,7 +1,6 @@
 ---
 label: Registration
 description: Details about registration for the !!conference.year!! !!conference.full_name!! conference.
-
 registration_open: true
 ---
 
