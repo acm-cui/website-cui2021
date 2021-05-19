@@ -65,11 +65,11 @@ $(function() {
                 }
                 html += '</div></li>';
             } else {
-                html += '<li class="media prg-row p-3 rounded bg-light border-bottom rounded-0" id="session-' + session['id'] + '"><div class="mr-3"><div class="badge badge-primary text-capitalize mb-2 mr-3">' + session['type'] + '</div>';
+                html += '<li class="media prg-row p-3 rounded bg-light border-bottom rounded-0 flex-md-row flex-column" id="session-' + session['id'] + '"><div class="mr-md-3 mb-md-0 mb-3"><div class="badge badge-primary text-capitalize mb-2 mr-3">' + session['type'] + '</div>';
                 html += '<div class="mb-1 small"><span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['start_time']))) +'</span></div>';
                 html += '<div class="mt-1 small"><span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['end_time']))) +'</span>';
                 html += '</div></div>';
-                html += '<div class="media-body">';
+                html += '<div class="media-body w-100">';
                 if (session['youtube'] != '') {
                     html += '<div class="float-right"><a href="' + session['youtube'] + '" title="Watch the session on YouTube" class="d-block prg-icon-yt mr-4"><span class="sr-only">Watch on YouTube</span></a></div>';
                 }

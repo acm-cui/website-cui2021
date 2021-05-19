@@ -95,8 +95,8 @@ description: The online programme for the !!conference.year!! !!conference.full_
 						</div>
 					</li>
 					{% else %}
-					<li class="media prg-row p-3 rounded bg-light  border-bottom rounded-0" id="session-{{ session.id }}">
-						<div class="mr-3">
+					<li class="media prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
+						<div class="mr-md-3 mb-md-0 mb-3">
 							<div class="badge badge-primary text-capitalize mb-2 mr-3">{{ session.type }}</div>
 							<div class="mb-1 small">
 								<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts at <span class="prg-timing" data-timestamp="{{ session.start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ session.start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ session.start_time | date: "%H:%M" }}</span>
@@ -105,7 +105,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
 								<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing" data-timestamp="{{ session.end_time | date: "%FT%T.000Z" }}"><span></span>{{ session.end_time | date: "%H:%M" }}</span>
 							</div>
 						</div>
-						<div class="media-body">
+						<div class="media-body w-100">
 							{% if session.youtube %}
 							<div class="float-right">
 								<a href="{{ session.youtube }}" title="Watch the session on YouTube" class="d-block prg-icon-yt mr-4">
