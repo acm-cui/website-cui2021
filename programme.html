@@ -7,6 +7,8 @@ layout: default
 description: The online programme for the !!conference.year!! !!conference.full_name!! conference.
 ---
 
+{% if site.url contains "localhost" %}
+
 {% assign num_sessions = site.data.prg_sessions | size %}
 {% assign num_keynotes = 0 %}
 {% assign num_full_papers = 0 %}
@@ -153,3 +155,5 @@ description: The online programme for the !!conference.year!! !!conference.full_
 
 <div class="prg accordian" id="programme">
 </div>
+
+{% endif %}
