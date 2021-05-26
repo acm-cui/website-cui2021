@@ -6,7 +6,7 @@ description: >
 
 # Welcome to !!conference.short_name!!
   
-<div class="mb-4 alert alert-secondary" role="alert">
+<div class="mb-4 alert alert-secondary d-none" role="alert">
   <p>Dear community,</p>
   <p>The {{ site.conference.short_name }} {{ site.conference.year }} Organising Committee has made the difficult decision to run {{ site.conference.short_name }} {{ site.conference.year }} as an online-only virtual conference. We had been hoping and planning to welcome as many of you as possible to Bilbao this year as part of a hybrid event, but the challenges of running a conference during the on-going pandemic, with slow vaccine rollouts across the globe and difficulties for international travellers, have precipitated a change in direction.</p> 
   <p>This decision was not taken lightly but the committee felt it was necessary. Our focus will now shift to making sure {{ site.conference.short_name }} {{ site.conference.year }} is the most engaging and thoroughly enjoyable virtual conference.</p>
