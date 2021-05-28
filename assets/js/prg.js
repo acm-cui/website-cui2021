@@ -22,7 +22,7 @@ var nth = function(d) {
   }
 }
 $(function() {
-    $.getJSON('../programme.json', function(data) {
+    $.getJSON('../programme.json?s=' + (new Date().getTime()), function(data) {
         var $prg = $('#programme');
         var sessions_by_date = {};
 
