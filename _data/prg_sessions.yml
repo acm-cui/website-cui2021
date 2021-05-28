@@ -39,8 +39,7 @@
 
 - id: keynote
   type: Keynote
-  title: Opening keynote
-  chairs: TBD
+  title: Opening keynote - TBC
   start_time: 2021-07-27T17:00:00.000Z
   end_time: 2021-07-27T17:45:00.000Z
 
@@ -93,7 +92,7 @@
 
 - id: social
   type: Social
-  title: FUN TIMES
+  title: Social Activity - TBC
   start_time: 2021-07-28T18:30:00.000Z
   end_time: 2021-07-28T19:30:00.000Z
 
@@ -131,13 +130,13 @@
 
 - id: industry
   type: Roundtable
-  title: Industry panel
+  title: Industry panel - TBC
   start_time: 2021-07-29T17:00:00.000Z
   end_time: 2021-07-29T17:45:00.000Z
 
 - id: closing
   type: Plenary
-  title: Closing remarks and CUI 2022 information
+  title: Closing remarks and CUI 2022 information - TBC
   presenters: TBD
   start_time: 2021-07-29T17:45:00.000Z
   end_time: 2021-07-29T18:00:00.000Z
