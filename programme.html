@@ -7,8 +7,6 @@ layout: default
 description: The online programme for the !!conference.year!! !!conference.full_name!! conference.
 ---
 
-{% if site.url contains "localhost" %}
-
 {% assign num_sessions = site.data.prg_sessions | size %}
 {% assign num_keynotes = 0 %}
 {% assign num_full_papers = 0 %}
@@ -45,13 +43,19 @@ description: The online programme for the !!conference.year!! !!conference.full_
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
+
 <section class="main-body main-singleton">
 	<div class="main-title py-4 text-md-left text-center">
 		<h1 class="m-0 p-0">Programme</h1>
 	</div>
 	<div class="main-content">
+
+<div class="mb-4 alert alert-secondary" role="alert">
+  <p class="p-0 m-0">Please note that the below programme is <strong>provisional</strong> and may change before the conference. We will email all attendees once the programme has been finalised.</p>
+</div>
+
 		<article>
-			<p>Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}{{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}{{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.</p>
+			<p>Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, {{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.</p>
 			<p>The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>.</p>
 
 <noscript>
@@ -152,5 +156,3 @@ description: The online programme for the !!conference.year!! !!conference.full_
 
 <div class="prg accordian" id="programme">
 </div>
-
-{% endif %}

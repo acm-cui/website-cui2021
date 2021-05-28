@@ -1,94 +1,142 @@
 - id: welcome
   type: Plenary
-  title: Welcome from the General Chairs
-  youtube: https://www.youtube.com/watch?v=Fo2wdY3qskU
-  presenters: CUI 2020 General Chairs<br>Stephan Schlögl and María Inés Torres
-  start_time: 2020-07-22T14:45:00.000Z
-  end_time: 2020-07-22T15:00:00.000Z
+  title: Welcome from the General Chair
+  presenters: CUI 2021 General Chair<br>Stephan Schlögl
+  start_time: 2021-07-27T13:45:00.000Z
+  end_time: 2021-07-27T14:00:00.000Z
 
-- id: tools_and_frameworks
-  type: Session
-  title: Tools and frameworks
-  youtube: https://www.youtube.com/watch?v=Fo2wdY3qskU
-  chairs: Martin Porcheron
-  start_time: 2020-07-22T15:00:00.000Z
-  end_time: 2020-07-22T15:50:00.000Z
+- id: chatbots
+  type: Talks
+  title: Chatbots
+  chairs: TBD
+  start_time: 2021-07-27T14:00:00.000Z
+  end_time: 2021-07-27T14:50:00.000Z
+
+- id: posters_demos_1
+  type: Posters/Demos
+  title: Posters and Demos I
+  start_time: 2021-07-27T14:50:00.000Z
+  end_time: 2021-07-27T15:20:00.000Z
 
 - id: break_1
   type: Break
-  description: We will have a short break before the keynote commences.
-  start_time: 2020-07-22T15:50:00.000Z
-  end_time: 2020-07-22T16:00:00.000Z
+  description: 20 minute break
+  start_time: 2021-07-27T15:20:00.000Z
+  end_time: 2021-07-27T15:40:00.000Z
 
-- id: keynote
-  type: Session
-  title: Opening keynote
-  youtube: https://www.youtube.com/watch?v=0wafpwGsxHU
-  chairs: Cosmin Munteanu
-  start_time: 2020-07-22T16:00:00.000Z
-  end_time: 2020-07-22T17:00:00.000Z
-
-- id: multiparty_and_communities
-  type: Session
-  title: Multi-party and user communities
-  youtube: https://www.youtube.com/watch?v=GBZxtk91njo
-  chairs: Heloisa Candello
-  start_time: 2020-07-23T14:00:00.000Z
-  end_time: 2020-07-23T14:50:00.000Z
+- id: cui_4_good
+  type: Talks
+  title: CUI-4-Good
+  chairs: TBD
+  start_time: 2021-07-27T15:40:00.000Z
+  end_time: 2021-07-27T16:30:00.000Z
 
 - id: break_2
   type: Break
-  description: We will have a short break between the sessions.
-  start_time: 2020-07-23T14:50:00.000Z
-  end_time: 2020-07-23T15:00:00.000Z
+  description: 30 minute break
+  start_time: 2021-07-27T16:30:00.000Z
+  end_time: 2021-07-27T17:00:00.000Z
 
-- id: speech_syntheis_and_language_generation
-  type: Session
-  title: Speech synthesis and language generation
-  youtube: https://www.youtube.com/watch?v=GBZxtk91njo
-  chairs: Donald McMillan
-  start_time: 2020-07-23T15:00:00.000Z
-  end_time: 2020-07-23T15:50:00.000Z
+- id: keynote
+  type: Keynote
+  title: Opening keynote - TBC
+  start_time: 2021-07-27T17:00:00.000Z
+  end_time: 2021-07-27T17:45:00.000Z
 
-- id: break_3 
+
+
+- id: generational
+  type: Talks
+  title: Generational technology
+  chairs: TBD
+  start_time: 2021-07-28T14:00:00.000Z
+  end_time: 2021-07-28T14:50:00.000Z
+
+- id: posters_demos_2
+  type: Posters/Demos
+  title: Posters and Demos 2
+  start_time: 2021-07-28T14:50:00.000Z
+  end_time: 2021-07-28T15:20:00.000Z
+
+- id: break_3
   type: Break
-  description: We will have a short break before The Great CUI 2020 Quiz.
-  start_time: 2020-07-23T15:50:00.000Z
-  end_time: 2020-07-23T16:00:00.000Z
+  description: 20 minute break
+  start_time: 2021-07-28T15:20:00.000Z
+  end_time: 2021-07-28T15:40:00.000Z
 
-- id: quiz
-  type: Social
-  title: The Great CUI 2020 Quiz
-  chairs: Benjamin Cowan, Justin Edwards and Martin Porcheron
-  start_time: 2020-07-23T16:00:00.000Z
-  end_time: 2020-07-23T17:00:00.000Z
-
-- id: usability_and_design
-  type: Session
-  title: Usability and design
-  youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y
-  chairs: Minha Lee
-  start_time: 2020-07-24T14:00:00.000Z
-  end_time: 2020-07-24T14:50:00.000Z
-
+- id: multimodality
+  type: Talks
+  title: Multimodality
+  chairs: TBD
+  start_time: 2021-07-28T15:40:00.000Z
+  end_time: 2021-07-28T16:30:00.000Z
+  
 - id: break_4
   type: Break
-  description: We will have a short break between the sessions.
-  start_time: 2020-07-24T14:50:00.000Z
-  end_time: 2020-07-24T15:00:00.000Z
+  description: 30 minute break
+  start_time: 2021-07-28T15:50:00.000Z
+  end_time: 2021-07-28T16:00:00.000Z
 
-- id: conversational_principles
-  type: Session
-  title: Conversational principles
-  youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y
-  chairs: Benjamin Cowan
-  start_time: 2020-07-24T15:00:00.000Z
-  end_time: 2020-07-24T15:50:00.000Z
+- id: humanness
+  type: Talks
+  title: Humanness
+  chairs: TBD
+  start_time: 2021-07-28T17:00:00.000Z
+  end_time: 2021-07-28T17:50:00.000Z
+  
+- id: break_5
+  type: Break
+  description: 40 minute break
+  start_time: 2021-07-28T17:50:00.000Z
+  end_time: 2021-07-28T18:30:00.000Z
+
+- id: social
+  type: Social
+  title: Social Activity - TBC
+  start_time: 2021-07-28T18:30:00.000Z
+  end_time: 2021-07-28T19:30:00.000Z
+
+
+
+- id: design
+  type: Talks
+  title: Thinking about design
+  start_time: 2021-07-29T14:00:00.000Z
+  end_time: 2021-07-29T14:50:00.000Z
+
+- id: posters_demos_3
+  type: Posters/Demos
+  title: Posters and Demos 3
+  start_time: 2021-07-29T14:50:00.000Z
+  end_time: 2021-07-29T15:20:00.000Z
+
+- id: break_6
+  type: Break
+  description: 20 minute break
+  start_time: 2021-07-29T15:20:00.000Z
+  end_time: 2021-07-29T15:40:00.000Z
+
+- id: synthesis_talk
+  type: Talks
+  title: Synthesis, talk, and directionality
+  start_time: 2021-07-29T15:40:00.000Z
+  end_time: 2021-07-29T16:30:00.000Z
+  
+- id: break_7
+  type: Break
+  description: 30 minute break
+  start_time: 2021-07-29T16:30:00.000Z
+  end_time: 2021-07-29T17:00:00.000Z
+
+- id: industry
+  type: Roundtable
+  title: Industry panel - TBC
+  start_time: 2021-07-29T17:00:00.000Z
+  end_time: 2021-07-29T17:45:00.000Z
 
 - id: closing
   type: Plenary
-  title: Closing remarks and CUI 2021 information
-  youtube: https://www.youtube.com/watch?v=8iNPvU21T8Y&t=2857s
-  presenters: CUI 2021 General Chairs<br>Stephan Schlögl and María Inés Torres
-  start_time: 2020-07-24T15:50:00.000Z
-  end_time: 2020-07-24T16:00:00.000Z
+  title: Closing remarks and CUI 2022 information - TBC
+  presenters: TBD
+  start_time: 2021-07-29T17:45:00.000Z
+  end_time: 2021-07-29T18:00:00.000Z
