@@ -193,11 +193,6 @@ humanness:
     title: "Manipulating and Evaluating Levels of Personality Perceptions of Voice Assistants through Enactment-Based Dialogue Design"
     authors: "Sarah Theres Völkel, Samantha Meindl and Heinrich Hussmann"
 
- -  id: ft_1
-    type: Featured Talk
-    title: "Developing a Personality Model for Speech-based Conversational Agents Using the Psycholexical Approach"
-    authors: "Sarah Theres Völkel"
-
  -  id: pp_60
     type: Provocation Paper
     title: "Leaving the Butler Behind: The Future of Role Reproduction in CUI"
@@ -212,6 +207,11 @@ humanness:
     type: Provocation Paper
     title: "Putting wake words to bed"
     authors: "Saul Albert and Magnus Hamann"
+
+ -  id: ft_1
+    type: Featured Talk
+    title: "Developing a Personality Model for Speech-based Conversational Agents Using the Psycholexical Approach"
+    authors: "Sarah Theres Völkel"
 
  -  id: panel_humanness
     type: Panel
