@@ -22,7 +22,12 @@ description: The online programme for the !!conference.year!! !!conference.full_
 	{% assign day = session.start_time | date: "%-d %B %Y" %}
 	{% assign days = days | push: day %}
 
-	{% for presentation in site.data.prg_presentations[session.id] %}
+	{% if session.type == 'Break' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% endif %}
+
+	{% for presentation in site.data.prg_presentations[session.id]
+     %}
 		{% if presentation.type == "Full Paper" %}
 			{% assign num_full_papers = num_full_papers | plus: 1 %}
 		{% elsif presentation.type == "Provocation Paper" %}
