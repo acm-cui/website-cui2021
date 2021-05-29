@@ -22,7 +22,9 @@ description: The online programme for the !!conference.year!! !!conference.full_
 	{% assign day = session.start_time | date: "%-d %B %Y" %}
 	{% assign days = days | push: day %}
 
-	{% if session.type == 'Break' %}
+	{% if session.type == 'EOD' %}
+	{% assign num_sessions = num_sessions | plus: -1 %}
+	{% elsif session.type == 'Break' %}
 	{% assign num_sessions = num_sessions | plus: -1 %}
 	{% endif %}
 
@@ -95,7 +97,8 @@ description: The online programme for the !!conference.year!! !!conference.full_
 						{% continue %}
 					{% endif %}
 					
-					{% if session.type == "Break" %}
+					{% if session.type == "EOD" %}
+					{% elsif session.type == "Break" %}
 					<li class="media p-3 bg-light border-bottom rounded-0" id="session-{{ forloop.index0 }}">
 						<div class="media-body text-center text-muted">
 							{% if session.description %}
