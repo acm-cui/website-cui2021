@@ -95,10 +95,25 @@ nav {
   .prg-icon-warning {
     background-image: escape-svg($prg-icon-warning-bg) !important;
   }
+
+  .prg-icon-aaai {
+    background-image: escape-svg($prg-icon-aaai-bg) !important;
+    opacity: $prg-icon-aaai-o;
+  }
   
   .prg-icon-acmdl {
     background-image: escape-svg($prg-icon-acmdl-bg) !important;
     opacity: $prg-icon-acmdl-o;
+  }
+
+  .prg-icon-sagepub {
+    background-image: escape-svg($prg-icon-sagepub-bg) !important;
+    opacity: $prg-icon-sagepub-o;
+  }
+
+  .prg-icon-springerlink {
+    background-image: escape-svg($prg-icon-springerlink-bg) !important;
+    opacity: $prg-icon-springerlink-o;
   }
 
   .prg-icon-yt {

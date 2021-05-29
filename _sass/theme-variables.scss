@@ -67,7 +67,13 @@ $prg-icon-large-w:                    $icon-email-w;
 
 $prg-icon-timing-w:                   16px;
 $prg-icon-timing-h:                   20px;
-$prg-icon-acmdl-w:                    24px;
-$prg-icon-acmdl-h:                    24px;
+$prg-icon-aaai-w:                     24px;
+$prg-icon-aaai-h:                     24px;
+$prg-icon-acmdl-w:                    $prg-icon-aaai-w;
+$prg-icon-acmdl-h:                    $prg-icon-aaai-h;
+$prg-icon-sagepub-w:                  $prg-icon-aaai-w;
+$prg-icon-sagepub-h:                  $prg-icon-aaai-h;
+$prg-icon-springerlink-w:             $prg-icon-aaai-w;
+$prg-icon-springerlink-h:             $prg-icon-aaai-h;
 $prg-icon-yt-w:                       24px;
 $prg-icon-yt-h:                       17px;

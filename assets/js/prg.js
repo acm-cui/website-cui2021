@@ -88,9 +88,24 @@ $(function() {
                     $.each(session['presentations'], function(presentation_id) {
                         presentation = session['presentations'][presentation_id]
                         html += '<li class="list-group-item pb-3">';
+                        if (presentation['aaai']) {
+                            html += '<div class="float-right">';
+                            html += '<a href="' + presentation['aaai'] + '" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai"><span class="sr-only">View paper on the AAAI website</span></a>';
+                            html += '</div>';
+                        }
                         if (presentation['acmdl']) {
                             html += '<div class="float-right">';
-                            html += '<a href="' + presentation['acmdl'] + '" title="See the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl"><span class="sr-only">View paper on the ACM DL</span></a>';
+                            html += '<a href="' + presentation['acmdl'] + '" title="View the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl"><span class="sr-only">View paper in the ACM Digital Library</span></a>';
+                            html += '</div>';
+                        }
+                        if (presentation['sagepub']) {
+                            html += '<div class="float-right">';
+                            html += '<a href="' + presentation['sagepub'] + '" title="View the paper on Sage Publishing\'s website" class="d-block prg-inner-icon prg-icon-sagepub"><span class="sr-only">View paper on the Sage Publishing\'s website</span></a>';
+                            html += '</div>';
+                        }
+                        if (presentation['springerlink']) {
+                            html += '<div class="float-right">';
+                            html += '<a href="' + presentation['springerlink'] + '" title="View the paper on Springer\'s website" class="d-block prg-inner-icon prg-icon-springerlink"><span class="sr-only">View paper on Springer\'s website</span></a>';
                             html += '</div>';
                         }
                         html += '<strong>' + presentation['title'] + (presentation['type'] != 'Panel' ? ' <span class="badge badge-secondary">' + presentation['type'] + '</span>' : '') + '</strong><br>';

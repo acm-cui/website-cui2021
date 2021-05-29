@@ -184,9 +184,24 @@ noscript {
     vertical-align: top;
   }
 
+  .prg-icon-aaai {
+    height: $prg-icon-aaai-h;
+    width: $prg-icon-aaai-w;
+  }
+  
   .prg-icon-acmdl {
     height: $prg-icon-acmdl-h;
     width: $prg-icon-acmdl-w;
+  }
+
+  .prg-icon-sagepub {
+    height: $prg-icon-sagepub-h;
+    width: $prg-icon-sagepub-w;
+  }
+
+  .prg-icon-springerlink {
+    height: $prg-icon-springerlink-h;
+    width: $prg-icon-springerlink-w;
   }
 
   .prg-icon-yt {
@@ -194,7 +209,7 @@ noscript {
     width: $prg-icon-yt-w;
   }
   
-  .prg-icon-yt, .prg-icon-acmdl  {
+  .prg-icon-yt, .prg-icon-acmdl, .prg-icon-springerlink  {
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
     transition-property: opacity;
