@@ -51,7 +51,7 @@
 
 - id: posters_demos_2
   type: Interactivity
-  title: Posters and Demos 2
+  title: Posters and Demos II
   start_time: 2021-07-28T13:50:00.000Z
   end_time: 2021-07-28T14:20:00.000Z
 
@@ -101,7 +101,7 @@
 
 - id: posters_demos_3
   type: Interactivity
-  title: Posters and Demos 3
+  title: Posters and Demos III
   start_time: 2021-07-29T13:50:00.000Z
   end_time: 2021-07-29T14:20:00.000Z
 
