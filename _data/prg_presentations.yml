@@ -2,23 +2,24 @@
 chatbots:
  -  id: fp_14
     type: Full Paper
-    title: "Conversational review-based explanations for recommender systems: Exploring user's query behavior"
-    authors: "Diana C. Hernandez-Bocanegra and Jürgen Ziegler"
+    title: "Conversational review-based explanations for recommender systems: Exploring users' query behavior"
+    authors: "<em>Diana C. Hernandez-Bocanegra</em> and Jürgen Ziegler"
 
  -  id: ft_2
     type: Featured Talk
     title: "Brokerbot: A Cryptocurrency Chatbot in the Social-technical Gap of Trust"
-    authors: "Minha Lee"
+    authors: "<em>Minha Lee</em>, Lily Frank, and Wijnand IJsselsteijn"
+    springerlink: https://link.springer.com/article/10.1007/s10606-021-09392-6
 
  -  id: prov_72
     type: Provocation Paper
     title: "LGBTQ-AI? Exploring Expressions of Gender and Sexual Orientation in Chatbots"
-    authors: "Justin Edwards, Leigh Clark, and Allison Perrone"
+    authors: "<em>Justin Edwards</em>, Leigh Clark, and Allison Perrone"
 
  -  id: prov_74
     type: Provocation Paper
     title: "Towards a chatbot for evidence gathering on the dark web"
-    authors: "Mirai Gendi and Cosmin Munteanu"
+    authors: "<em>Mirai Gendi</em> and Cosmin Munteanu"
 
  -  id: panel_chatbots
     type: Panel
@@ -30,60 +31,62 @@ posters_demos_1:
  -  id: d_76
     type: Demo
     title: "ALTCAI: Enabling the Use of Embodied Conversational Agents to Deliver Informal Health Advice during Wizard of Oz Studies"
-    authors: "Maria J. Galvez Trigo, Martin Porcheron, Joy Egede, Joel E. Fischer, Adrian Hazzard, Chris Greenhalgh, and Michel Valstar"
+    authors: "<em>Maria J. Galvez Trigo</em>, Martin Porcheron, Joy Egede, Joel E. Fischer, Adrian Hazzard, Chris Greenhalgh, Edgar Bodiaj, and Michel Valstar"
 
  -  id: d_2021_1
     type: Demo
     title: "Daisy: A friendly conversational agent for older adults"
-    authors: "James Simpson"
+    authors: "<em>James Simpson</em>, Franziska Gaiser, Miroslav Macík, and Timna Breßgott"
+    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406166
 
  -  id: p_42
     type: Poster
     title: "Discourse Analysis in Voice User Interface Research"
-    authors: "Jungyoon Koh"
+    authors: "<em>Jungyoon Koh</em>"
 
  -  id: p_44
     type: Poster
-    title: "Audio-only Communication Channel: A Log Analysis"
-    authors: "Johanne R Trippas, Damiano Spina, Mark Sanderson, and Lawrence Cavedon"
+    title: "Accessing Media Via an Audio-only Communication Channel: A Log Analysis"
+    authors: "<em>Johanne R Trippas</em>, Damiano Spina, Mark Sanderson, and Lawrence Cavedon"
 
  -  id: p_46
     type: Poster
     title: "Democratizing Design and Fabrication Using Speech: Exploring co-design with a voice assistant"
-    authors: "Andrea Cuadra, David Goedicke, and J.D. Zamfirescu-Pereira"
+    authors: "<em>Andrea Cuadra</em>, David Goedicke, and J.D. Zamfirescu-Pereira"
 
  -  id: p_53
     type: Poster
     title: "Recipient Design for Conversational Agents: Tailoring Agent’s Utterance to User’s Knowledge"
-    authors: "Sungeun An, Robert Moore, Eric Liu, and Guang-Jie Ren"
+    authors: "<em>Sungeun An</em>, Robert Moore, Eric Liu, and Guang-Jie Ren"
 
 
 
 cui_4_good:
  -  id: fp_15
     type: Full Paper
-    title: "Can I Talk to You about Your Social Needs? Predicting Preference for Conversational User Interface in Health"
-    authors: "Rafal Kocielnik, Raina Langevin, J Scott George, Shota Akenaga, Amelia Wang, Darwin P Jones, Alexander Argyle, Callan Fockele, Layla Anderson, Dennis T Hsieh, Kabir Yadav, Herbert Duber, Gary Hsieh, and Andrea L Hartzler"
+    title: "Can I Talk to You about Your Social Needs? Understanding Preference for Conversational User Interface in Health"
+    authors: "<em>Rafal Kocielnik</em>, Raina Langevin, James S George, Shota Akenaga, Amelia Wang, Darwin P Jones, Alexander Argyle, Callan Fockele, Layla Anderson, Dennis T Hsieh, Kabir Yadav, Herbert Duber, Gary Hsieh, and Andrea L Hartzler"
 
  -  id: fp_31
     type: Full Paper
-    title: "Can we talk? Design Implications for the Self-Report of Health and Wellbeing via Conversational Agent"
-    authors: "Raju Maharjan, Darius Adam Rohani, Per Bækgaard, Jakob Bardram, and Kevin Christopher Doherty"
+    title: "Can we talk? Design Implications for the Questionnaire-Driven Self-Report of Health and Wellbeing via Conversational Agent"
+    authors: "<em>Raju Maharjan</em>, Darius Adam Rohani, Per Bækgaard, Jakob Bardram, and Kevin Doherty"
 
  -  id: ft_7
     type: Featured Talk
     title: "Trainbot: A Conversational Interface to Train Crowd Workers for Delivering On-Demand Therapy Authors"
-    authors: "Tahir Abbas"
+    authors: "<em>Tahir Abbas</em>, Vassilis-Javed Khan, Ujwal Gadiraju, and Panos Markopoulos"
+    aaai: https://ojs.aaai.org/index.php/HCOMP/article/view/7458
 
  -  id: pp_71
     type: Provocation Paper
     title: "Hey Google, Can You Help Me Learn?"
-    authors: "Smit Desai and Jessie Chin"
+    authors: "<em>Smit Desai</em> and Jessie Chin"
 
  -  id: pp_80
     type: Provocation Paper
     title: "Conservation Through Conversation - A Provocation"
-    authors: "Daniel Rough"
+    authors: "<em>Daniel Rough</em>"
 
  -  id: panel_cui_4_good
     type: Panel
@@ -104,17 +107,18 @@ generational:
  -  id: fp_39
     type: Full Paper
     title: "VUI Influencers: How the Media Portrays Voice User Interfaces for Older Adults"
-    authors: "Jaisie Sin, Cosmin Munteanu, Numrita Ramanand and Yi Rong Tan"
+    authors: "<em>Jaisie Sin</em>, Cosmin Munteanu, Numrita Ramanand, and Yi Rong Tan"
 
  -  id: fp_41
     type: Full Paper
-    title: "Who’s Talking to Me? Supporting Young Children’s Agency in Child-Agent Interaction"
-    authors: "Layne Hubbard, Shanli Ding, Vananh Le, Pilyoung Kim, and Tom Yeh"
+    title: "Voice Design to Support Young Children’s Agency in Child-Agent Interaction"
+    authors: "<em>Layne Hubbard</em>, Shanli Ding, Vananh Le, Pilyoung Kim, and Tom Yeh"
 
  -  id: ft_6
     type: Featured Talk
     title: "He Is Just Like Me: A Study of the Long-Term Use of Smart Speakers by Parents and Children"
-    authors: "Radhika Garg"
+    authors: "<em>Radhika Garg</em> and Subhasree Sengupta"
+    acmdl: https://dl.acm.org/doi/10.1145/3381002
 
  -  id: panel_generational
     type: Panel
@@ -126,32 +130,32 @@ posters_demos_2:
  -  id: d_48
     type: Demo
     title: "StockBabble: A Conversational Financial Agent to support Stock Market Investors"
-    authors: "Suraj Sharma, Joseph Brennan, and Jason Nurse"
+    authors: "Suraj Sharma, <em>Joseph Brennan</em>, and Jason Nurse"
 
  -  id: d_49
     type: Demo
     title: "TalkX: A toolkit for corpus-driven conversation design and bot prototyping using real-world speech data"
-    authors: "Andreas Liesenfeld, Gabor Parti, and Chu-Ren Huang"
+    authors: "<em>Andreas Liesenfeld</em>, Gabor Parti, and Chu-Ren Huang"
 
  -  id: p_50
     type: Poster
     title: "Toward a Unified Metadata Schema for Ecological Momentary Assessment with Voice-First Virtual Assistants"
-    authors: "Chen Chen, Khalil Mrini, Kemeberly Charles, Ella Lifset, Michael Hogarth, Alison Moore, Nadir Weibel, and Emilia Farcas"
+    authors: "<em>Chen Chen</em>, Khalil Mrini, Kemeberly Charles, Ella Lifset, Michael Hogarth, Alison Moore, Nadir Weibel, and Emilia Farcas"
 
  -  id: p_61
     type: Poster
     title: "Understanding the Utility of Digital Flight Assistants: A Preliminary Analysis"
-    authors: "Sarah Gosper, Johanne R Trippas, Harriette Richards, Fraser Allison, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
+    authors: "Sarah Gosper, <em>Johanne R Trippas</em>, Harriette Richards, Fraser Allison, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
 
  -  id: p_65
     type: Poster
     title: "Agents for Fighting Misinformation Spread on Twitter: Design Challenges"
-    authors: "Lara Piccolo, Azizah C. Blackwood and Tracie Farrell"
+    authors: "<em>Lara Piccolo</em>, Azizah C. Blackwood, Tracie Farrell, and Martino Mensio"
 
  -  id: p_78
     type: Poster
-    title: '"May I Interrupt?": Diverging Opinions on Proactive Smart Speakers'
-    authors: "Leon Reicherts, Nima Zargham, Michael Bonfert, Yvonne Rogers and Rainer Malaka"
+    title: "May I Interrupt? Diverging Opinions on Proactive Smart Speakers"
+    authors: "<em>Leon Reicherts</em>, Nima Zargham, Michael Bonfert, Yvonne Rogers, and Rainer Malaka"
 
 
 
@@ -159,27 +163,28 @@ multimodality:
  -  id: fp_6
     type: Full Paper
     title: '"You, Move There!": Investigating the Impact of Feedback on Voice Control in Virtual Environments'
-    authors: "Mitchell Baxter, Anna Bleakley, Justin Edwards, Leigh Clark, Benjamin R. Cowan, and Julie R. Williamson"
+    authors: "Mitchell Baxter, Anna Bleakley, Justin Edwards, Leigh Clark, Benjamin R. Cowan, and <em>Julie R. Williamson</em>"
 
  -  id: fp_12
     type: Full Paper
     title: "Assessing effectiveness and interpretability of light behaviors in smart speakers"
-    authors: "Sahiti Kunchay and Saeed Abdullah"
+    authors: "<em>Sahiti Kunchay</em> and Saeed Abdullah"
 
  -  id: fp_13
     type: Full Paper
     title: "An Evaluation of Visual Embodiment for Voice Assistants on Smart Displays"
-    authors: "Michael Bonfert, Nima Zargham, Florian Saade, Robert Porzel, and Rainer Malaka"
+    authors: "<em>Michael Bonfert</em>, Nima Zargham, Florian Saade, Robert Porzel, and Rainer Malaka"
 
  -  id: ft_5
     type: Featured Talk
     title: "Why that Nao? How humans adapt to a conventional humanoid robot in taking turns-at-talk"
-    authors: "Hannah Pelikan"
+    authors: "<em>Hannah Pelikan</em> and Mathias Broth"
+    acmdl: https://dl.acm.org/doi/10.1145/2858036.2858478
 
  -  id: pp_85
     type: Provocation Paper
     title: "Taming the Interaction Jungle"
-    authors: "James Simpson and Deborah Richards"
+    authors: "<em>James Simpson</em> and Deborah Richards"
 
  -  id: panel_multimodality
     type: Panel
@@ -191,27 +196,28 @@ humanness:
  -  id: fp_40
     type: Full Paper
     title: "Manipulating and Evaluating Levels of Personality Perceptions of Voice Assistants through Enactment-Based Dialogue Design"
-    authors: "Sarah Theres Völkel, Samantha Meindl and Heinrich Hussmann"
+    authors: "<em>Sarah Theres Völkel</em>, Samantha Meindl, and Heinrich Hussmann"
 
  -  id: pp_60
     type: Provocation Paper
     title: "Leaving the Butler Behind: The Future of Role Reproduction in CUI"
-    authors: "Donald McMillan and Razan Jaber"
+    authors: "<em>Donald McMillan</em> and Razan Jaber"
 
- -  id: pp_63
+ -  id: pp_64
     type: Provocation Paper
     title: "Hey Google, Do You Have a Personality? Designing Personality and Personas for Conversational Agents"
-    authors: "Alisha Pradhan and Amanda Lazar"
+    authors: "<em>Alisha Pradhan</em> and Amanda Lazar"
 
  -  id: pp_69
     type: Provocation Paper
     title: "Putting wake words to bed"
-    authors: "Saul Albert and Magnus Hamann"
+    authors: "<em>Saul Albert</em> and Magnus Hamann"
 
  -  id: ft_1
     type: Featured Talk
     title: "Developing a Personality Model for Speech-based Conversational Agents Using the Psycholexical Approach"
-    authors: "Sarah Theres Völkel"
+    authors: "<em>Sarah Theres Völkel</em>, Ramona Schödel, Daniel Buschek, Clemens Stachl, Verena Winterhalter, Markus Bühner, and Heinrich Hussmann"
+    acmdl: https://dl.acm.org/doi/abs/10.1145/3313831.3376210
 
  -  id: panel_humanness
     type: Panel
@@ -223,22 +229,23 @@ design:
  -  id: fp_17
     type: Full Paper
     title: "Finding a New Voice: Transitioning Designers from GUI to VUI Design"
-    authors: "Christine Murad, Cosmin Munteanu, Benjamin Cowan, and Leigh Clark"
+    authors: "<em>Christine Murad</em>, Cosmin Munteanu, Benjamin Cowan, and Leigh Clark"
 
  -  id: fp_26
     type: Full Paper
     title: "Eliciting Spoken Interruptions to Inform Proactive Speech Agent Design"
-    authors: "Justin Edwards, Christian Janssen, Sandy Gould, and Benjamin Cowan"
+    authors: "<em>Justin Edwards</em>, Christian Janssen, Sandy Gould, and Benjamin Cowan"
 
  -  id: ft_3
     type: Featured Talk
     title: "An Honest Conversation: Transparently Combining Machine and Human Speech Assistance in Public Spaces"
-    authors: "Dani Raju"
+    authors: "Thomas Reitmaier, Simon Robinson, Jennifer Pearson, <em>Dani Kalarikalayil Raju</em>, and Matt Jones"
+    acmdl: https://dl.acm.org/doi/10.1145/3313831.3376310
 
  -  id: pp_67
     type: Provocation Paper
     title: "What's in a name and does CUI matter?"
-    authors: "Martin Porcheron"
+    authors: "<em>Martin Porcheron</em>"
 
  -  id: panel_design
     type: Panel
@@ -250,32 +257,34 @@ posters_demos_3:
  -  id: d_2021_2
     type: Demo
     title: "OK, DNA!: A Conversational Interface to Explore Genomic Data"
-    authors: "Pietro Crovari and Fabio Catania"
+    authors: "<em>Pietro Crovari</em>, <em>Fabio Catania</em>, Pietro Pinoli, Philipp Roytburg, Asier Salzar, Franca Garzotto, and Stefano Ceri"
+    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406163
 
  -  id: d_2021_3
     type: Demo
     title: "NameSpec asks: What's Your Name in Chinese? A Voice Bot to Specify Chinese Personal Names through Dialog"
-    authors: "Andreas Liesenfeld"
+    authors: "<em>Andreas Liesenfeld</em> and Chu-ren Huang"
+    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406171
 
  -  id: p_59
     type: Poster
     title: "Tell Me When Users Leave: Predicting Users’ Abandonment of A Task-Oriented Chatbot Service using Explainable Deep Learning"
-    authors: "Yu-Wei Yang, Chieh Hsu, Hsin-Chien Tung, Hong-Han Shuai and Yung-Ju Chang"
+    authors: "<em>Yu-Wei Yang</em>, Chieh Hsu, Hsin-Chien Tung, Hong-Han Shuai, and Yung-Ju Chang"
 
  -  id: p_73
     type: Poster
     title: "Evaluating NLG-frameworks for multilingual surface realization in conversational assistants"
-    authors: "Hanne Brockow and Hendrik Buschmeier"
+    authors: "<em>Hanne Brockow</em> and Hendrik Buschmeier"
 
  -  id: p_75
     type: Poster
     title: "Low-code from frontend to backend: Connecting conversational user interfaces to backend services via a low-code IoT platform"
-    authors: "Irene Weber"
+    authors: "<em>Irene Weber</em>"
 
  -  id: p_82
     type: Poster
     title: "Examining User Preference for Agreeableness in Chatbots"
-    authors: "Sarah Theres Völkel and Lale Kaya"
+    authors: "<em>Sarah Theres Völkel</em> and Lale Kaya"
 
 
 
@@ -283,27 +292,28 @@ synthesis_talk:
  -  id: fp_18
     type: Full Paper
     title: '"Try, Try, Try Again": Sequence Analysis of Interactions with a Voice User Interface'
-    authors: "Chelsea Myers, Luis Fernando Laris Pardo, Ana Acosta-Ruiz, Alessandro Canossa, and Jichen Zhu"
+    authors: "<em>Chelsea Myers</em>, Luis Fernando Laris Pardo, Ana Acosta-Ruiz, Alessandro Canossa, and Jichen Zhu"
 
  -  id: ft_4
     type: Featured Talk
     title: 'Can humans simulate talking like other humans? Comparing simulated clients to real customers in service inquiries'
-    authors: "Saul Albert and Elizabeth Stokoe"
+    authors: "<em>Elizabeth Stokoe</em>, Rein Ove Sikveland, and <em>Saul Albert</em>, Magnus Hamann, and William Housley"
+    sagepub: https://journals.sagepub.com/doi/10.1177/1461445619887537
 
  -  id: pp_57
     type: Provocation Paper
     title: "Synthesizing a human-like voice is the easy way"
-    authors: "Sébastien Le Maguer and Benjamin Cowan"
+    authors: "<em>Sébastien Le Maguer</em> and Benjamin Cowan"
 
  -  id: pp_63
     type: Provocation Paper
     title: "The Meant, the Said, and the Understood: Conversational Argument Search and Cognitive Biases"
-    authors: "Johannes Kiesel, Damiano Spina, Henning Wachsmuth and Benno Stein"
+    authors: "<em>Johannes Kiesel</em>, Damiano Spina, Henning Wachsmuth, and Benno Stein"
 
  -  id: pp_79
     type: Provocation Paper
     title: "Can Alexa be a Team Player?"
-    authors: "James Simpson and Cassandra Crone"
+    authors: "James Simpson and <em>Cassandra Crone</em>"
 
  -  id: panel_design
     type: Panel

@@ -135,10 +135,31 @@ description: The online programme for the !!conference.year!! !!conference.full_
 							<ol class="list-group mt-3">
 							{%- for presentation in site.data.prg_presentations[session.id] %}
 								<li class="list-group-item pb-3">
+									{% if presentation.aaai %}
+									<div class="float-right">
+										<a href="{{ presentation.aaai }}" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai">
+											<span class="sr-only">View paper on the AAAI website</span>
+										</a>
+									</div>
+									{% endif %}
 									{% if presentation.acmdl %}
 									<div class="float-right">
-										<a href="{{ session.acmdl }}" title="See the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
-								<span class="sr-only">View paper on the ACM DL</span>
+										<a href="{{ presentation.acmdl }}" title="View the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
+											<span class="sr-only">View paper in the ACM Digital Library</span>
+										</a>
+									</div>
+									{% endif %}
+									{% if presentation.sagepub %}
+									<div class="float-right">
+										<a href="{{ presentation.sagepub }}" title="View the paper on Sage Publishing's website" class="d-block prg-inner-icon prg-icon-sagepub">
+											<span class="sr-only">View paper on Sage Publishing's website</span>
+										</a>
+									</div>
+									{% endif %}
+									{% if presentation.springerlink %}
+									<div class="float-right">
+										<a href="{{ presentation.springerlink }}" title="View the paper on Springer's website" class="d-block prg-inner-icon prg-icon-springerlink">
+											<span class="sr-only">View paper on Springer's website</span>
 										</a>
 									</div>
 									{% endif %}

@@ -1,75 +1,71 @@
 - id: welcome
   type: Plenary
-  title: Welcome from the General Chair
-  presenters: CUI 2021 General Chair<br>Stephan Schlögl
-  start_time: 2021-07-27T13:45:00.000Z
-  end_time: 2021-07-27T14:00:00.000Z
+  title: Welcome to CUI 2021
+  presenters: Stephan Schlögl (CUI 2021 General Chair)<br>Martin Porcheron and Leigh Clark (CUI 2021 Programme Chairs)
+  start_time: 2021-07-27T12:45:00.000Z
+  end_time: 2021-07-27T13:00:00.000Z
 
 - id: chatbots
   type: Talks
   title: Chatbots
-  chairs: TBD
-  start_time: 2021-07-27T14:00:00.000Z
-  end_time: 2021-07-27T14:50:00.000Z
+  start_time: 2021-07-27T13:00:00.000Z
+  end_time: 2021-07-27T13:50:00.000Z
 
 - id: posters_demos_1
-  type: Posters/Demos
+  type: Interactivity
   title: Posters and Demos I
-  start_time: 2021-07-27T14:50:00.000Z
-  end_time: 2021-07-27T15:20:00.000Z
+  start_time: 2021-07-27T13:50:00.000Z
+  end_time: 2021-07-27T14:20:00.000Z
 
 - id: break_1
   type: Break
   description: 20 minute break
-  start_time: 2021-07-27T15:20:00.000Z
-  end_time: 2021-07-27T15:40:00.000Z
+  start_time: 2021-07-27T14:20:00.000Z
+  end_time: 2021-07-27T14:40:00.000Z
 
 - id: cui_4_good
   type: Talks
   title: CUI-4-Good
-  chairs: TBD
-  start_time: 2021-07-27T15:40:00.000Z
-  end_time: 2021-07-27T16:30:00.000Z
+  start_time: 2021-07-27T14:40:00.000Z
+  end_time: 2021-07-27T15:30:00.000Z
 
 - id: break_2
   type: Break
   description: 30 minute break
-  start_time: 2021-07-27T16:30:00.000Z
-  end_time: 2021-07-27T17:00:00.000Z
+  start_time: 2021-07-27T15:30:00.000Z
+  end_time: 2021-07-27T16:00:00.000Z
 
 - id: keynote
   type: Keynote
   title: Opening keynote - TBC
-  start_time: 2021-07-27T17:00:00.000Z
-  end_time: 2021-07-27T17:45:00.000Z
+  start_time: 2021-07-27T16:00:00.000Z
+  end_time: 2021-07-27T16:45:00.000Z
 
 
 
 - id: generational
   type: Talks
   title: Generational technology
-  chairs: TBD
-  start_time: 2021-07-28T14:00:00.000Z
-  end_time: 2021-07-28T14:50:00.000Z
+  start_time: 2021-07-28T13:00:00.000Z
+  end_time: 2021-07-28T13:50:00.000Z
 
 - id: posters_demos_2
-  type: Posters/Demos
+  type: Interactivity
   title: Posters and Demos 2
-  start_time: 2021-07-28T14:50:00.000Z
-  end_time: 2021-07-28T15:20:00.000Z
+  start_time: 2021-07-28T13:50:00.000Z
+  end_time: 2021-07-28T14:20:00.000Z
 
 - id: break_3
   type: Break
   description: 20 minute break
-  start_time: 2021-07-28T15:20:00.000Z
-  end_time: 2021-07-28T15:40:00.000Z
+  start_time: 2021-07-28T14:20:00.000Z
+  end_time: 2021-07-28T14:40:00.000Z
 
 - id: multimodality
   type: Talks
   title: Multimodality
-  chairs: TBD
-  start_time: 2021-07-28T15:40:00.000Z
-  end_time: 2021-07-28T16:30:00.000Z
+  start_time: 2021-07-28T14:40:00.000Z
+  end_time: 2021-07-28T15:30:00.000Z
   
 - id: break_4
   type: Break
@@ -80,63 +76,62 @@
 - id: humanness
   type: Talks
   title: Humanness
-  chairs: TBD
-  start_time: 2021-07-28T17:00:00.000Z
-  end_time: 2021-07-28T17:50:00.000Z
+  start_time: 2021-07-28T16:00:00.000Z
+  end_time: 2021-07-28T16:50:00.000Z
   
 - id: break_5
   type: Break
   description: 40 minute break
-  start_time: 2021-07-28T17:50:00.000Z
-  end_time: 2021-07-28T18:30:00.000Z
+  start_time: 2021-07-28T16:50:00.000Z
+  end_time: 2021-07-28T17:30:00.000Z
 
 - id: social
   type: Social
   title: Social Activity - TBC
-  start_time: 2021-07-28T18:30:00.000Z
-  end_time: 2021-07-28T19:30:00.000Z
+  start_time: 2021-07-28T17:30:00.000Z
+  end_time: 2021-07-28T18:30:00.000Z
 
 
 
 - id: design
   type: Talks
   title: Thinking about design
-  start_time: 2021-07-29T14:00:00.000Z
-  end_time: 2021-07-29T14:50:00.000Z
+  start_time: 2021-07-29T13:00:00.000Z
+  end_time: 2021-07-29T13:50:00.000Z
 
 - id: posters_demos_3
-  type: Posters/Demos
+  type: Interactivity
   title: Posters and Demos 3
-  start_time: 2021-07-29T14:50:00.000Z
-  end_time: 2021-07-29T15:20:00.000Z
+  start_time: 2021-07-29T13:50:00.000Z
+  end_time: 2021-07-29T14:20:00.000Z
 
 - id: break_6
   type: Break
   description: 20 minute break
-  start_time: 2021-07-29T15:20:00.000Z
-  end_time: 2021-07-29T15:40:00.000Z
+  start_time: 2021-07-29T14:20:00.000Z
+  end_time: 2021-07-29T14:40:00.000Z
 
 - id: synthesis_talk
   type: Talks
   title: Synthesis, talk, and directionality
-  start_time: 2021-07-29T15:40:00.000Z
-  end_time: 2021-07-29T16:30:00.000Z
+  start_time: 2021-07-29T14:40:00.000Z
+  end_time: 2021-07-29T15:30:00.000Z
   
 - id: break_7
   type: Break
   description: 30 minute break
-  start_time: 2021-07-29T16:30:00.000Z
-  end_time: 2021-07-29T17:00:00.000Z
+  start_time: 2021-07-29T15:30:00.000Z
+  end_time: 2021-07-29T16:00:00.000Z
 
 - id: industry
   type: Roundtable
   title: Industry panel - TBC
-  start_time: 2021-07-29T17:00:00.000Z
-  end_time: 2021-07-29T17:45:00.000Z
+  chairs: Minha Lee and Martin Porcheron
+  start_time: 2021-07-29T16:00:00.000Z
+  end_time: 2021-07-29T16:45:00.000Z
 
 - id: closing
   type: Plenary
   title: Closing remarks and CUI 2022 information - TBC
-  presenters: TBD
-  start_time: 2021-07-29T17:45:00.000Z
-  end_time: 2021-07-29T18:00:00.000Z
+  start_time: 2021-07-29T16:45:00.000Zs
+  end_time: 2021-07-29T17:00:00.000Z

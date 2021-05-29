@@ -22,7 +22,10 @@ layout: none
                 "type": "{{ presentation.type }}",
                 "title": "{{ presentation.title | escape }}",
                 "authors": "{{ presentation.authors }}",
-                "acmdl": "{{ presentation.acmdl }}"
+                "aaai": "{{ presentation.aaai }}",
+                "acmdl": "{{ presentation.acmdl }}",
+                "sagepub": "{{ presentation.sagepub }}",
+                "springerlink": "{{ presentation.springerlink }}"
             }{% unless forloop.last %},{% endunless %}
           {%- endfor %}
         ]
