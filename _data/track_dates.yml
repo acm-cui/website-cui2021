@@ -12,8 +12,11 @@ full_papers:
   -  label: Final notifications
      date: 30th April 2021
 
-  -  label: Camera-ready due
+  -  label: Content changes due
      date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
 
 provocation_papers:
   -  label: Submissions due
@@ -23,8 +26,11 @@ provocation_papers:
   -  label: Notifications
      date: 14th May 2021
 
-  -  label: Camera-ready due
+  -  label: Content changes due
      date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
 
 posters:
   -  label: Submissions due
@@ -34,8 +40,11 @@ posters:
   -  label: Notifications
      date: 18th May 2021
 
-  -  label: Camera-ready due
+  -  label: Content changes due
      date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
 
 demos:
   -  label: Submissions due
@@ -45,8 +54,11 @@ demos:
   -  label: Notifications
      date: 14th May 2021
 
-  -  label: Camera-ready due
+  -  label: Content changes due
      date: 28th May 2021
+
+  -  label: Paper finalised
+     date: 25th June 2021
 
 featured_talks:
   -  label: Submissions due
