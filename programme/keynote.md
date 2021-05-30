@@ -5,7 +5,7 @@ description: The keynote speaker at !!conference.short_name!! !!conference.year!
 
 # Keynote speaker
 
-We are delighted to announce that Prof. Elisabeth André from Augsburg University will be the keynote speaker for {{ site.conference.short_name }} {{ site.conference.year }}.
+We are delighted to announce that Prof. Dr. Elisabeth André from Augsburg University will be the keynote speaker for {{ site.conference.short_name }} {{ site.conference.year }}.
 
 ## About Elisabeth
 
@@ -17,6 +17,6 @@ We are delighted to announce that Prof. Elisabeth André from Augsburg Universit
     </div>
         
     <div class="col-xl-4 col-lg-5 col-md-6 col-12 mt-md-0 mt-4 mb-md-0 mb-5 px-md-3 px-5 d-flex align-content-start flex-wrap">
-        <img src="{{ "/assets/img/keynote-elisabeth-andre.jpg" | relative_url }}" alt="A photograph of Prof. Elisabeth André" title="Prof. Elisabeth André" style="max-width: 100%">
+        <img src="{{ "/assets/img/keynote-elisabeth-andre.jpg" | relative_url }}" alt="A photograph of Prof. Dr. Elisabeth André" title="Prof. Dr. Elisabeth André" style="max-width: 100%">
     </div>
 </div>
