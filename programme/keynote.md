@@ -7,8 +7,6 @@ description: The keynote speaker at !!conference.short_name!! !!conference.year!
 
 We are delighted to announce that Prof. Elisabeth André from Augsburg University will be the keynote speaker for {{ site.conference.short_name }} {{ site.conference.year }}.
 
-Details about Elisabeth's talk will be available soon.
-
 ## About Elisabeth
 
 <div class="row">
