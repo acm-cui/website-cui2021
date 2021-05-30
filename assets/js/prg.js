@@ -69,7 +69,7 @@ $(function() {
                             html += session['description'];
                         }
                         html += '</div></li>';
-                    } else {
+                    } else if (session_id == sessions.length-1) {
                         html += '<li class="media p-3 bg-light border-bottom rounded-0" id="session-' + index + '"><div class="media-body text-center text-muted">';
                         html += 'Please see the next day\'s schedule as events may start soon after midnight';
                         html += '</div></li>';
