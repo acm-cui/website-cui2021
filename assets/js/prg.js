@@ -22,7 +22,7 @@ var nth = function(d) {
   }
 }
 $(function() {
-    $.getJSON('../programme.json?s=' + (new Date().getTime()), function(data) {
+    $.getJSON('../programme/presentations.json?s=' + (new Date().getTime()), function(data) {
         var $prg = $('#programme');
         var num_sessions = 0;
         var sessions_by_date = {};
@@ -124,6 +124,11 @@ $(function() {
                             if (presentation['springerlink']) {
                                 html += '<div class="float-right">';
                                 html += '<a href="' + presentation['springerlink'] + '" title="View the paper on Springer\'s website" class="d-block prg-inner-icon prg-icon-springerlink"><span class="sr-only">View paper on Springer\'s website</span></a>';
+                                html += '</div>';
+                            }
+                            if (presentation['info']) {
+                                html += '<div class="float-right">';
+                                html += '<a href="' + presentation['info'] + '" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info"><span class="sr-only">Read more about this presentation</span></a>';
                                 html += '</div>';
                             }
                             html += '<strong>' + presentation['title'] + (presentation['type'] != 'Panel' ? ' <span class="badge badge-secondary">' + presentation['type'] + '</span>' : '') + '</strong><br>';

@@ -94,12 +94,12 @@ cui_4_good:
 
 
 
-# keynote:
-#  -  id: panel_tools_and_frameworks
-#     type: Keynote
-#     title: "Designing the therapist in your pocket: scientific approaches to designing applications that help you manage your emotions"
-#     authors: TBD
-#
+keynote:
+ -  id: keynote_presentation
+    type: Keynote
+    title: Title TBC
+    authors: Elisabeth André
+    info: /programme/keynote/
 
 
 

@@ -116,6 +116,11 @@ nav {
     opacity: $prg-icon-springerlink-o;
   }
 
+  .prg-icon-info {
+    background-image: escape-svg($prg-icon-info-bg) !important;
+    opacity: $prg-icon-info-o;
+  }
+
   .prg-icon-yt {
     background-image: escape-svg($prg-icon-yt-bg) !important;
     opacity: $prg-icon-yt-o;

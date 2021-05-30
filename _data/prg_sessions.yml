@@ -37,7 +37,7 @@
 
 - id: keynote
   type: Keynote
-  title: Opening keynote - TBC
+  title: Opening keynote
   start_time: 2021-07-27T16:00:00.000Z
   end_time: 2021-07-27T16:45:00.000Z
   
