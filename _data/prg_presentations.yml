@@ -132,10 +132,10 @@ posters_demos_2:
     title: "StockBabble: A Conversational Financial Agent to support Stock Market Investors"
     authors: "Suraj Sharma, <em>Joseph Brennan</em>, and Jason Nurse"
 
- -  id: d_49
-    type: Demo
-    title: "TalkX: A toolkit for corpus-driven conversation design and bot prototyping using real-world speech data"
-    authors: "<em>Andreas Liesenfeld</em>, Gabor Parti, and Chu-Ren Huang"
+ # -  id: d_49
+ #    type: Demo
+ #    title: "TalkX: A toolkit for corpus-driven conversation design and bot prototyping using real-world speech data"
+ #    authors: "<em>Andreas Liesenfeld</em>, Gabor Parti, and Chu-Ren Huang"
 
  -  id: p_50
     type: Poster
@@ -260,11 +260,11 @@ posters_demos_3:
     authors: "<em>Pietro Crovari</em>, <em>Fabio Catania</em>, Pietro Pinoli, Philipp Roytburg, Asier Salzar, Franca Garzotto, and Stefano Ceri"
     acmdl: https://dl.acm.org/doi/10.1145/3405755.3406163
 
- -  id: d_2021_3
-    type: Demo
-    title: "NameSpec asks: What's Your Name in Chinese? A Voice Bot to Specify Chinese Personal Names through Dialog"
-    authors: "<em>Andreas Liesenfeld</em> and Chu-ren Huang"
-    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406171
+ # -  id: d_2021_3
+ #    type: Demo
+ #    title: "NameSpec asks: What's Your Name in Chinese? A Voice Bot to Specify Chinese Personal Names through Dialog"
+ #    authors: "<em>Andreas Liesenfeld</em> and Chu-ren Huang"
+ #    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406171
 
  -  id: p_59
     type: Poster
