@@ -11,7 +11,7 @@ layout: none
         "title": "{{ session.title | escape }}",
         "youtube": "{{ session.youtube }}",
         "description": "{{ session.description }}",
-        "presenters": "{{ session.presenters }}",
+        "presenters": "{{ session.presenters | replace: '"', '\\"' }}",
         "chairs": "{{ session.chairs }}",
         "start_time": "{{ session.start_time | date: "%FT%T.000Z"  }}",
         "end_time": "{{ session.end_time | date: "%FT%T.000Z"  }}",

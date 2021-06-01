@@ -40,11 +40,24 @@
   title: Opening keynote
   start_time: 2021-07-27T16:00:00.000Z
   end_time: 2021-07-27T16:45:00.000Z
+
+- id: break_3
+  type: Break
+  description: 45 minute break
+  start_time: 2021-07-27T16:45:00.000Z
+  end_time: 2021-07-27T17:30:00.000Z
+
+- id: social_1
+  type: Social
+  title: The Big CUI Quiz
+  presenters: 'Quizmasters: <em>Daniel Rough</em> and <em>Justin Edwards</em>'
+  start_time: 2021-07-27T17:30:00.000Z
+  end_time: 2021-07-27T18:30:00.000Z
   
 - id: break_eod_1
   type: EOD
   description: The conference resumes later today
-  start_time: 2021-07-27T16:45:00.000Z
+  start_time: 2021-07-27T18:30:00.000Z
   end_time: 2021-07-28T13:00:00.000Z
 
 
@@ -61,7 +74,7 @@
   start_time: 2021-07-28T13:50:00.000Z
   end_time: 2021-07-28T14:20:00.000Z
 
-- id: break_3
+- id: break_4
   type: Break
   description: 20 minute break
   start_time: 2021-07-28T14:20:00.000Z
@@ -73,7 +86,7 @@
   start_time: 2021-07-28T14:40:00.000Z
   end_time: 2021-07-28T15:30:00.000Z
   
-- id: break_4
+- id: break_5
   type: Break
   description: 30 minute break
   start_time: 2021-07-28T15:50:00.000Z
@@ -85,15 +98,16 @@
   start_time: 2021-07-28T16:00:00.000Z
   end_time: 2021-07-28T16:50:00.000Z
   
-- id: break_5
+- id: break_6
   type: Break
   description: 40 minute break
   start_time: 2021-07-28T16:50:00.000Z
   end_time: 2021-07-28T17:30:00.000Z
 
-- id: social
+- id: social_2
   type: Social
-  title: Social Activity - TBC
+  title: Who Wants to Be a CUIllionaire
+  presenters: Brought to you by <em>Justin Edwards</em> and <em>Allison Perrone</em> from the <a href="https://www.batcamp.org/robots/" alt="Robots on Typewriters podcast website">Robots on Typewriters</a> podcast
   start_time: 2021-07-28T17:30:00.000Z
   end_time: 2021-07-28T18:30:00.000Z
   
