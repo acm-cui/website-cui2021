@@ -22,6 +22,14 @@ var nth = function(d) {
   }
 }
 $(function() {
+    $('.accordian').on('shown.bs.collapse', function(e) {
+        var $schedule = $(e.target);
+        var $header = $('#' + $schedule.attr('aria-labelledby'))
+        $('html,body').animate({
+            scrollTop: $schedule.offset().top - $header.height() - 25
+        }, 500);
+    });
+    
     $.getJSON('../programme/presentations.json?s=' + (new Date().getTime()), function(data) {
         var $prg = $('#programme');
         var num_sessions = 0;
