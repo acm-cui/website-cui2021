@@ -132,10 +132,11 @@ posters_demos_2:
     title: "StockBabble: A Conversational Financial Agent to support Stock Market Investors"
     authors: "Suraj Sharma, <em>Joseph Brennan</em>, and Jason Nurse"
 
- # -  id: d_49
- #    type: Demo
- #    title: "TalkX: A toolkit for corpus-driven conversation design and bot prototyping using real-world speech data"
- #    authors: "<em>Andreas Liesenfeld</em>, Gabor Parti, and Chu-Ren Huang"
+ -  id: d_2020_3
+    type: Demo
+    title: "Perceived Usefulness of Conversational Agents Predicts Search Performance in Aerospace Domain"
+    authors: "Alexandre Arnold, Gérard Dupont, Catherine Kobus, François Lancelot, and <em>Ying-Hsang Liu</em>"
+    acmdl: https://dl.acm.org/doi/abs/10.1145/3405755.3406172
 
  -  id: p_50
     type: Poster
