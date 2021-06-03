@@ -36,6 +36,10 @@ The Reduced Rate is only open to individuals in economically developing countrie
 At least one author of each accepted paper must register for the conference. A paper without a corresponding registration may be withheld from publication. 
 
 
+## Receipts
+
+If the automated email confirmation is not adequate for your institutional records, please contact the {{ site.conference.short_name }} {{ site.conference.year }} registration chair (details below).
+
 ## Need support or have questions?
 
 {% for group in site.data.oc %}
