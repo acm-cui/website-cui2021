@@ -38,7 +38,8 @@ At least one author of each accepted paper must register for the conference. A p
 
 ## Receipts
 
-If the automated email confirmation is not adequate for your institutional records, please contact the {{ site.conference.short_name }} {{ site.conference.year }} registration chair (details below).
+If the automated email confirmation is not adequate for your institutional records, please contact the {{ site.conference.short_name }} {{ site.conference.year }} registration chair (details below) for a more complete receipt. Please include in your email a bullet-point list of what is required on the receipt.
+
 
 ## Need support or have questions?
 
