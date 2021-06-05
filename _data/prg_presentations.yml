@@ -345,7 +345,7 @@ synthesis_talk:
  -  id: pp_63
     type: Provocation Paper
     title: "The Meant, the Said, and the Understood: Conversational Argument Search and Cognitive Biases"
-    authors: "<em>Johannes Kiesel</em>, Damiano Spina, Henning Wachsmuth, and Benno Stein"
+    authors: "<em>Johannes Kiesel</em>, <em>Damiano Spina</em>, Henning Wachsmuth, and Benno Stein"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469615
 
  -  id: pp_79
