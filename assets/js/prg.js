@@ -111,7 +111,8 @@ $(function() {
                     }
 
                     if (session['presentations'].length > 0) {
-                        html += '<ol class="list-group mt-3">';
+                        html += '<button type="button" class="btn btn-light btn-lg btn-block d-md-none d-block mt-3" data-toggle="collapse" data-target=".programmeSessionDetail' + session['id'] + '" aria-expanded="false" aria-controls="programmeSessionDetail' + session['id'] + '"><span class="programmeSessionDetail' + session['id'] + ' no-transition collapse">- Hide</span><span class="programmeSessionDetail' + session['id'] + ' no-transition collapse show">+ Show</span> details</button>';
+                        html += '<ol class="list-group mt-3 d-md-block collapse programmeSessionDetail' + session['id'] + '">';
                         $.each(session['presentations'], function(presentation_id) {
                             presentation = session['presentations'][presentation_id]
                             html += '<li class="list-group-item pb-3">';
