@@ -213,8 +213,13 @@ noscript {
     height: $prg-icon-link-h;
     width: $prg-icon-link-w;
   }
+
+  .prg-icon-cal {
+    height: $prg-icon-link-h;
+    width: $prg-icon-link-w;
+  }
   
-  .prg-icon-aaai, .prg-icon-acmdl , .prg-icon-sagepub, .prg-icon-springerlink , .prg-icon-info, .prg-icon-link  {
+  .prg-icon-aaai, .prg-icon-acmdl , .prg-icon-sagepub, .prg-icon-springerlink , .prg-icon-info, .prg-icon-link, .prg-icon-cal  {
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
     transition-property: opacity;

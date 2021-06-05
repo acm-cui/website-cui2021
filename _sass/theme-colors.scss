@@ -125,6 +125,11 @@ nav {
     background-image: escape-svg($prg-icon-link-bg) !important;
     opacity: $prg-icon-link-o;
   }
+
+  .prg-icon-cal {
+    background-image: escape-svg($prg-icon-cal-bg) !important;
+    opacity: $prg-icon-cal-o;
+  }
 }
 
 @include media-breakpoint-up(sm) {

@@ -67,7 +67,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
 			<!--<p class="d-none">Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, {{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}. We look forward to you joining us.</p>-->
 			<p>Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, and {{ num_featured_talks }} Featured Talks{% endif %}. We look forward to you joining us.</p>
 			<p>The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>.</p>
-
+			<p>You can <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} as an ICS file">download all sessions as an iCalendar (ICS) file</a>, or download individual sessions below with the calendar icon.</p>
 <noscript>
 	<div class="prg" id="programmeNS">
 	{% for day in days %}
@@ -120,8 +120,12 @@ description: The online programme for the !!conference.year!! !!conference.full_
 							</div>
 						</div>
 						<div class="media-body w-100">
-							<div class="float-right">
-								{% capture session_url %}/programme/#session-{{ session.id }}{% endcapture %}
+							<div class="float-right d-flex flex-row">
+								{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
+								<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2">
+									<span class="sr-only">iCalendar (ICS) file for this session</span>
+								</a>
+								{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
 								<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
 									<span class="sr-only">Permalink to this session</span>
 								</a>

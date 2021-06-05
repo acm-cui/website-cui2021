@@ -96,7 +96,10 @@ $(function() {
                     html += '<div class="mt-1 small"><span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['end_time']))) +'</span>';
                     html += '</div></div>';
                     html += '<div class="media-body w-100">';
-                    html += '<div class="float-right"><a href="https://' + window.location.hostname + window.location.pathname + '#session-' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a></div>';
+                    html += '<div class="float-right d-flex flex-row">';
+                    html += '<a href="https://' + window.location.hostname + window.location.pathname + 'ics/' + session['id'] + '.ics" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2"><span class="sr-only">iCalendar (ICS) file for this session</span></a>';
+                    html += '<a href="https://' + window.location.hostname + window.location.pathname + 'link/' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a>';
+                    html += '</div>';
                     html += '<h4 class="text-primary mt-0 mb-1">' + session['title'] + '</h4>';
 
                     if (session['presenters'] != '') {

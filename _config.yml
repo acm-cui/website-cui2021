@@ -82,11 +82,17 @@ titles_from_headings:
 # Page generation from data
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
-   # - data: prg_days
-   #   template: programme_day
-   #   name: id
-   #   dir: '/programme'
-   #   index_files: false
+   - data: prg_sessions
+     template: programme-ical
+     name: id
+     extension: ics
+     dir: '/programme/ics'
+     index_files: false
+   - data: prg_sessions
+     template: programme-redirect
+     name: id
+     dir: '/programme/link/'
+     index_files: false
 
 # Pagination
 pagination:
