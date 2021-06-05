@@ -209,12 +209,12 @@ noscript {
     width: $prg-icon-info-w;
   }
 
-  .prg-icon-yt {
-    height: $prg-icon-yt-h;
-    width: $prg-icon-yt-w;
+  .prg-icon-link {
+    height: $prg-icon-link-h;
+    width: $prg-icon-link-w;
   }
   
-  .prg-icon-yt, .prg-icon-acmdl, .prg-icon-springerlink  {
+  .prg-icon-aaai, .prg-icon-acmdl , .prg-icon-sagepub, .prg-icon-springerlink , .prg-icon-info, .prg-icon-link  {
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
     transition-property: opacity;

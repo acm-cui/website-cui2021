@@ -2,8 +2,8 @@
 label: Featured Talks
 description: The Featured Talks track at !!conference.short_name!! !!conference.year!! looks to showcase work from 2011--2020 related to all aspects of Conversational User Interfaces.
 
-submission:
-  text: Submissions closed
+#cta:
+#  text: Submissions closed
 #  title: Send an email to the Featured Talks Chairs
 #  link: https://spamty.eu/show/v6/438/2bc5bcd3e27587af8f7fc532/
   

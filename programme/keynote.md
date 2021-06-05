@@ -1,11 +1,18 @@
 ---
 label: Conference keynote
 description: The keynote speaker at !!conference.short_name!! !!conference.year!!.
+
+cta:
+  text: View in programme
+  title: Locate the keynote in the conference programme
+  link: /2021/programme/#session-keynote
 ---
 
 # Keynote speaker
 
 We are delighted to announce that Prof. Dr. Elisabeth André from Augsburg University will be the keynote speaker for {{ site.conference.short_name }} {{ site.conference.year }}.
+
+
 
 ## About Elisabeth
 

@@ -22,15 +22,15 @@ var nth = function(d) {
   }
 }
 $(function() {
-    $('.accordian').on('shown.bs.collapse', function(e) {
-        var $schedule = $(e.target);
-        var $header = $('#' + $schedule.attr('aria-labelledby'))
-        $('html,body').animate({
-            scrollTop: $schedule.offset().top - $header.height() - 25
-        }, 500);
-    });
+    // $('.programmeSchedule').on('shown.bs.collapse', function(e) {
+    //     var $schedule = $(e.target);
+    //     var $header = $('#' + $schedule.attr('aria-labelledby'))
+    //     $('html,body').animate({
+    //         scrollTop: $schedule.offset().top - $header.height() - 25
+    //     }, 500);
+    // });
     
-    $.getJSON('../programme/presentations.json?s=' + (new Date().getTime()), function(data) {
+    $.getJSON('../programme/data.json?s=' + (new Date().getTime()), function(data) {
         var $prg = $('#programme');
         var num_sessions = 0;
         var sessions_by_date = {};
@@ -63,9 +63,9 @@ $(function() {
         index = 0;
         $.each(sessions_by_date, function(date_string, sessions) {
             html = '<div class="card"><div class="card-header bg-dark" id="programmeDay' + index +'">';
-            html += '<h2 class="mb-0"><button class="btn btn-link btn-block text-white font-weight-bold" type="button" id="day' + index +'" data-toggle="collapse" data-target="#programme' + index +'" aria-expanded="' + (index == expand_day ? 'true' : 'false') + '" aria-controls="programme' + index +'">';
+            html += '<h2 class="mb-0"><button class="btn btn-link btn-block text-white font-weight-bold" type="button" id="day' + index +'" data-toggle="collapse" data-target="#programme' + index +'" aria-expanded="false" aria-controls="programme' + index +'">';
             html += date_string + '</button></h2></div>';
-            html += '<div id="programme' + index +'" class="collapse' + (index == expand_day ? ' show' : '') + '" aria-labelledby="programmeDay' + index +'" data-parent="#programme">';
+            html += '<div id="programme' + index +'"  class="collapse programmeSchedule" aria-labelledby="programmeDay' + index +'">';
             html += '<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">';
 
             $.each(sessions, function(session_id, session) {
@@ -96,9 +96,7 @@ $(function() {
                     html += '<div class="mt-1 small"><span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['end_time']))) +'</span>';
                     html += '</div></div>';
                     html += '<div class="media-body w-100">';
-                    if (session['youtube'] != '') {
-                        html += '<div class="float-right"><a href="' + session['youtube'] + '" title="Watch the session on YouTube" class="d-block prg-icon-yt mr-4"><span class="sr-only">Watch on YouTube</span></a></div>';
-                    }
+                    html += '<div class="float-right"><a href="https://' + window.location.hostname + window.location.pathname + '#session-' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a></div>';
                     html += '<h4 class="text-primary mt-0 mb-1">' + session['title'] + '</h4>';
 
                     if (session['presenters'] != '') {
@@ -162,5 +160,25 @@ $(function() {
             $prg.append(html);
             index++;
         });
+
+        if (location.hash && location.hash.length) {
+            var hash = decodeURIComponent(location.hash.substr(1));
+            if (hash.startsWith('session-')) {
+                var $session = $('#programme  #' + hash);
+                if (!$session.is(':visible')) {
+                    var $day = $session.parent().parent();
+                    $day.collapse('show');
+                    var fn = function () {
+                        $('html,body').animate({
+                            scrollTop: $session.offset().top 
+                        }, 500);
+                        $day.off('shown.bs.collapse', fn);
+                    };
+                    $day.on('shown.bs.collapse', fn);
+                }
+            }
+        } else {
+            $('#programme' + expand_day).collapse('show');
+        }
     }); 
 });

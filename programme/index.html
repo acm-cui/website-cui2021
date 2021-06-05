@@ -101,7 +101,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
 					
 					{% if session.type == "EOD" %}
 					{% elsif session.type == "Break" %}
-					<li class="media p-3 bg-light border-bottom rounded-0" id="session-{{ forloop.index0 }}">
+					<li class="media p-3 bg-light border-bottom rounded-0" id="session-{{ session.id }}">
 						<div class="media-body text-center text-muted">
 							{% if session.description %}
 							{{ session.description }}
@@ -120,13 +120,12 @@ description: The online programme for the !!conference.year!! !!conference.full_
 							</div>
 						</div>
 						<div class="media-body w-100">
-							{% if session.youtube %}
 							<div class="float-right">
-								<a href="{{ session.youtube }}" title="Watch the session on YouTube" class="d-block prg-icon-yt mr-4">
-									<span class="sr-only">Watch on YouTube</span>
+								{% capture session_url %}/programme/#session-{{ session.id }}{% endcapture %}
+								<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
+									<span class="sr-only">Permalink to this session</span>
 								</a>
 							</div>
-							{% endif %}
 							<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
 							{% if session.presenters %}
 							{{ session.presenters }}
@@ -193,5 +192,5 @@ description: The online programme for the !!conference.year!! !!conference.full_
 	</div>
 </noscript>
 
-<div class="prg accordian" id="programme">
+<div class="prg" id="programme">
 </div>
