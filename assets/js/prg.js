@@ -91,12 +91,12 @@ $(function() {
                         html += '</div></li>';
                     }
                 } else {
-                    html += '<li class="media prg-row p-3 rounded bg-light border-bottom rounded-0 flex-md-row flex-column" id="session-' + session['id'] + '"><div class="mr-md-3 mb-md-0 mb-3"><div class="badge badge-primary text-capitalize mb-2 mr-3">' + session['type'] + '</div>';
-                    html += '<div class="mb-1 small"><span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['start_time']))) +'</span></div>';
-                    html += '<div class="mt-1 small"><span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends at <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['end_time']))) +'</span>';
+                    html += '<li class="media prg-row p-3 rounded bg-light border-bottom rounded-0 flex-md-row flex-column" id="session-' + session['id'] + '"><div class="mr-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row"><div class="text-capitalize mb-md-2 mr-3"><span class="badge badge-primary">' + session['type'] + '</span></div>';
+                    html += '<div class="mb-md-1 mr-md-0 mr-3 small"><span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start mr-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['start_time']))) +'</span></div>';
+                    html += '<div class="mt-md-1 small"><span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end mr-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing"><span></span>' + timestr(new Date(Date.parse(session['end_time']))) +'</span>';
                     html += '</div></div>';
                     html += '<div class="media-body w-100">';
-                    html += '<div class="float-right d-flex flex-row">';
+                    html += '<div class="float-right d-flex flex-row mt-md-0 mt-1 ml-1">';
                     html += '<a href="https://' + window.location.hostname + window.location.pathname + 'ics/' + session['id'] + '.ics" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2"><span class="sr-only">iCalendar (ICS) file for this session</span></a>';
                     html += '<a href="https://' + window.location.hostname + window.location.pathname + 'link/' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a>';
                     html += '</div>';
