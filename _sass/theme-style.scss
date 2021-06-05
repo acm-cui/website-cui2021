@@ -327,3 +327,7 @@ noscript {
 .no-transition {
    transition: none !important;
 } 
+
+.programmeSessionDetail.collapse:not(.show) {
+  display: none !important;
+}

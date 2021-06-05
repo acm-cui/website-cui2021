@@ -111,8 +111,9 @@ $(function() {
                     }
 
                     if (session['presentations'].length > 0) {
-                        html += '<button type="button" class="btn btn-light btn-lg btn-block d-md-none d-block mt-3" data-toggle="collapse" data-target=".programmeSessionDetail' + session['id'] + '" aria-expanded="false" aria-controls="programmeSessionDetail' + session['id'] + '"><span class="programmeSessionDetail' + session['id'] + ' no-transition collapse">- Hide</span><span class="programmeSessionDetail' + session['id'] + ' no-transition collapse show">+ Show</span> details</button>';
-                        html += '<ol class="list-group mt-3 d-md-block collapse programmeSessionDetail' + session['id'] + '">';
+                        html += '<div class="mt-3">';
+                        html += '<button type="button" class="btn btn-light btn-lg btn-block d-md-none d-block text-left p-0 programmeSessionDetail programmeSessionDetail' + session['id'] + ' collapse show" data-toggle="collapse" data-target=".programmeSessionDetail' + session['id'] + '" aria-expanded="false" aria-controls="programmeSessionDetail' + session['id'] + '">+ Expand session details</button>';
+                        html += '<ol class="list-group  d-md-block collapse programmeSessionDetail' + session['id'] + '">';
                         $.each(session['presentations'], function(presentation_id) {
                             presentation = session['presentations'][presentation_id]
                             html += '<li class="list-group-item pb-3">';
@@ -158,7 +159,7 @@ $(function() {
 
             });
 
-            html += '</ul></div>';
+            html += '</ul></div></div>';
             html += '</div>';
 
             $prg.append(html);
