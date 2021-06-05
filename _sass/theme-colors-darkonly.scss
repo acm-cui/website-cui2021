@@ -39,4 +39,22 @@ hr { border-color: $bg-lightest; }
   li {
     border-bottom: 1px solid $prg-border-color !important;
   }
+  
+  .btn-light {
+    border: 0;
+    color: $white !important;
+    background-color: $bg-light !important;
+    transition-timing-function: $transition-timing-function;
+    transition-duration: $transition-duration;
+    transition-property: background;
+
+    &:active {
+      color: $white !important;
+    };
+
+    @include hover-focus() {
+      color: $white !important;
+      background-color: $bg-lighter !important;
+    }
+  }
 }
