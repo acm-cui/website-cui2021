@@ -111,6 +111,7 @@ pagination:
 jekyll-minifier:
   compress_css: false
   exclude: 'feed.xml'
+  exclude: 'programme/ics/'
   exclude: 'sitemap.xml'
   exclude: 'programme.json'
   exclude: 'programme/'
