@@ -158,3 +158,26 @@ nav {
   }
 }
 
+
+.ip-cover {
+  .profile-photo {
+    color: $navbar-color;
+  }
+
+  .profile-text {
+    background: $body-bg;
+  }
+
+  @include hover-focus() {
+    .profile-photo {
+      background-color: $nav-bg;
+      -webkit-backdrop-filter: $nav-bg-filter;
+      backdrop-filter: $nav-bg-filter;
+    }
+
+    h5 {
+      opacity: 1;
+    }
+  }
+}
+
