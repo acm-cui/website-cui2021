@@ -296,6 +296,12 @@ posters_demos_3:
  #    title: "NameSpec asks: What's Your Name in Chinese? A Voice Bot to Specify Chinese Personal Names through Dialog"
  #    authors: "<em>Andreas Liesenfeld</em> and Chu-ren Huang"
  #    acmdl: https://doi.org/10.1145/3405755.3406171
+ 
+ -  id: p_2020_1
+    type: Poster
+    title: Understanding Differences between Heavy Users and Light Users in Difficulties with Voice User Interfaces
+    authors: Hyunhoon Jung, Hyeji Kim, and Jung-Woo Ha
+    acmdl: https://dl.acm.org/doi/10.1145/3405755.3406170
 
  -  id: p_59
     type: Poster
