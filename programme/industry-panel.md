@@ -3,9 +3,9 @@ label: Industry Panel
 description: The !!conference.short_name!! Industry Panel is back, with a fantastic lineup of panelists.
 
 cta:
-	text: View in programme
-	title: Locate the panel in the conference programme
-	link: /2021/programme/#session-industry
+  text: View in programme
+  title: Locate the panel in the conference programme
+  link: /2021/programme/link/industry
 ---
 
 # Industry Panel

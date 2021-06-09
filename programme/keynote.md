@@ -5,7 +5,7 @@ description: The keynote speaker at !!conference.short_name!! !!conference.year!
 cta:
   text: View in programme
   title: Locate the keynote in the conference programme
-  link: /2021/programme/#session-keynote
+  link: /2021/programme/link/keynote
 ---
 
 # Keynote speaker
