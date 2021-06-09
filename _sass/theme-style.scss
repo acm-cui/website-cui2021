@@ -334,46 +334,17 @@ noscript {
 
 
 .profile {
+  cursor: pointer;
   transition-timing-function: $transition-timing-function;
   transition-duration: $transition-duration;
-  transition-property: box-shadow, height, width, max-width;
-
-  .overflowed-profile {
-    transition-timing-function: $transition-timing-function;
-    transition-duration: $transition-duration;
-    transition-property: opacity, max-height, height;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
+  transition-property: box-shadow;
 
   @include hover-focus() {
     & > div {
       box-shadow: $box-shadow !important;
     }
-    
-
-    .overflowed-profile {
-      opacity: 1;
-      max-height: 1000px;
-    }
-
-    p:after {
-      background: none
-    }
-  }
-
-}
-
-
-@include media-breakpoint-up(md) {
-
-  .profile {
-    .overflowed-profile {
-      opacity: 0.4;
-      max-height: 0px;
-    }
   }
 }
+
 
 

@@ -130,9 +130,9 @@
 
 
 
-- id: design
+- id: synthesis_talk
   type: Talks
-  title: Thinking about design
+  title: Synthesis, talk, and directionality
   location: Virtual Event
   start_time: 2021-07-29T13:00:00.000Z
   end_time: 2021-07-29T13:50:00.000Z
@@ -150,10 +150,12 @@
   start_time: 2021-07-29T14:20:00.000Z
   end_time: 2021-07-29T14:40:00.000Z
 
-- id: synthesis_talk
-  type: Talks
-  title: Synthesis, talk, and directionality
+
+- id: industry
+  type: Roundtable
+  title: Industry panel - TBC
   location: Virtual Event
+  chairs: Minha Lee and Martin Porcheron
   start_time: 2021-07-29T14:40:00.000Z
   end_time: 2021-07-29T15:30:00.000Z
   
@@ -163,11 +165,10 @@
   start_time: 2021-07-29T15:30:00.000Z
   end_time: 2021-07-29T16:00:00.000Z
 
-- id: industry
-  type: Roundtable
-  title: Industry panel - TBC
+- id: design
+  type: Talks
+  title: Thinking about design
   location: Virtual Event
-  chairs: Minha Lee and Martin Porcheron
   start_time: 2021-07-29T16:00:00.000Z
   end_time: 2021-07-29T16:50:00.000Z
 
