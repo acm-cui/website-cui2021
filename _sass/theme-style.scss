@@ -335,9 +335,12 @@ noscript {
 
 .profile {
   cursor: pointer;
-  transition-timing-function: $transition-timing-function;
-  transition-duration: $transition-duration;
-  transition-property: box-shadow;
+  
+  & > div {
+    transition-timing-function: $transition-timing-function;
+    transition-duration: $transition-duration;
+    transition-property: box-shadow;
+  }
 
   @include hover-focus() {
     & > div {

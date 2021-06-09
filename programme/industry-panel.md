@@ -23,7 +23,7 @@ cta:
 				</button>
 			</div>
 			<div class="modal-body">
-				<img src="{{ panelist.image | relative_url }}" alt="A photograph of {{ panelist.name }}" title="{{ panelist.name }}" class="rounded-circle ml-2 float-right" style="width: 200px;">
+				<img src="{{ panelist.image | relative_url }}" alt="A photograph of {{ panelist.name }}" title="{{ panelist.name }}" class="rounded ml-2 float-right" style="width: 200px;">
 				<p>
 					{{ panelist.biography }}
 					</p>
