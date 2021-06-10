@@ -66,10 +66,14 @@ description: >
 				<img src="{{ "/assets/img/sponsor-adapt-dark.png" | relative_url }}" alt="ADAPT - Engaging Content, Engaging People" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by the ADAPT Centre in Dublin" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
-		<div class="d-flex flex-row flex-items-basis-0 mt-3" style="max-width: 50%">
+		<div class="d-flex flex-row flex-items-basis-0 mt-3">
 			<a href="https://www.swansea.ac.uk/science/computationalfoundry/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by Swansea University" class="flex-grow-1 align-self-center pr-3">
 				<img src="{{ "/assets/img/sponsor-swansea-light.png" | relative_url }}" alt="Swansea University" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by Swansea University" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
 				<img src="{{ "/assets/img/sponsor-swansea-dark.png" | relative_url }}" alt="Swansea University" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by Swansea Universityn" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
+			</a>
+			<a href="https://www.mci.edu/en/" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by MCI: The Entrepreneurial School" class="flex-grow-1 align-self-center pl-3">
+				<img src="{{ "/assets/img/sponsor-mci-light.png" | relative_url }}" alt="MCI: The Entrepreneurial School" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by Swansea University" class="mt-md-3 mt-5 d-dk-none homepage-sponsor">
+				<img src="{{ "/assets/img/sponsor-mci-dark.png" | relative_url }}" alt="MCI: The Entrepreneurial School" title="{{ site.conference.short_name }} {{ site.conference.year }} is sponsored by MCI: The Entrepreneurial School" class="mt-md-3 mt-5 d-lt-none homepage-sponsor">
 			</a>
 		</div>
 		<!--<h3 class="w-100 mt-5 text-light bg-dark rounded shadow text-center">Sponsors</h3>
