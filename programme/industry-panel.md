@@ -27,7 +27,9 @@ cta:
 				<p>
 					{{ panelist.biography }}
 					</p>
+				{% if panelist.website %}
 				<a href="{{ panelist.website }}" title="Go to {{ panelist.name }}'s website" class="card-link">{{ panelist.name }}'s website &rarr;</a>
+				{% endif %}
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
