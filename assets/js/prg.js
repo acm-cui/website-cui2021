@@ -113,7 +113,7 @@ $(function() {
                         html += '<em class="small">Chaired by ' + session['chairs'] + '</em>';
                     }
 
-                    if (session['subtitle'] != '') {
+                    if (session['subtitle'] != undefined) {
 					    html += '<h5 class="text-center mt-3">' + session['subtitle'];
                         if (session['info'] != '') {
                             html += '<a href="' + session['info'] + '" title="Read more about this session" class="d-inline-block prg-icon-info-sm ml-2 align-down-small-icon"><span class="sr-only">Read more about this session</span></a>';
