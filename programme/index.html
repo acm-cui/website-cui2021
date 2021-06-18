@@ -121,6 +121,13 @@ description: The online programme for the !!conference.year!! !!conference.full_
 						</div>
 						<div class="media-body w-100">
 							<div class="float-right d-flex flex-row mt-md-0 mt-1 ml-1">
+								{% if session.info %}
+								{% unless session.subtitle %}
+								<a href="{{ session.info }}" title="Read more about this session" class="d-block prg-icon-info-sm mr-2">
+									<span class="sr-only">Read more about this session</span>
+								</a>
+								{% endunless  %}
+								{% endif %}
 								{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
 								<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2">
 									<span class="sr-only">iCalendar (ICS) file for this session</span>
@@ -136,6 +143,16 @@ description: The online programme for the !!conference.year!! !!conference.full_
 							{% endif %}
 							{% if session.chairs %}
 							<em class="small">Chaired by {{ session.chairs }}</em>
+							{% endif %}
+							{% if session.subtitle %}
+							<h5 class="text-center mt-3">
+							{{ session.subtitle }}
+							{% if session.info %}
+							<a href="{{ session.info }}" title="Read more about this session" class="d-inline-block prg-icon-info-sm ml-2 align-down-small-icon">
+								<span class="sr-only">Read more about this session</span>
+							</a>
+							{% endif %}
+							</h5>
 							{% endif %}
 
 							{% assign presentations = site.data.prg_presentations[session.id] %}
@@ -178,7 +195,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
 										</a>
 									</div>
 									{% endif %}
-									<strong>{{ presentation.title }}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}</strong><br>
+									<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
 									{{ presentation.authors }}
 								</li>
 							{%- endfor -%}

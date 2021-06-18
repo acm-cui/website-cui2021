@@ -365,3 +365,30 @@ synthesis_talk:
     title: "Panel discussion"
 
 
+
+
+
+industry:
+ -  id: industry_1
+    type: Panel Member
+    title: Michelle Zhou, Juji
+
+ -  id: industry_2
+    type: Panel Member
+    title: Minsuk Chang, Naver AI
+
+ -  id: industry_3
+    type: Panel Member
+    title: Cathy Pearl, Google
+
+ -  id: industry_4
+    type: Panel Member
+    title: Cameron Taylor, boost.ai
+
+ -  id: industry_5
+    type: Panel Member
+    title: Grace Hughes, Fjord/Accenture Interactive
+
+ -  id: industry_6
+    type: Panel Member
+    title: 'Karol Stryja, #VoiceLunch'

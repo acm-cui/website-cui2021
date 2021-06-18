@@ -153,7 +153,9 @@
 
 - id: industry
   type: Roundtable
-  title: Industry panel - TBC
+  title: Industry panel
+  subtitle: The Future of Conversational User Interfaces
+  info: /2021/programme/industry-panel/
   location: Virtual Event
   chairs: Minha Lee and Martin Porcheron
   start_time: 2021-07-29T14:40:00.000Z
@@ -170,11 +172,11 @@
   title: Thinking about design
   location: Virtual Event
   start_time: 2021-07-29T16:00:00.000Z
-  end_time: 2021-07-29T16:50:00.000Z
+  end_time: 2021-07-29T16:45:00.000Z
 
 - id: closing
   type: Plenary
-  title: Closing remarks and CUI 2022 information - TBC
+  title: Closing remarks and CUI 2022 information
   location: Virtual Event
-  start_time: 2021-07-29T16:50:00.000Zs
+  start_time: 2021-07-29T16:45:00.000Zs
   end_time: 2021-07-29T17:00:00.000Z

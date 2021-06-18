@@ -97,11 +97,14 @@ $(function() {
                     html += '</div></div>';
                     html += '<div class="media-body w-100">';
                     html += '<div class="float-right d-flex flex-row mt-md-0 mt-1 ml-1">';
+                    if (session['info'] && session['subtitle'] == undefined) {
+                        html += '<a href="https://' + session['info'] + '" title="Read more about this session" class="d-block prg-icon-info-sm mr-2"><span class="sr-only">Read more about this session</span></a>';
+                    }
                     html += '<a href="https://' + window.location.hostname + window.location.pathname + 'ics/' + session['id'] + '.ics" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal mr-2"><span class="sr-only">iCalendar (ICS) file for this session</span></a>';
                     html += '<a href="https://' + window.location.hostname + window.location.pathname + 'link/' + session['id'] + '" title="Get the permanent link to this session in the programme"" class="d-block prg-icon-link"><span class="sr-only">Permalink to this session</span></a>';
                     html += '</div>';
                     html += '<h4 class="text-primary mt-0 mb-1">' + session['title'] + '</h4>';
-
+                    
                     if (session['presenters'] != '') {
                         html += session['presenters'];
                     }
@@ -109,6 +112,14 @@ $(function() {
                     if (session['chairs'] != '') {
                         html += '<em class="small">Chaired by ' + session['chairs'] + '</em>';
                     }
+
+                    if (session['subtitle'] != '') {
+					    html += '<h5 class="text-center mt-3">' + session['subtitle'];
+                        if (session['info'] != '') {
+                            html += '<a href="' + session['info'] + '" title="Read more about this session" class="d-inline-block prg-icon-info-sm ml-2 align-down-small-icon"><span class="sr-only">Read more about this session</span></a>';
+                        }
+					    html += '</h5>';
+                    }  
 
                     if (session['presentations'].length > 0) {
                         html += '<div class="mt-3">';
@@ -142,7 +153,7 @@ $(function() {
                                 html += '<a href="' + presentation['info'] + '" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info"><span class="sr-only">Read more about this presentation</span></a>';
                                 html += '</div>';
                             }
-                            html += '<strong>' + presentation['title'] + (presentation['type'] != 'Panel' ? ' <span class="badge badge-secondary">' + presentation['type'] + '</span>' : '') + '</strong><br>';
+                            html += '<strong>' + presentation['title'] + (presentation['type'] != 'Panel' && presentation['type'] != 'Panel Member' ? ' <span class="badge badge-secondary">' + presentation['type'] + '</span>' : '') + '</strong><br>';
                             html += presentation['authors'] + '</li>';
                         });
                         html += '</ol>';;

@@ -209,17 +209,27 @@ noscript {
     width: $prg-icon-info-w;
   }
 
+  .prg-icon-info {
+    height: $prg-icon-info-h;
+    width: $prg-icon-info-w;
+  }
+
+  .prg-icon-info-sm {
+    height: $prg-icon-info-sm-h;
+    width: $prg-icon-info-sm-w;
+  }
+
   .prg-icon-link {
     height: $prg-icon-link-h;
     width: $prg-icon-link-w;
   }
 
   .prg-icon-cal {
-    height: $prg-icon-link-h;
-    width: $prg-icon-link-w;
+    height: $prg-icon-cal-h;
+    width: $prg-icon-cal-w;
   }
   
-  .prg-icon-aaai, .prg-icon-acmdl , .prg-icon-sagepub, .prg-icon-springerlink , .prg-icon-info, .prg-icon-link, .prg-icon-cal  {
+  .prg-icon-aaai, .prg-icon-acmdl , .prg-icon-sagepub, .prg-icon-springerlink , .prg-icon-info, .prg-icon-link, .prg-icon-info-sm, .prg-icon-cal  {
     transition-timing-function: $transition-timing-function;
     transition-duration: $transition-duration;
     transition-property: opacity;
@@ -228,6 +238,10 @@ noscript {
       opacity: 1;
     }
   }
+  
+  .align-down-small-icon {
+    margin-bottom: -4px;
+  } 
 }
 
 @supports (-webkit-touch-callout: none) {

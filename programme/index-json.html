@@ -14,6 +14,8 @@ layout: none
         "chairs": "{{ session.chairs }}",
         "start_time": "{{ session.start_time | date: "%FT%T.000Z"  }}",
         "end_time": "{{ session.end_time | date: "%FT%T.000Z"  }}",
+        {% if session.info != nil -%}"info": "{{ session.info }}",{% endif -%}
+        {% if session.subtitle != nil -%}"subtitle": "{{ session.subtitle }}",{% endif -%}
         "presentations": [
           {%- for presentation in site.data.prg_presentations[session.id] %}
             {

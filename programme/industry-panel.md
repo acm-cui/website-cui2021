@@ -48,7 +48,8 @@ cta:
 		<img src="{{ panelist.image | relative_url }}" alt="A photograph of {{ panelist.name }}" title="{{ panelist.name }}" class="card-img-top">
 		<div class="card-body">
 			<h5 class="card-title m-0">
-				{{ panelist.name }}, {{ panelist.from }}
+				{{ panelist.name }}<br>
+                <small>{{ panelist.from }}</small>
 			</h5>
 		</div>
 	</div>

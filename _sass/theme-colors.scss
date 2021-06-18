@@ -121,6 +121,11 @@ nav {
     opacity: $prg-icon-info-o;
   }
 
+  .prg-icon-info-sm {
+    background-image: escape-svg($prg-icon-info-sm-bg) !important;
+    opacity: $prg-icon-info-o;
+  }
+
   .prg-icon-link {
     background-image: escape-svg($prg-icon-link-bg) !important;
     opacity: $prg-icon-link-o;
