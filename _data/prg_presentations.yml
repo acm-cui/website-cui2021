@@ -285,7 +285,7 @@ design:
 
 
 posters_demos_3:
- -  id: d_2021_2
+ -  id: d_2020_2
     type: Demo
     title: "OK, DNA!: A Conversational Interface to Explore Genomic Data"
     authors: "<em>Pietro Crovari</em>, <em>Fabio Catania</em>, Pietro Pinoli, Philipp Roytburg, Asier Salzar, Franca Garzotto, and Stefano Ceri"
