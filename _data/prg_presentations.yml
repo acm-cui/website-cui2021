@@ -300,7 +300,7 @@ posters_demos_3:
  -  id: p_2020_1
     type: Poster
     title: Understanding Differences between Heavy Users and Light Users in Difficulties with Voice User Interfaces
-    authors: Hyunhoon Jung, Hyeji Kim, and Jung-Woo Ha
+    authors: <em>Hyunhoon Jung<em>, Hyeji Kim, and Jung-Woo Ha
     acmdl: https://doi.org/10.1145/3405755.3406170
 
  -  id: p_59
