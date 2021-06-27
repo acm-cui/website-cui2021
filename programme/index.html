@@ -29,7 +29,7 @@ description: The online programme for the !!conference.year!! !!conference.full_
 	{% endif %}
 
 	{% for presentation in site.data.prg_presentations[session.id]
-     %}
+	 %}
 		{% if presentation.type == "Full Paper" %}
 			{% assign num_full_papers = num_full_papers | plus: 1 %}
 		{% elsif presentation.type == "Provocation Paper" %}
@@ -194,7 +194,12 @@ description: The online programme for the !!conference.year!! !!conference.full_
 									</div>
 									{% endif %}
 									<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
+
 									{{ presentation.authors }}
+
+									{% if presentation.preview %}
+									<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
+									{% endif %}
 								</li>
 							{%- endfor -%}
 							</ol>

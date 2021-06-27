@@ -153,8 +153,15 @@ $(function() {
                                 html += '<a href="' + presentation['info'] + '" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info"><span class="sr-only">Read more about this presentation</span></a>';
                                 html += '</div>';
                             }
+                            
                             html += '<strong>' + presentation['title'] + (presentation['type'] != 'Panel' && presentation['type'] != 'Panel Member' ? ' <span class="badge badge-secondary">' + presentation['type'] + '</span>' : '') + '</strong><br>';
-                            html += presentation['authors'] + '</li>';
+                            html += presentation['authors'];
+                            
+                            if (presentation['preview'] != undefined) {
+                                html += '<br><a href="' + presentation['preview']['link'] + '" title="' + presentation['preview']['text'] + '" target="_blank">' +  presentation['preview']['text'] + ' &rarr;</a>';
+                            }
+
+                            html += '</li>';
                         });
                         html += '</ol>';;
                     }
