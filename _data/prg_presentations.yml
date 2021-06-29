@@ -162,7 +162,7 @@ posters_demos_2:
  -  id: p_61
     type: Poster
     title: "Understanding the Utility of Digital Flight Assistants: A Preliminary Analysis"
-    authors: "Sarah Gosper, <em>Johanne R Trippas</em>, Harriette Richards, Fraser Allison, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
+    authors: "Sarah Gosper, Johanne R Trippas, Harriette Richards, <em>Fraser Allison</em>, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469627
 
  -  id: p_65
