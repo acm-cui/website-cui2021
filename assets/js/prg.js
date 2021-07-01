@@ -190,10 +190,14 @@ $(function() {
 			var $button = $('#' + $schedule.attr('aria-labelledby'));
 			$button.removeClass('btn-light');
 			$button.addClass('btn-primary');
+		});
 
-			var $siblings = $('#' + $schedule.attr('aria-labelledby')).siblings();
-			$siblings.addClass('btn-light');
-			$siblings.removeClass('btn-primary');
+		$('#programmeSchedule .card').on('hide.bs.collapse', function(e) {
+			var $schedule = $(e.target);
+
+			var $button = $('#' + $schedule.attr('aria-labelledby'));
+			$button.addClass('btn-light');
+			$button.removeClass('btn-primary');
 		});
 
 		if (location.hash && location.hash.length) {
