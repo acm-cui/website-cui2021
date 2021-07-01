@@ -27,20 +27,28 @@ hr { border-color: $bg-lightest; }
   border-width: 2px;
 }
 
+.btn-primary {
+  background-color: $primary !important;
+}
+
 .prg {
   h4 {
     color: lighten(#A92B7A, 5%) !important;
   }
-  .bg-dark, button {
+	
+  .bg-dark {
     background: $bg-lighter !important;
   }
-  .card {
+  
+	.card {
     border-color: $prg-border-color !important;
   }
-  li {
+  
+	li {
     border-bottom: 1px solid $prg-border-color !important;
   }
   
+	
   .btn-light {
     border: 0;
     color: $white !important;
