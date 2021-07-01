@@ -39,7 +39,6 @@ cta:
 </div>
 {% endfor %}
 
-
 <div class="d-flex flex-row flex-wrap justify-content-center">
 
 {% for panelist in site.data.prg_industry %}
