@@ -36,6 +36,9 @@ posters_demos_1:
     title: "ALTCAI: Enabling the Use of Embodied Conversational Agents to Deliver Informal Health Advice during Wizard of Oz Studies"
     authors: "<em>Maria J. Galvez Trigo</em>, Martin Porcheron, Joy Egede, Joel E. Fischer, Adrian Hazzard, Chris Greenhalgh, Edgar Bodiaj, and Michel Valstar"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469621
+    # preview:
+    #     text: Watch a video preview
+    #     link: http://example.com
 
  -  id: d_2021_1
     type: Demo

@@ -58,17 +58,20 @@ cta:
 <section class="main-body main-singleton">
 
 	<div class="main-title row py-4">
-		<div class="col-md-6 col-12 text-md-left text-center">
+		<div class="col-md-4 col-12 text-md-left text-center">
 			<h1 class="m-0 p-0">{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}</h1>
 		</div>
-		<div class="col-md-6 col-12 pt-md-0 pt-3 text-md-right text-center">
-		<a href="{{ "/registration/" | relative_url }}" class="btn btn-lg btn-secondary" title="{{ page.cta.title }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
+		<div class="col-md-8 col-12 pt-md-0 pt-3 text-md-right text-center" id="programmeTabs">
 		</div>
 	</div>
 	<div class="main-content">
 		<article>
 			<p class="d-none">Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, {{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}.</p>
-			<p class=text-center>The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>. Add the full <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} sessions as an ICS file">{{ site.conference.short_name }} programme to your calendar</a>.</p>
+			<p class="text-center mb-4 pb-3">The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>. Add the full <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} sessions as an ICS file">{{ site.conference.short_name }} programme to your calendar</a>.</p>
+
+			<p class="text-center mb-3 pb-3 d-md-block d-none">
+				<a href="{{ "/registration/" | relative_url }}" class="btn btn-lg btn-secondary" title="{{ page.cta.title }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
+			</p>
 			<noscript>
 				<div class="prg" id="programmeNS">
 				{% for day in days %}

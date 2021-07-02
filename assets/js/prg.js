@@ -10,7 +10,7 @@ var datestr = function(d) {
 	var suffix = nth(day);
 	var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][d.getMonth()];
 	var year = d.getFullYear();
-	return day + suffix + ' ' + month + ' ' + year;
+	return day + suffix + ' ' + month;
 }
 var nth = function(d) {
   if (d > 3 && d < 21) return 'th';
@@ -23,6 +23,7 @@ var nth = function(d) {
 }
 $(function() {
 	$.getJSON('../programme/data.json?s=' + (new Date().getTime()), function(data) {
+		var $prgTabs = $('#programmeTabs');
 		var $prg = $('#programme');
 		var num_sessions = 0;
 		var sessions_by_date = {};
@@ -54,14 +55,13 @@ $(function() {
 		var global_session_id = 0;
 		index = 0;
 		
-		html = '<div class="text-center"><div class="btn-group btn-group-lg mb-3 d-flex d-md-inline-flex flex-row" role="group" aria-label="Days of the conference">';
+		html = '<div class="btn-group btn-group-lg mb-3 d-md-inline-flex" role="group" aria-label="Days of the conference">';
 		$.each(sessions_by_date, function(date_string, sessions) {
 			html += '<button type="button" id="programmeDay' + index +'" data-toggle="collapse" data-target="#programme' + index +'" aria-expanded="false" aria-controls="programme' + index +'" class="btn btn-light border">' + date_string + '</button>';
-
 			index++;
 		});
-		html += '</div></div>';
-		$prg.append(html);
+		html += '</div>';
+		$prgTabs.append(html);
 
 		html = '<div id="programmeSchedule">';
 		index = 0;
