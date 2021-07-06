@@ -112,7 +112,7 @@ cui_4_good:
 keynote:
  -  id: keynote_presentation
     type: Keynote
-    title: Title TBC
+    title: 'Socially-Aware Conversational Interfaces: Challenges and Perspectives'
     authors: Elisabeth André
     info: /2021/programme/keynote/
 
