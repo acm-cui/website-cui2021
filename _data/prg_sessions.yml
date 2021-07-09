@@ -93,6 +93,7 @@
 - id: multimodality
   type: Talks
   title: Multimodality
+  chairs: Cosmin Munteanu
   location: Virtual Event
   start_time: 2021-07-28T14:40:00.000Z
   end_time: 2021-07-28T15:30:00.000Z
@@ -135,6 +136,7 @@
 - id: synthesis_talk
   type: Talks
   title: Synthesis, talk, and directionality
+  chairs: Ilaria Torre
   location: Virtual Event
   start_time: 2021-07-29T13:00:00.000Z
   end_time: 2021-07-29T13:50:00.000Z
@@ -173,6 +175,7 @@
 - id: design
   type: Talks
   title: Thinking about design
+  chairs: Donald McMillan
   location: Virtual Event
   start_time: 2021-07-29T16:00:00.000Z
   end_time: 2021-07-29T16:45:00.000Z
