@@ -69,6 +69,9 @@ posters_demos_1:
     title: "Recipient Design for Conversational Agents: Tailoring Agent’s Utterance to User’s Knowledge"
     authors: "<em>Sungeun An</em>, Robert Moore, Eric Liu, and Guang-Jie Ren"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469625
+    preview:
+        text: Read a preview of this work
+        link: https://www.conversationaluserinterfaces.org/2021/posters/53/
 
 
 
