@@ -170,6 +170,9 @@ posters_demos_2:
     title: "Understanding the Utility of Digital Flight Assistants: A Preliminary Analysis"
     authors: "Sarah Gosper, Johanne R Trippas, Harriette Richards, <em>Fraser Allison</em>, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469627
+    preview:
+        text: Read a preview of this work
+        link: https://www.conversationaluserinterfaces.org/2021/posters/61/
 
  -  id: p_65
     type: Poster
@@ -332,6 +335,9 @@ posters_demos_3:
     title: "Examining User Preference for Agreeableness in Chatbots"
     authors: "<em>Sarah Theres Völkel</em> and Lale Kaya"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469633
+    preview:
+        text: Read a preview of this work
+        link: https://www.conversationaluserinterfaces.org/2021/posters/82/
 
 
 
