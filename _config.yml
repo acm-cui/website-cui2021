@@ -110,7 +110,7 @@ pagination:
 # Exclude from minificartion
 jekyll-minifier:
   compress_css: false
-  exclude: ['feed.xml', '*.ics', 'posters']
+  exclude: ['feed.xml', '*.ics', 'posters/*']
 
 # Sitemap configutation
 defaults:
