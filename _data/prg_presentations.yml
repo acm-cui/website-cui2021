@@ -275,6 +275,12 @@ design:
     authors: "<em>Justin Edwards</em>, Christian Janssen, Sandy Gould, and Benjamin Cowan"
     notpub_acmdl: https://doi.org/10.1145/3469595.3469618
 
+ -  id: fp_2020_2
+    type: Full Paper
+    title: "User Experience of Alexa when controlling music: comparison of face and construct validity of four questionnaires"
+    authors: "Birgit Brüggemeier, <em>Michael Breiter</em>, Miriam Kurz, and Johanna Schiwy"
+    acmdl: https://doi.org/10.1145/3405755.3406122
+
  -  id: ft_3
     type: Featured Talk
     title: "An Honest Conversation: Transparently Combining Machine and Human Speech Assistance in Public Spaces"

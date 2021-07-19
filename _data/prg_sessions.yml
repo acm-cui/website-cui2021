@@ -181,12 +181,12 @@
   chairs: Donald McMillan
   location: Virtual Event
   start_time: 2021-07-29T16:00:00.000Z
-  end_time: 2021-07-29T16:45:00.000Z
+  end_time: 2021-07-29T16:50:00.000Z
 
 - id: closing
   type: Plenary
   title: Closing remarks and CUI 2022 information
   location: Virtual Event
   presenters: Stephan Schlögl (CUI 2021 General Chair)<br>CUI Steering Committee<br>CUI 2022 General Chairs
-  start_time: 2021-07-29T16:45:00.000Z
+  start_time: 2021-07-29T16:50:00.000Z
   end_time: 2021-07-29T17:00:00.000Z
