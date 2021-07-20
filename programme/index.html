@@ -68,7 +68,7 @@ cta:
 	<div class="main-content">
 		<article>
 			<p class="d-none">Welcome to the {{ site.conference.short_name_ }} {{ site.conference.year }} web programme. There are {{ num_sessions }} sessions taking place over the <noscript>{{ num_days }}</noscript><span id="numdays"></span> days of the conference, including {{ num_full_papers }} Full Papers, {{ num_provocation_papers }} Provocation Papers, {{ num_panels }} panels, {% if num_demos > 0 %}{{ num_demos }} demos{% endif %}{% if num_posters > 0 %}, {{ num_posters }} posters{% endif %}{% if num_featured_talks > 0 %}, {{ num_featured_talks }} Featured Talks, {% endif %}and {{ num_keynotes }}{% if num_keynotes == 1 %} keynote{% else %} keynotes{% endif %}.</p>
-			<p class="text-center">The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>. Add the full <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} sessions as an ICS file">programme to your calendar</a>.</p>
+			<p class="text-center">The below events are <span class="timezone"></span><noscript>shown in UTC</noscript>. Add the <a href="{{ "/programme/ics/all.ics" | relative_url }}" title="Download all {{ site.conference.short_name }} {{ site.conference.year }} sessions as an ICS file">programme to your calendar</a>.</p>
 
 			<div class="w-100 text-center">
 				<div class="text-center" id="programmeTabs" style="margin: 0 auto"></div>
