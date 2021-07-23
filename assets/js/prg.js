@@ -39,7 +39,7 @@ $(function() {
 			num_sessions++;
 		});
 		$('#numdays').html(Object.keys(sessions_by_date).length);
-		$('.timezone').text('converted to your operating system\'s timezone (' + Intl.DateTimeFormat().resolvedOptions().timeZone + ')');
+		$('.timezone').text('shown in your operating system\'s timezone (' + Intl.DateTimeFormat().resolvedOptions().timeZone + ')');
 
 		var index = 0;
 		var expand_day = 0;
