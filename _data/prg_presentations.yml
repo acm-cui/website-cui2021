@@ -63,6 +63,9 @@ posters_demos_1:
     title: "Democratizing Design and Fabrication Using Speech: Exploring co-design with a voice assistant"
     authors: "<em>Andrea Cuadra</em>, David Goedicke, and J.D. Zamfirescu-Pereira"
     acmdl: https://doi.org/10.1145/3469595.3469624
+	preview:
+		text: Read in the ACM Digital Library (open access)
+		link: https://doi.org/10.1145/3469595.3469624
 
  -  id: p_53
     type: Poster
