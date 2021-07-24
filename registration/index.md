@@ -21,7 +21,7 @@ We are committed to ensuring that {{ site.conference.short_name }} {{ site.confe
 </div>
 
 Authors with papers accepted must register by **1st July 2021**.
-Registration for attendees closes on **26th July 2021**.
+Registration for attendees closes on **26th July 2021 at midday (UTC+1 time)**.
 
 ## Registration fees
 
