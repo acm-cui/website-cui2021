@@ -1,15 +1,30 @@
 ---
 label: Student Volunteers
-description: We're looking for students to volunteer to support the running of !!conference.short_name!! !!conference.year!!.
+description: Thank you to the following students for volunteering to support the running of !!conference.short_name!! !!conference.year!!.
 ---
 
 # Student Volunteers
 
-The Organising Committee calls for students who are interested in volunteering for CUI 2021. Tasks may include but are not limited to: offering technical support during online sessions, reviewing and facilitating questions from the audience to the presenters, supporting the setup of break out rooms, as well as welcoming attendees or helping with the setup of the social event.
+The following students generously supported the organisation and running of {{ site.conference.short_name }} {{ site.conference.year }}:
 
-Selected students will be expected to put in approx. 3 hours of work during the conference. In exchange, their conference fee will be waived and they will receive a certificate for their contribution.
+{% assign num_sv_members = site.data.SV | size %}
+{% assign half_num_sv_members = num_sv_members | plus: 1 %}
+{% assign half_num_sv_members = half_num_sv_members | divided_by: 2 %}
 
-We will prioritize student volunteer applications from candidates who can demonstrate financial hardship due to their current economic situation.
+<div class="row">
+	<div class="col-lg-6 col-12">
+		<ul class="list-unstyled pls-0 mb-0">
+            {% for sv_member in site.data.sv offset:0 limit:half_num_sv_members %}
+                <li class="pb-1">{{ sv_member.name }}<br><em class="text-muted small">{{ sv_member.institution }}, {{ sv_member.country }}</em></li>
+            {% endfor %}
+		</ul>
+	</div>
 
-To apply, please send an email to the [CUI 2021 SV chair](mailto:cui2021-svdiversity@conversationaluserinterfaces.org "CUI 2021 SV Chair"), shortly outlining your background/circumstances and respective motivation for being involved.
-  
+	<div class="col-lg-6 col-12">
+		<ul class="list-unstyled pls-0 mb-0">
+            {% for sv_member in site.data.sv offset:half_num_sv_members %}
+                <li class="pb-1">{{ sv_member.name }}<br><em class="text-muted small">{{ sv_member.institution }}, {{ sv_member.country }}</em></li>
+            {% endfor %}
+		</ul>
+	</div>
+</div>
