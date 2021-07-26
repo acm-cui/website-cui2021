@@ -57,9 +57,6 @@ description: The online programme for the !!conference.year!! !!conference.full_
 		<div class="col-md-4 col-12 text-md-left text-center">
 			<h1 class="m-0 p-0">{{ page.title | escape | replace: "!!conference.full_name!!", site.conference.full_name | replace: "!!conference.short_name!!", site.conference.short_name  | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}</h1>
 		</div>
-		<div class="col-md-8 col-12 pt-md-0 pt-3 text-md-right text-center">
-			<a href="{{ "/registration/" | relative_url }}" class="btn btn-lg btn-secondary" title="{{ page.cta.title }}">Register for {{ site.conference.short_name }} {{ site.conference.year }} &rarr;</a>
-		</div>
 	</div>
 	<div class="main-content">
 		<article>
