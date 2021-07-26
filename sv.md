@@ -7,7 +7,7 @@ description: Thank you to the following students for volunteering to support the
 
 The following students generously supported the organisation and running of {{ site.conference.short_name }} {{ site.conference.year }}:
 
-{% assign num_sv_members = site.data.SV | size %}
+{% assign num_sv_members = site.data.sv | size %}
 {% assign half_num_sv_members = num_sv_members | plus: 1 %}
 {% assign half_num_sv_members = half_num_sv_members | divided_by: 2 %}
 
