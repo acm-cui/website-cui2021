@@ -200,6 +200,10 @@ description: The online programme for the !!conference.year!! !!conference.full_
 												{% if presentation.preview %}
 												<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
 												{% endif %}
+
+												{% if presentation.award %}
+												<br><br>🏆 {{ presentation.award }}
+												{% endif %}
 											</li>
 										{%- endfor -%}
 										</ol>

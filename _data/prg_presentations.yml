@@ -84,6 +84,7 @@ cui_4_good:
     title: "Can I Talk to You about Your Social Needs? Understanding Preference for Conversational User Interface in Health"
     authors: "<em>Rafal Kocielnik</em>, Raina Langevin, James S George, Shota Akenaga, Amelia Wang, Darwin P Jones, Alexander Argyle, Callan Fockele, Layla Anderson, Dennis T Hsieh, Kabir Yadav, Herbert Duber, Gary Hsieh, and Andrea L Hartzler"
     acmdl: https://doi.org/10.1145/3469595.3469599
+    award: Full Paper Honourable Mention
 
  -  id: fp_31
     type: Full Paper
@@ -130,6 +131,7 @@ generational:
     title: "VUI Influencers: How the Media Portrays Voice User Interfaces for Older Adults"
     authors: "<em>Jaisie Sin</em>, Cosmin Munteanu, Numrita Ramanand, and Yi Rong Tan"
     acmdl: https://doi.org/10.1145/3469595.3469603
+    award: Best Full Paper
 
  -  id: fp_41
     type: Full Paper
@@ -240,12 +242,14 @@ humanness:
     title: "Leaving the Butler Behind: The Future of Role Reproduction in CUI"
     authors: "<em>Donald McMillan</em> and Razan Jaber"
     acmdl: https://doi.org/10.1145/3469595.3469606
+    award: Provocation Paper Honourable Mention
 
  -  id: pp_64
     type: Provocation Paper
     title: "Hey Google, Do You Have a Personality? Designing Personality and Personas for Conversational Agents"
     authors: "<em>Alisha Pradhan</em> and Amanda Lazar"
     acmdl: https://doi.org/10.1145/3469595.3469607
+    award: Provocation Paper Honourable Mention
 
  -  id: pp_69
     type: Provocation Paper
@@ -356,6 +360,7 @@ synthesis_talk:
     title: '"Try, Try, Try Again": Sequence Analysis of Interactions with a Voice User Interface'
     authors: "<em>Chelsea Myers</em>, Luis Fernando Laris Pardo, Ana Acosta-Ruiz, Alessandro Canossa, and Jichen Zhu"
     acmdl: https://doi.org/10.1145/3469595.3469613
+    award: Full Paper Honourable Mention
 
  -  id: ft_4
     type: Featured Talk
@@ -368,6 +373,7 @@ synthesis_talk:
     title: "Synthesizing a human-like voice is the easy way"
     authors: "<em>Sébastien Le Maguer</em> and Benjamin Cowan"
     acmdl: https://doi.org/10.1145/3469595.3469614
+    award: Best Provocation Paper
 
  -  id: pp_63
     type: Provocation Paper

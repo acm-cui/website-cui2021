@@ -28,6 +28,7 @@ layout: none
                 {% if presentation.springerlink != nil -%}"springerlink": "{{ presentation.springerlink }}",{% endif -%}
                 {% if presentation.info != nil -%}"info": "{{ presentation.info }}",{% endif -%}
                 {% if presentation.preview != nil -%}"preview": {"text": "{{ presentation.preview.text }}", "link": "{{ presentation.preview.link }}"},{% endif %}
+                {% if presentation.award != nil -%}"award": "{{ presentation.award }}",{% endif -%}
                 "type": "{{ presentation.type }}"
             }{% unless forloop.last %},{% endunless %}
           {%- endfor %}

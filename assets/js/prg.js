@@ -161,6 +161,10 @@ $(function() {
 								html += '<br><a href="' + presentation['preview']['link'] + '" title="' + presentation['preview']['text'] + '" target="_blank">' +	presentation['preview']['text'] + ' &rarr;</a>';
 							}
 
+							if (presentation['award'] != undefined) {
+								html += '<br><br>🏆 ' +	presentation['award'] + '';
+							}
+
 							html += '</li>';
 						});
 						html += '</ol>';;
