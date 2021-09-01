@@ -63,18 +63,18 @@ posters_demos_1:
     title: "Democratizing Design and Fabrication Using Speech: Exploring co-design with a voice assistant"
     authors: "<em>Andrea Cuadra</em>, David Goedicke, and J.D. Zamfirescu-Pereira"
     acmdl: https://doi.org/10.1145/3469595.3469624
-    preview:
-        text: Read in the ACM Digital Library (open access)
-        link: https://doi.org/10.1145/3469595.3469624
+    # preview:
+    #     text: Read in the ACM Digital Library (open access)
+    #     link: https://doi.org/10.1145/3469595.3469624
 
  -  id: p_53
     type: Poster
     title: "Recipient Design for Conversational Agents: Tailoring Agent’s Utterance to User’s Knowledge"
     authors: "<em>Sungeun An</em>, Robert Moore, Eric Liu, and Guang-Jie Ren"
     acmdl: https://doi.org/10.1145/3469595.3469625
-    preview:
-        text: Read a preview of this work
-        link: https://www.conversationaluserinterfaces.org/2021/posters/53/
+    # preview:
+    #     text: Read a preview of this work
+    #     link: https://www.conversationaluserinterfaces.org/2021/posters/53/
 
 
 
@@ -175,9 +175,9 @@ posters_demos_2:
     title: "Understanding the Utility of Digital Flight Assistants: A Preliminary Analysis"
     authors: "Sarah Gosper, Johanne R Trippas, Harriette Richards, <em>Fraser Allison</em>, Cynthia Sear, Sara Khorasani, and Fabio Mattioli"
     acmdl: https://doi.org/10.1145/3469595.3469627
-    preview:
-        text: Read a preview of this work
-        link: https://www.conversationaluserinterfaces.org/2021/posters/61/
+    # preview:
+    #     text: Read a preview of this work
+    #     link: https://www.conversationaluserinterfaces.org/2021/posters/61/
 
  -  id: p_65
     type: Poster
@@ -348,9 +348,9 @@ posters_demos_3:
     title: "Examining User Preference for Agreeableness in Chatbots"
     authors: "<em>Sarah Theres Völkel</em> and Lale Kaya"
     acmdl: https://doi.org/10.1145/3469595.3469633
-    preview:
-        text: Read a preview of this work
-        link: https://www.conversationaluserinterfaces.org/2021/posters/82/
+    # preview:
+    #     text: Read a preview of this work
+    #     link: https://www.conversationaluserinterfaces.org/2021/posters/82/
 
 
 
